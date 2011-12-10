@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<html>
+   <head xmlns="http://www.w3.org/1999/xhtml"/>
+   <body>{"result":"
+      <div class="\&quot;genTable\&quot;">
+         <table>\r\n\t\t
+            <colgroup>\r\n\t\t
+               <col class="\&quot;gtcol1\&quot;"/>\r\n\t\t
+               <col class="\&quot;gtcol2\&quot;"/>\r\n\t\t
+               <col class="\&quot;gtcol3\&quot;"/>\r\n\t\t
+               <col class="\&quot;gtcol4\&quot;"/>\r\n\t\t
+               <col class="\&quot;gtcol5\&quot;"/>\r\n\t\t
+               <col class="\&quot;gtcol6\&quot;"/>\r\n\t\t
+               <col class="\&quot;gtcol7\&quot;"/>\r\n\t\t
+               <col class="\&quot;gtcol8\&quot;"/>\r\n\t\t
+               <col class="\&quot;gtcol9\&quot;"/>\r\n\t\t
+               <col class="\&quot;gtcol10\&quot;"/>\r\n\t\t
+            </colgroup>\r\n\t
+            <tbody>
+               <tr>\r\n\t\t
+                  <th class="\&quot;gtcol1\&quot;">Halt Date</th>\r\n\t\t
+                  <th class="\&quot;gtcol2\&quot;">Halt Time</th>\r\n\t\t
+                  <th class="\&quot;gtcol3\&quot;">Issue Symbol</th>\r\n\t\t
+                  <th class="\&quot;gtcol4\&quot;">Issue Name</th>\r\n\t\t
+                  <th class="\&quot;gtcol5\&quot;">Market</th>\r\n\t\t
+                  <th class="\&quot;gtcol6\&quot;">Reason Code</th>\r\n\t\t
+                  <th class="\&quot;gtcol7\&quot;">Pause Threshold Price</th>\r\n\t\t
+                  <th class="\&quot;gtcol8\&quot;">Resumption Date</th>\r\n\t\t
+                  <th class="\&quot;gtcol9\&quot;">Resumption Quote Time</th>\r\n\t\t
+                  <th class="\&quot;gtcol10\&quot;">Resumption Trade Time</th>\r\n\t
+               </tr>\r\n\t
+               <tr>\r\n\t\t
+                  <td>12/09/2011                    </td>\r\n\t\t
+                  <td>12:19:00                      </td>\r\n\t\t
+                  <td>CRRB</td>\r\n\t\t
+                  <td>Carrollton Bancorp</td>\r\n\t\t
+                  <td>NASDAQ</td>\r\n\t\t
+                  <td>T7</td>\r\n\t\t
+                  <td>2.9900</td>\r\n\t\t
+                  <td>12/09/2011                    </td>\r\n\t\t
+                  <td>12:19:00                      </td>\r\n\t\t
+                  <td>12:24:00                      </td>\r\n\t
+               </tr>\r\n\t
+               <tr class="\&quot;genTablealt\&quot;">\r\n\t\t
+                  <td>12/09/2011                    </td>\r\n\t\t
+                  <td>07:00:22                      </td>\r\n\t\t
+                  <td>BCSI</td>\r\n\t\t
+                  <td>Blue Coat Systems, Inc.</td>\r\n\t\t
+                  <td>NASDAQ</td>\r\n\t\t
+                  <td>T3</td>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td>12/09/2011                    </td>\r\n\t\t
+                  <td>07:25:00                      </td>\r\n\t\t
+                  <td>07:30:00                      </td>\r\n\t
+               </tr>\r\n\t
+               <tr>\r\n\t\t
+                  <td>11/29/2011                    </td>\r\n\t\t
+                  <td>07:01:23                      </td>\r\n\t\t
+                  <td>BQI</td>\r\n\t\t
+                  <td>Oilsands Quest Inc Common Stock</td>\r\n\t\t
+                  <td>NYSE</td>\r\n\t\t
+                  <td>T2</td>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t
+               </tr>\r\n\t
+               <tr class="\&quot;genTablealt\&quot;">\r\n\t\t
+                  <td>10/05/2011                    </td>\r\n\t\t
+                  <td>13:05:26                      </td>\r\n\t\t
+                  <td>CDCS</td>\r\n\t\t
+                  <td>CDC Software Corp ADS</td>\r\n\t\t
+                  <td>NASDAQ</td>\r\n\t\t
+                  <td>T2</td>\r\n\t\t
+                  <td>2.1350</td>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t
+               </tr>\r\n\t
+               <tr>\r\n\t\t
+                  <td>09/21/2011                    </td>\r\n\t\t
+                  <td>08:59:29                      </td>\r\n\t\t
+                  <td>CHNG</td>\r\n\t\t
+                  <td>China Natural Gas Cmn Stk</td>\r\n\t\t
+                  <td>NASDAQ</td>\r\n\t\t
+                  <td>T12</td>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t
+               </tr>\r\n\t
+               <tr class="\&quot;genTablealt\&quot;">\r\n\t\t
+                  <td>04/20/2011                    </td>\r\n\t\t
+                  <td>09:20:33                      </td>\r\n\t\t
+                  <td>DGW</td>\r\n\t\t
+                  <td>Duoyuan Global Water Inc American Depositary Shares</td>\r\n\t\t
+                  <td>Non NASDAQ</td>\r\n\t\t
+                  <td>T1</td>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t
+               </tr>\r\n\t
+               <tr>\r\n\t\t
+                  <td>04/12/2011                    </td>\r\n\t\t
+                  <td>07:00:20                      </td>\r\n\t\t
+                  <td>UTA</td>\r\n\t\t
+                  <td>Universal Travel Group Common Stock</td>\r\n\t\t
+                  <td>Non NASDAQ</td>\r\n\t\t
+                  <td>T1</td>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t\t
+                  <td/>\r\n\t
+               </tr>\r\n
+            </tbody>
+         </table>
+      </div>\r\n","version":"1.1","id":"1"}
+   </body>
+</html>

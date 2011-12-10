@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+<HTML xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en"><HEAD>
+<TITLE>Harry Potter and the Philosopher's Stone (film) - Search results - Wikipedia, the free encyclopedia</TITLE>
+<META content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<META content="text/css" http-equiv="Content-Style-Type"/>
+<META content="MediaWiki 1.16wmf4" name="generator"/>
+<META content="noindex,nofollow" name="robots"/>
+<LINK href="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/css/combined.min.css?92" rel="stylesheet" type="text/css"/>
+<LINK href="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/css/vector/jquery-ui-1.7.2.css?1.7.2y" rel="stylesheet" type="text/css"/>
+<LINK href="http://en.wikipedia.org/apple-touch-icon.png" rel="apple-touch-icon"/>
+<LINK href="/favicon.ico" rel="shortcut icon"/>
+<LINK href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<LINK href="http://creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<LINK href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" rel="alternate" title="Wikipedia Atom feed" type="application/atom+xml"/>
+<LINK href="http://bits.wikimedia.org/skins-1.5/vector/main-ltr.css?278z62" media="screen" rel="stylesheet" type="text/css"/>
+<LINK href="http://bits.wikimedia.org/skins-1.5/common/shared.css?278z62" media="screen" rel="stylesheet" type="text/css"/>
+<LINK href="http://bits.wikimedia.org/skins-1.5/common/commonPrint.css?278z62" media="print" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="all" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="print" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=MediaWiki:Handheld.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="handheld" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=MediaWiki:Vector.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="all" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=-&amp;action=raw&amp;maxage=2678400&amp;gen=css" media="all" rel="stylesheet" type="text/css"/>
+<SCRIPT type="text/javascript">
+var skin="vector",
+stylepath="http://bits.wikimedia.org/skins-1.5",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/wiki/$1",
+wgScriptPath="/w",
+wgScriptExtension=".php",
+wgScript="/w/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://en.wikipedia.org",
+wgCanonicalNamespace="Special",
+wgCanonicalSpecialPageName="Search",
+wgNamespaceNumber=-1,
+wgPageName="Special:Search",
+wgTitle="Search",
+wgAction="view",
+wgArticleId=0,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="en",
+wgContentLanguage="en",
+wgBreakFrames=false,
+wgCurRevisionId=0,
+wgVersion="1.16wmf4",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Main Page",
+wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "Wikipedia", "5": "Wikipedia talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk", "100": "Portal", "101": "Portal talk", "108": "Book", "109": "Book talk"},
+wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "wikipedia": 4, "wikipedia_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "portal": 100, "portal_talk": 101, "book": 108, "book_talk": 109, "wp": 4, "wt": 5, "image": 6, "image_talk": 7},
+wgSiteName="Wikipedia",
+wgCategories=[],
+wgMWSuggestTemplate="http://en.wikipedia.org/w/api.php?action=opensearch\x26search={searchTerms}\x26namespace={namespaces}\x26suggest",
+wgDBname="enwiki",
+wgSearchNamespaces=[0],
+wgMWSuggestMessages=["with suggestions", "no suggestions"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[],
+wgTrackingToken="e237e140205f4c1cd8849496fbac8a34",
+wgClickTrackingIsThrottled=true,
+wgNotice="",
+wgNoticeLocal="";
+</SCRIPT><SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/wikibits.js?278z62" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/jquery.min.js?278z62" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/search.js?278z62" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/ajax.js?278z62" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/mwsuggest.js?278z62" type="text/javascript"/>
+<SCRIPT type="text/javascript">var wgVectorPreferences = {
+	"collapsiblenav": {
+		"enable": 1
+	},
+	"editwarning": {
+		"enable": 1
+	}
+};
+var wgVectorEnabledModules = {
+	"collapsiblenav": true,
+	"collapsibletabs": true,
+	"editwarning": true,
+	"footercleanup": false,
+	"simplesearch": false
+};</SCRIPT>
+<SCRIPT src="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/js/plugins.combined.min.js?278z62" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/ClickTracking/ClickTracking.js?278z62" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/Vector/Vector.combined.min.js?278z62" type="text/javascript"/>
+<SCRIPT type="text/javascript">mw.usability.addMessages({'vector-editwarning-warning':'Leaving this page may cause you to lose any changes you have made.\nIf you are logged in, you can disable this warning in the \"Editing\" section of your preferences.'});</SCRIPT>
+<SCRIPT src="http://upload.wikimedia.org/centralnotice/wikipedia/en/centralnotice.js?278z62" type="text/javascript"/>
+
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins- 1.5/vector/csshover.htc")}</style><![endif]-->
+<SCRIPT src="/w/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=vector&amp;278z62" type="text/javascript"/>
+
+</HEAD><BODY class="mediawiki ltr ns--1 ns-special page-Special_Search skin-vector">
+		<DIV class="noprint" id="page-base"/>
+		<DIV class="noprint" id="head-base"/>
+		<!-- content -->
+		<DIV id="content">
+			<A id="top"/>
+			<DIV id="mw-js-message" style="display:none;"/>
+						<!-- sitenotice -->
+			<DIV id="siteNotice"><SCRIPT type="text/javascript">if (wgNotice != '') document.writeln(wgNotice);</SCRIPT><SCRIPT language="JavaScript" type="text/javascript">
+/* &lt;![CDATA[ */
+document.writeln("\x3cp\x3eNotice something different?  We\'ve made a few improvements to Wikipedia. \x3ca href=\"/wiki/Special:UsabilityInitiativePrefSwitch\" title=\"Special:UsabilityInitiativePrefSwitch\"\x3eLearn more!\x3c/a\x3e\n\x3c/p\x3e");
+/* ]]&gt; */
+</SCRIPT></DIV>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<H1 class="firstHeading" id="firstHeading">Search results</H1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<DIV id="bodyContent">
+				<!-- tagline -->
+				<H3 id="siteSub">From Wikipedia, the free encyclopedia</H3>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<DIV id="contentSub"/>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<DIV id="jump-to-nav">
+					Jump to:<A href="#head">navigation</A>,
+					<A href="#p-search">search</A>
+				</DIV>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<FORM action="/w/index.php" id="search" method="get"><TABLE border="0" cellpadding="0" cellspacing="0" id="mw-search-top-table"><TBODY><TR>
+<INPUT name="title" type="hidden" value="Special:Search"/>
+<INPUT name="redirs" type="hidden" value="1"/>
+<INPUT autofocus="autofocus" id="searchText" name="search" size="50" value="Harry Potter and the Philosopher's Stone (film)"/>
+<INPUT name="fulltext" type="hidden" value="Search"/>
+<INPUT type="submit" value="Search"/>
+</TR></TBODY></TABLE><DIV class="mw-search-formheader"><DIV class="search-types"><UL><LI class="current"><A href="/w/index.php?title=Special:Search&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;fulltext=Search&amp;ns0=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search in (Article)">Content pages</A></LI><LI class="normal"><A href="/w/index.php?title=Special:Search&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;fulltext=Search&amp;ns6=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search for files">Multimedia</A></LI><LI class="normal"><A href="/w/index.php?title=Special:Search&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;fulltext=Search&amp;ns4=1&amp;ns12=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search in Wikipedia, Help">Help and Project pages</A></LI><LI class="normal"><A href="/w/index.php?title=Special:Search&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;fulltext=Search&amp;ns0=1&amp;ns1=1&amp;ns2=1&amp;ns3=1&amp;ns4=1&amp;ns5=1&amp;ns6=1&amp;ns7=1&amp;ns8=1&amp;ns9=1&amp;ns10=1&amp;ns11=1&amp;ns12=1&amp;ns13=1&amp;ns14=1&amp;ns15=1&amp;ns100=1&amp;ns101=1&amp;ns108=1&amp;ns109=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search all of content (including talk pages)">Everything</A></LI><LI class="normal"><A href="/w/index.php?title=Special:Search&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;fulltext=Search&amp;advanced=1&amp;ns0=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search in custom namespaces">Advanced</A></LI></UL></DIV><DIV class="results-info"><UL><LI>Results <B>1–20</B> of <B>304</B> for <B>Harry Potter and the Philosopher's Stone (film)</B></LI></UL></DIV><DIV style="clear:both"/></DIV><INPUT name="ns0" type="hidden" value="1"/></FORM><DIV class="searchresults"><P><B>There is a page named "<A href="/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)" title="Harry Potter and the Philosopher's Stone (film)">Harry Potter and the Philosopher's Stone (film)</A>" on Wikipedia</B> <BR/>
+For search help, please visit <A href="/wiki/Help:Searching" title="Help:Searching">Help:Searching</A>.
+</P><DIV id="mw-search-interwiki"><DIV id="mw-search-interwiki-caption">Sister projects</DIV>
+<UL class="mw-search-iwresults">
+</UL><DIV class="mw-search-interwiki-project"><SPAN class="mw-search-interwiki-more">
+				<A href="http://en.wikiquote.org/wiki/Special:Search?search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;fulltext=Search" title="q:Special:Search">(more)</A></SPAN> Quotes from Wikiquote</DIV>
+<UL><LI><A href="http://en.wikiquote.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)" title="q:Harry Potter and the Philosopher's Stone (film)"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> (<SPAN class="searchmatch">film</SPAN>)</A> </LI>
+</UL></DIV>
+
+<!-- Search results fetched via search=[search3,search3], highlight=[search14], interwiki=[search13] in 285 ms -->
+<UL class="mw-search-results">
+<LI><A href="/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)" title="Harry Potter and the Philosopher's Stone (film)"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> (<SPAN class="searchmatch">film</SPAN>)</A>   <DIV class="searchresult"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> (released in the United States  <B>...</B>  <SPAN class="searchmatch">Stone</SPAN> is a 2001 fantasy -adventure <SPAN class="searchmatch">film</SPAN>  directed by Chris  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">60 KB (8,144 words) - 02:37, 16 May 2010</DIV></LI>
+<LI><A href="/wiki/Ron_Weasley" title="Ron Weasley">Ron Weasley</A> <SPAN class="searchalttitle">(redirect from <A href="/wiki/Ron_(Harry_Potter)" title="Ron (Harry Potter)">Ron (<SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>)</A>)</SPAN>  <DIV class="searchresult"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN>  (1997 ) as the best friend <B>...</B> YouTube In the 2008 American comedy <SPAN class="searchmatch">film</SPAN> Yes Man , Carl (portrayed Jim  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">34 KB (5,070 words) - 11:26, 28 April 2010</DIV></LI>
+<LI><A href="/wiki/Hermione_Granger" title="Hermione Granger">Hermione Granger</A> <SPAN class="searchalttitle">(redirect from <A href="/wiki/Hermione_(Harry_Potter)" title="Hermione (Harry Potter)">Hermione (<SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>)</A>)</SPAN>  <DIV class="searchresult"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> , as a new student on her  <B>...</B> Lewis In the 2008 American comedy <SPAN class="searchmatch">film</SPAN> Yes Man , Allison (played by  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">34 KB (4,611 words) - 11:25, 28 April 2010</DIV></LI>
+<LI><A href="/wiki/J._K._Rowling" title="J. K. Rowling">J. K. Rowling</A>  <SPAN class="searchalttitle">(section <A href="/wiki/J._K._Rowling#Harry_Potter_films" title="J. K. Rowling"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">films</SPAN></A>)</SPAN> <DIV class="searchresult">author best known as the creator of <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>  fantasy  series, the idea for  <B>...</B> A <SPAN class="searchmatch">film</SPAN>  <B>...</B>  <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> - was  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">74 KB (10,816 words) - 02:12, 16 May 2010</DIV></LI>
+<LI><A href="/wiki/Harry_Potter_(film_series)" title="Harry Potter (film series)"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> (<SPAN class="searchmatch">film</SPAN> series)</A> <SPAN class="searchalttitle">(redirect from <A href="/wiki/Harry_Potter_(films)" title="Harry Potter (films)"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> (<SPAN class="searchmatch">films</SPAN>)</A>)</SPAN>  <DIV class="searchresult"><SPAN class="searchmatch">The</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">film</SPAN> series is based on the seven <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>  novels by British  <B>...</B> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> (2001)  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">44 KB (5,968 words) - 05:54, 13 May 2010</DIV></LI>
+<LI><A href="/wiki/Magical_objects_in_Harry_Potter" title="Magical objects in Harry Potter">Magical objects in <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN></A> <SPAN class="searchalttitle">(redirect from <A href="/wiki/Resurrection_Stone" title="Resurrection Stone">Resurrection <SPAN class="searchmatch">Stone</SPAN></A>)</SPAN>  <DIV class="searchresult">The following is a list of magical objects in <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> .  <B>...</B> In <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> , Dumbledore uses the Deluminator <B>...</B> </DIV>
+<DIV class="mw-search-result-data">76 KB (11,947 words) - 02:41, 16 May 2010</DIV></LI>
+<LI><A href="/wiki/Hogwarts" title="Hogwarts">Hogwarts</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Hogwarts#The_hiding_place_of_the_Philosopher.27s_Stone" title="Hogwarts">The hiding place of <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN></A>)</SPAN> <DIV class="searchresult">of <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> series, with each book lasting the equivalent of one school year.  <B>...</B> series is in <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> .  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">65 KB (9,726 words) - 03:49, 15 May 2010</DIV></LI>
+<LI><A href="/wiki/Quidditch" title="Quidditch">Quidditch</A> <SPAN class="searchalttitle">(redirect from <A href="/wiki/Bludger_(Harry_Potter)" title="Bludger (Harry Potter)">Bludger (<SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>)</A>)</SPAN>  <DIV class="searchresult">Quidditch is a fictional sport developed by J. K. Rowling  for <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>   <B>...</B> Ravenclaw  | 1991/92 | <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN>  |  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">47 KB (6,857 words) - 17:06, 15 May 2010</DIV></LI>
+<LI><A href="/wiki/Lord_Voldemort" title="Lord Voldemort">Lord Voldemort</A> <SPAN class="searchalttitle">(redirect from <A href="/wiki/The_Riddles_(Harry_Potter)" title="The Riddles (Harry Potter)">The Riddles (<SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>)</A>)</SPAN>  <DIV class="searchresult">first appeared in <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> , which was <B>...</B> As of 2009, Voldemort appears in five <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">films</SPAN> , namely  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">52 KB (7,447 words) - 03:15, 13 May 2010</DIV></LI>
+<LI><A href="/wiki/Harry_Potter" title="Harry Potter"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN></A>  <SPAN class="searchalttitle">(section <A href="/wiki/Harry_Potter#Films" title="Harry Potter"><SPAN class="searchmatch">Films</SPAN></A>)</SPAN> <DIV class="searchresult">the first novel <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> , retitled  <B>...</B> In 1998 Rowling sold <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">film</SPAN> rights of the first four <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">92 KB (13,056 words) - 02:03, 16 May 2010</DIV></LI>
+<LI><A href="/wiki/Harry_Potter_and_the_Goblet_of_Fire_(film)" title="Harry Potter and the Goblet of Fire (film)"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> Goblet of Fire (<SPAN class="searchmatch">film</SPAN>)</A>   <DIV class="searchresult"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> Goblet of Fire is a 2005 fantasy -adventure <SPAN class="searchmatch">film</SPAN>  directed by  <B>...</B> series, behind <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> .  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">34 KB (4,719 words) - 02:39, 16 May 2010</DIV></LI>
+<LI><A href="/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(soundtrack)" title="Harry Potter and the Philosopher's Stone (soundtrack)"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> (soundtrack)</A>   <DIV class="searchresult"><SPAN class="searchmatch">The</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN>  original motion picture soundtrack  <B>...</B> Often labelled as the main theme of <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">film</SPAN> series, it  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">5 KB (561 words) - 19:52, 29 April 2010</DIV></LI>
+<LI><A href="/wiki/Harry_Potter_and_the_Philosopher%27s_Stone" title="Harry Potter and the Philosopher's Stone"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN></A>  <SPAN class="searchalttitle">(section <A href="/wiki/Harry_Potter_and_the_Philosopher%27s_Stone#Film_version" title="Harry Potter and the Philosopher's Stone"><SPAN class="searchmatch">Film</SPAN> version</A>)</SPAN> <DIV class="searchresult"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> is the first novel in <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>   <B>...</B> In 1999, Rowling sold <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">film</SPAN> rights of the first four  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">88 KB (11,972 words) - 01:16, 16 May 2010</DIV></LI>
+<LI><A href="/wiki/Harry_Potter_and_the_Chamber_of_Secrets" title="Harry Potter and the Chamber of Secrets"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> Chamber of Secrets</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Harry_Potter_and_the_Chamber_of_Secrets#Film" title="Harry Potter and the Chamber of Secrets"><SPAN class="searchmatch">Film</SPAN></A>)</SPAN> <DIV class="searchresult"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> Chamber of Secrets is the second instal-- ment in <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Harry</SPAN>  <B>...</B> Prizes for <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> <SPAN class="searchmatch">and</SPAN>  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">44 KB (5,952 words) - 20:33, 14 May 2010</DIV></LI>
+<LI><A href="/wiki/Lego_Harry_Potter" title="Lego Harry Potter">Lego <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN></A>  <SPAN class="searchalttitle">(section <A href="/wiki/Lego_Harry_Potter#Harry_Potter_and_the_Philosopher.27s_Stone" title="Lego Harry Potter"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN></A>)</SPAN> <DIV class="searchresult">The first sets appeared in 2001, to coincide with the release of the first <SPAN class="searchmatch">film</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN>  (<SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">11 KB (1,335 words) - 19:47, 12 May 2010</DIV></LI>
+<LI><A href="/wiki/Emma_Watson" title="Emma Watson">Emma Watson</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Emma_Watson#Harry_Potter" title="Emma Watson"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN></A>)</SPAN> <DIV class="searchresult">playing Hermione Granger , one of three starring roles in <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">film</SPAN> series .  <B>...</B> for <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN>  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">57 KB (7,439 words) - 12:19, 15 May 2010</DIV></LI>
+<LI><A href="/wiki/Horcrux" title="Horcrux">Horcrux</A> <SPAN class="searchalttitle">(redirect from <A href="/wiki/Nagini_(Harry_Potter)" title="Nagini (Harry Potter)">Nagini (<SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>)</A>)</SPAN>  <DIV class="searchresult">A Horcrux is a magical object  in <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>  series by J. K. Rowling .  <B>...</B> place just before the opening chapter of <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN>.  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">35 KB (4,560 words) - 07:56, 15 May 2010</DIV></LI>
+<LI><A href="/wiki/Chris_Columbus_(filmmaker)" title="Chris Columbus (filmmaker)">Chris Columbus (filmmaker)</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Chris_Columbus_(filmmaker)#Film_career" title="Chris Columbus (filmmaker)"><SPAN class="searchmatch">Film</SPAN> career</A>)</SPAN> <DIV class="searchresult">success with <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN>  (2001), Mrs.  <B>...</B>  Award  for Best Comedy <SPAN class="searchmatch">Film</SPAN>. <B>...</B> <SPAN class="searchmatch">Film</SPAN> career  Start in the industry <B>...</B> </DIV>
+<DIV class="mw-search-result-data">12 KB (1,234 words) - 07:40, 3 May 2010</DIV></LI>
+<LI><A href="/wiki/Terry_Gilliam" title="Terry Gilliam">Terry Gilliam</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Terry_Gilliam#Gilliam_and_Harry_Potter" title="Terry Gilliam">Gilliam <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN></A>)</SPAN> <DIV class="searchresult">screenwriter, <SPAN class="searchmatch">film</SPAN> director, animator, actor and member of the Monty Python  comedy troupe.  <B>...</B> direct <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN>  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">44 KB (6,214 words) - 03:17, 16 May 2010</DIV></LI>
+<LI><A href="/wiki/List_of_Harry_Potter_related_topics" title="List of Harry Potter related topics">List of <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> related topics</A>  <SPAN class="searchalttitle">(section <A href="/wiki/List_of_Harry_Potter_related_topics#Video_games_based_on_the_books_and_films" title="List of Harry Potter related topics">Video games based on the books <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">films</SPAN></A>)</SPAN> <DIV class="searchresult"><SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN>  is a series of fantasy novels by J. K. Rowling . <B>...</B> <SPAN class="searchmatch">Films</SPAN> based on the books : <SPAN class="searchmatch">Harry</SPAN> <SPAN class="searchmatch">Potter</SPAN> <SPAN class="searchmatch">and</SPAN> <SPAN class="searchmatch">the</SPAN> <SPAN class="searchmatch">Philosopher</SPAN>'s <SPAN class="searchmatch">Stone</SPAN> (<SPAN class="searchmatch">film</SPAN>) <B>...</B> </DIV>
+<DIV class="mw-search-result-data">4 KB (413 words) - 12:40, 18 April 2010</DIV></LI>
+</UL>
+</DIV><P class="mw-search-pager-bottom">View (previous 20  |  <A class="mw-nextlink" href="/w/index.php?title=Special:Search&amp;limit=20&amp;offset=20&amp;ns0=1&amp;redirs=1&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29" title="Next 20 results">next 20</A>) (<A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;limit=20&amp;offset=0" title="Show 20 results per page">20</A> | <A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;limit=50&amp;offset=0" title="Show 50 results per page">50</A> | <A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;limit=100&amp;offset=0" title="Show 100 results per page">100</A> | <A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;limit=250&amp;offset=0" title="Show 250 results per page">250</A> | <A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;limit=500&amp;offset=0" title="Show 500 results per page">500</A>)</P>
+<DIV class="printfooter">
+Retrieved from "<A href="http://en.wikipedia.org/wiki/Special:Search">http://en.wikipedia.org/wiki/Special:Search</A>"</DIV>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<DIV class="catlinks catlinks-allhidden" id="catlinks"/>				<!-- /catlinks -->
+												<DIV class="visualClear"/>
+			</DIV>
+			<!-- /bodyContent -->
+		</DIV>
+		<!-- /content -->
+		<!-- header -->
+		<DIV class="noprint" id="head">
+
+<!-- 0 -->
+<DIV class="" id="p-personal">
+	<H5>Personal tools</H5>
+	<UL>
+					<LI id="pt-prefswitch-link-anon"><A class="no-text-transform" href="http://en.wikipedia.org/w/index.php?title=Special:UsabilityInitiativePrefSwitch&amp;from=Special%3ASearch&amp;fromquery=redirs%3D0%26search%3DHarry%2BPotter%2Band%2Bthe%2BPhilosopher%2527s%2BStone%2B%2528film%2529%26fulltext%3DSearch%26ns0%3D1" title="Learn about new features">New features</A></LI>
+					<LI id="pt-login"><A accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Special:Search&amp;returntoquery=redirs%3D0%26search%3DHarry%2BPotter%2Band%2Bthe%2BPhilosopher%2527s%2BStone%2B%2528film%2529%26fulltext%3DSearch%26ns0%3D1" title="You are encouraged to log in; however, it is not mandatory. [o]">Log in / create account</A></LI>
+			</UL>
+</DIV>
+
+<!-- /0 -->
+			<DIV id="left-navigation">
+
+<!-- 0 -->
+<DIV class="vectorTabs" id="p-namespaces">
+	<H5>Namespaces</H5>
+	<UL>
+					<LI class="selected" id="ca-special"><A href="/w/index.php?title=Special%3ASearch&amp;redirs=0&amp;search=Harry+Potter+and+the+Philosopher%27s+Stone+%28film%29&amp;fulltext=Search&amp;ns0=1"><SPAN>Special page</SPAN></A></LI>
+			</UL>
+</DIV>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<DIV class="vectorMenu emptyPortlet" id="p-variants">
+		<H5><SPAN>Variants</SPAN><A href="#"/></H5>
+	<DIV class="menu">
+		<UL>
+					</UL>
+	</DIV>
+</DIV>
+
+<!-- /1 -->
+			</DIV>
+			<DIV id="right-navigation">
+
+<!-- 0 -->
+<DIV class="vectorTabs emptyPortlet" id="p-views">
+	<H5>Views</H5>
+	<UL>
+			</UL>
+</DIV>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<DIV class="vectorMenu emptyPortlet" id="p-cactions">
+	<H5><SPAN>Actions</SPAN><A href="#"/></H5>
+	<DIV class="menu">
+		<UL>
+					</UL>
+	</DIV>
+</DIV>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<DIV id="p-search">
+	<H5><LABEL for="searchInput">Search</LABEL></H5>
+	<FORM action="/w/index.php" id="searchform">
+		<INPUT name="title" type="hidden" value="Special:Search"/>
+				<DIV id="simpleSearch">
+			<INPUT accesskey="f" id="searchInput" name="search" title="Search Wikipedia [f]" type="text" value="Harry Potter and the Philosopher's Stone (film)"/>
+			<BUTTON id="searchButton" name="button" title="Search Wikipedia for this text" type="submit"> </BUTTON>
+		</DIV>
+			</FORM>
+</DIV>
+
+<!-- /2 -->
+			</DIV>
+		</DIV>
+		<!-- /header -->
+		<!-- panel -->
+			<DIV class="noprint" id="panel">
+				<!-- logo -->
+					<DIV id="p-logo"><A href="/wiki/Main_Page" style="background-image: url(http://upload.wikimedia.org/wikipedia/commons/d/d6/Wikipedia-logo-v2-en.png);" title="Visit the main page"/></DIV>
+				<!-- /logo -->
+
+<!-- navigation -->
+<DIV class="portal" id="p-navigation">
+	<H5>Navigation</H5>
+	<DIV class="body">
+				<UL>
+					<LI id="n-mainpage-description"><A accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</A></LI>
+					<LI id="n-contents"><A href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</A></LI>
+					<LI id="n-featuredcontent"><A href="/wiki/Portal:Featured_content" title="Featured content — the best of Wikipedia">Featured content</A></LI>
+					<LI id="n-currentevents"><A href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</A></LI>
+					<LI id="n-randompage"><A accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</A></LI>
+				</UL>
+			</DIV>
+</DIV>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<DIV class="portal" id="p-interaction">
+	<H5>Interaction</H5>
+	<DIV class="body">
+				<UL>
+					<LI id="n-aboutsite"><A href="/wiki/Help:About" title="Find out about Wikipedia">About Wikipedia</A></LI>
+					<LI id="n-portal"><A href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</A></LI>
+					<LI id="n-recentchanges"><A accesskey="r" href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]">Recent changes</A></LI>
+					<LI id="n-contact"><A href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</A></LI>
+					<LI id="n-sitesupport"><A href="http://wikimediafoundation.org/wiki/Support_Wikipedia/en" title="Support us">Donate to Wikipedia</A></LI>
+					<LI id="n-help"><A href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</A></LI>
+				</UL>
+			</DIV>
+</DIV>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<DIV class="portal" id="p-tb">
+	<H5>Toolbox</H5>
+	<DIV class="body">
+		<UL>
+																																		<LI id="t-upload"><A accesskey="u" href="/wiki/Wikipedia:Upload" title="Upload files [u]">Upload file</A></LI>
+											<LI id="t-specialpages"><A accesskey="q" href="/wiki/Special:SpecialPages" title="List of all special pages [q]">Special pages</A></LI>
+													</UL>
+	</DIV>
+</DIV>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</DIV>
+		<!-- /panel -->
+		<!-- footer -->
+		<DIV id="footer">
+																		<UL id="footer-places">
+																	<LI id="footer-places-privacy"><A href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</A></LI>
+																							<LI id="footer-places-about"><A href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</A></LI>
+																							<LI id="footer-places-disclaimer"><A href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</A></LI>
+															</UL>
+										<UL class="noprint" id="footer-icons">
+								<LI id="footer-icon-poweredby"><A href="http://www.mediawiki.org/"><IMG alt="Powered by MediaWiki" height="31" src="http://bits.wikimedia.org/skins-1.5/common/images/poweredby_mediawiki_88x31.png" width="88"/></A></LI>
+												<LI id="footer-icon-copyright"><A href="http://wikimediafoundation.org/"><IMG alt="Wikimedia Foundation" height="31" src="/images/wikimedia-button.png" width="88"/></A></LI>
+							</UL>
+			<DIV style="clear:both"/>
+		</DIV>
+		<!-- /footer -->
+		<!-- fixalpha -->
+		<SCRIPT type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </SCRIPT>
+		<!-- /fixalpha -->
+
+<SCRIPT type="text/javascript">if (window.runOnloadHook) runOnloadHook();</SCRIPT>
+		<!-- Served by srv156 in 0.482 secs. -->
+</BODY></HTML>

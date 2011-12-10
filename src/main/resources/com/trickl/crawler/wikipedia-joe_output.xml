@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<trickl:wikipedia-film xmlns:trickl="http://trickl.com" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<trickl:title>Joe (film)</trickl:title>
+<trickl:film>
+<trickl:synopsis>Advertising executive Bill Compton (Patrick), his wife Joan (Audrey Caire), and daughter Melissa (Sarandon) are a wealthy family living in New York's Upper East Side. Melissa has recently been living with her drug dealer boyfriend. After Melissa overdoses and is sent to a hospital, Compton goes to her boyfriend's apartment to get her clothes. Compton then kills the boyfriend in a fit of rage.</trickl:synopsis>
+<trickl:title>Joe</trickl:title>
+<trickl:directors>
+<trickl:crew-member credit="1">
+<trickl:full-name>John G. Avildsen</trickl:full-name>
+</trickl:crew-member>
+</trickl:directors>
+<trickl:producers>
+<trickl:producer credit="1">
+<trickl:full-name>David Gil</trickl:full-name>
+</trickl:producer>
+<trickl:producer credit="2">
+<trickl:full-name>Yoram Globus</trickl:full-name>
+</trickl:producer>
+<trickl:producer credit="101">
+<trickl:full-name>(producer)</trickl:full-name>
+</trickl:producer>
+<trickl:producer credit="102">
+<trickl:full-name>(executive producer)</trickl:full-name>
+</trickl:producer>
+</trickl:producers>
+<trickl:writers>
+<trickl:writer credit="1">
+<trickl:full-name>Norman Wexler</trickl:full-name>
+</trickl:writer>
+</trickl:writers>
+<trickl:cast>
+<trickl:cast-member billing="1">
+<trickl:full-name>Peter Boyle</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="2">
+<trickl:full-name>Dennis Patrick</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="3">
+<trickl:full-name>Audrey Caire</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="4">
+<trickl:full-name>Susan Sarandon</trickl:full-name>
+</trickl:cast-member>
+</trickl:cast>
+<trickl:cinematography-by>
+<trickl:crew-member credit="1">
+<trickl:full-name>John G. Avildsen</trickl:full-name>
+</trickl:crew-member>
+</trickl:cinematography-by>
+<trickl:editors>
+<trickl:crew-member credit="1">
+<trickl:full-name>George T. Norris</trickl:full-name>
+</trickl:crew-member>
+</trickl:editors>
+<trickl:distributor>Cannon Films</trickl:distributor>
+<trickl:release-date>July 15, 1970</trickl:release-date>
+<trickl:running-time>UK</trickl:running-time>
+<trickl:country>USA</trickl:country>
+<trickl:language>English</trickl:language>
+<trickl:budget>$106,000</trickl:budget>
+<trickl:tags>
+<trickl:tag>American drama</trickl:tag>
+<trickl:tag>1970s drama</trickl:tag>
+<trickl:tag>English-language</trickl:tag>
+<trickl:tag>Independent</trickl:tag>
+</trickl:tags>
+</trickl:film>
+<trickl:poster-location/>
+</trickl:wikipedia-film>

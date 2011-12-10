@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<trickl:imdb-records xmlns:trickl="http://trickl.com" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Half-Blood Prince</trickl:title>
+<trickl:uri>/title/tt0417741/</trickl:uri>
+<trickl:release-date>2009</trickl:release-date>
+<trickl:format>Cinema</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Half-Blood Prince</trickl:title>
+<trickl:uri>/title/tt1395738/</trickl:uri>
+<trickl:release-date>2009</trickl:release-date>
+<trickl:format>Video Game</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter &amp; the Half Blood Prince: T4 Premiere Special</trickl:title>
+<trickl:uri>/title/tt1470607/</trickl:uri>
+<trickl:release-date>2009</trickl:release-date>
+<trickl:format>TV</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Order of the Phoenix</trickl:title>
+<trickl:uri>/title/tt0373889/</trickl:uri>
+<trickl:release-date>2007</trickl:release-date>
+<trickl:format>Cinema</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>An Exclusive Inside Look at 'Harry Potter and the Order of the Phoenix'</trickl:title>
+<trickl:uri>/title/tt1098206/</trickl:uri>
+<trickl:release-date>2007</trickl:release-date>
+<trickl:format>TV</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Goblet of Fire</trickl:title>
+<trickl:uri>/title/tt0330373/</trickl:uri>
+<trickl:release-date>2005</trickl:release-date>
+<trickl:format>Cinema</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Prisoner of Azkaban</trickl:title>
+<trickl:uri>/title/tt0304141/</trickl:uri>
+<trickl:release-date>2004</trickl:release-date>
+<trickl:format>Cinema</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Deathly Hallows: Part I</trickl:title>
+<trickl:uri>/title/tt0926084/</trickl:uri>
+<trickl:release-date>2010</trickl:release-date>
+<trickl:format>Cinema</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Deathly Hallows: Part II</trickl:title>
+<trickl:uri>/title/tt1201607/</trickl:uri>
+<trickl:release-date>2011</trickl:release-date>
+<trickl:format>Cinema</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Deathly Hallows: Part I</trickl:title>
+<trickl:uri>/title/tt1571403/</trickl:uri>
+<trickl:release-date>2010</trickl:release-date>
+<trickl:format>Video Game</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Prisoner of Azkaban</trickl:title>
+<trickl:uri>/title/tt0414084/</trickl:uri>
+<trickl:release-date>2004</trickl:release-date>
+<trickl:format>Video Game</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Sorcerer's Stone</trickl:title>
+<trickl:uri>/title/tt0241527/</trickl:uri>
+<trickl:release-date>2001</trickl:release-date>
+<trickl:format>Cinema</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Goblet of Fire</trickl:title>
+<trickl:uri>/title/tt0764644/</trickl:uri>
+<trickl:release-date>2005</trickl:release-date>
+<trickl:format>Video Game</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Order of the Phoenix</trickl:title>
+<trickl:uri>/title/tt0944836/</trickl:uri>
+<trickl:release-date>2007</trickl:release-date>
+<trickl:format>Video Game</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Sorcerer's Stone</trickl:title>
+<trickl:uri>/title/tt0304142/</trickl:uri>
+<trickl:release-date>2001</trickl:release-date>
+<trickl:format>Video Game</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Inside 'Harry Potter and the Goblet of Fire'</trickl:title>
+<trickl:uri>/title/tt0491721/</trickl:uri>
+<trickl:release-date>2005</trickl:release-date>
+<trickl:format>TV</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Order of the Phoenix: T4 Movie Special</trickl:title>
+<trickl:uri>/title/tt1068770/</trickl:uri>
+<trickl:release-date>2007</trickl:release-date>
+<trickl:format>TV</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>JK Rowling and the Harry Potter Express</trickl:title>
+<trickl:uri>/title/tt1565427/</trickl:uri>
+<trickl:release-date>2001</trickl:release-date>
+<trickl:format>TV</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter in the Hood</trickl:title>
+<trickl:uri>/title/tt1107823/</trickl:uri>
+<trickl:release-date>2007</trickl:release-date>
+<trickl:format>Video</trickl:format>
+</trickl:imdb-record>
+<trickl:imdb-record>
+<trickl:title>Harry Potter and the Chamber of Secrets</trickl:title>
+<trickl:uri>/title/tt0295297/</trickl:uri>
+<trickl:release-date>2002</trickl:release-date>
+<trickl:format>Cinema</trickl:format>
+</trickl:imdb-record>
+</trickl:imdb-records>

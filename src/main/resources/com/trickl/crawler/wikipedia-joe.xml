@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en"><head>
+      <title>Joe (film) - Wikipedia, the free encyclopedia</title>
+      <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+      <meta content="text/css" http-equiv="Content-Style-Type"/>
+      <meta content="MediaWiki 1.16wmf4" name="generator"/>
+      <link href="/w/index.php?title=Joe_(film)&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+      <link href="/w/index.php?title=Joe_(film)&amp;action=edit" rel="edit" title="Edit this page"/>
+      <link href="http://en.wikipedia.org/apple-touch-icon.png" rel="apple-touch-icon"/>
+      <link href="/favicon.ico" rel="shortcut icon"/>
+      <link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+      <link href="http://creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+      <link href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" rel="alternate" title="Wikipedia Atom feed" type="application/atom+xml"/>
+      <link href="http://bits.wikimedia.org/skins-1.5/vector/main-ltr.css?283-5" media="screen" rel="stylesheet" type="text/css"/>
+      <link href="http://bits.wikimedia.org/skins-1.5/common/shared.css?283-5" media="screen" rel="stylesheet" type="text/css"/>
+      <link href="http://bits.wikimedia.org/skins-1.5/common/commonPrint.css?283-5" media="print" rel="stylesheet" type="text/css"/>
+      <link href="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/css/combined.min.css?117" media="all" rel="stylesheet" type="text/css"/>
+      <link href="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/css/vector/jquery-ui-1.7.2.css?1.7.2y" media="all" rel="stylesheet" type="text/css"/>
+      <link href="/w/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="all" rel="stylesheet" type="text/css"/>
+      <link href="/w/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="print" rel="stylesheet" type="text/css"/>
+      <link href="/w/index.php?title=MediaWiki:Handheld.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="handheld" rel="stylesheet" type="text/css"/>
+      <link href="/w/index.php?title=MediaWiki:Vector.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="all" rel="stylesheet" type="text/css"/>
+      <link href="/w/index.php?title=-&amp;action=raw&amp;maxage=2678400&amp;gen=css" media="all" rel="stylesheet" type="text/css"/>
+      <script type="text/javascript">
+         var skin="vector",
+         stylepath="http://bits.wikimedia.org/skins-1.5",
+         wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+         wgArticlePath="/wiki/$1",
+         wgScriptPath="/w",
+         wgScriptExtension=".php",
+         wgScript="/w/index.php",
+         wgVariantArticlePath=false,
+         wgActionPaths={},
+         wgServer="http://en.wikipedia.org",
+         wgCanonicalNamespace="",
+         wgCanonicalSpecialPageName=false,
+         wgNamespaceNumber=0,
+         wgPageName="Joe_(film)",
+         wgTitle="Joe (film)",
+         wgAction="view",
+         wgArticleId=5257449,
+         wgIsArticle=true,
+         wgUserName=null,
+         wgUserGroups=null,
+         wgUserLanguage="en",
+         wgContentLanguage="en",
+         wgBreakFrames=false,
+         wgCurRevisionId=374392656,
+         wgVersion="1.16wmf4",
+         wgEnableAPI=true,
+         wgEnableWriteAPI=true,
+         wgSeparatorTransformTable=["", ""],
+         wgDigitTransformTable=["", ""],
+         wgMainPageTitle="Main Page",
+         wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "Wikipedia", "5": "Wikipedia talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk", "100": "Portal", "101": "Portal talk", "108": "Book", "109": "Book talk"},
+         wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "wikipedia": 4, "wikipedia_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "portal": 100, "portal_talk": 101, "book": 108, "book_talk": 109, "wp": 4, "wt": 5, "image": 6, "image_talk": 7},
+         wgSiteName="Wikipedia",
+         wgCategories=["1970 films", "American drama films", "1970s drama films", "English-language films", "Independent films", "Films directed by John G. Avildsen"],
+         wgDBname="enwiki",
+         wgMWSuggestTemplate="http://en.wikipedia.org/w/api.php?action=opensearch\x26search={searchTerms}\x26namespace={namespaces}\x26suggest",
+         wgSearchNamespaces=[0],
+         wgMWSuggestMessages=["with suggestions", "no suggestions"],
+         wgRestrictionEdit=[],
+         wgRestrictionMove=[],
+         wgFlaggedRevsParams={"tags": {"status": {"levels": 1, "quality": 2, "pristine": 3}}},
+         wgStableRevisionId=0,
+         wgWikimediaMobileUrl="http://en.m.wikipedia.org/wiki",
+         wgCollapsibleNavBucketTest=false,
+         wgCollapsibleNavForceNewVersion=false,
+         wgVectorPreferences={"collapsiblenav": {"enable": 1}, "editwarning": {"enable": 1}, "simplesearch": {"enable": 1, "disablesuggest": 0}},
+         wgVectorEnabledModules={"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "simplesearch": true},
+         wgArticleAssessmentJUIPath="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/js/js2stopgap/jui.combined.min.js",
+         Geo={"city": "", "country": ""},
+         wgNoticeProject="wikipedia";
+      </script><script src="http://bits.wikimedia.org/skins-1.5/common/wikibits.js?283-5" type="text/javascript"/>
+      <script src="http://bits.wikimedia.org/skins-1.5/common/jquery.min.js?283-5" type="text/javascript"/>
+      <script src="http://bits.wikimedia.org/skins-1.5/common/ajax.js?283-5" type="text/javascript"/>
+      <script src="http://bits.wikimedia.org/skins-1.5/common/mwsuggest.js?283-5" type="text/javascript"/>
+      <script src="http://bits.wikimedia.org/w/extensions/WikimediaMobile/MobileRedirect.js?2.2" type="text/javascript"/>
+      <script src="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/js/plugins.combined.min.js?283-5" type="text/javascript"/>
+      <script src="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/Vector/Vector.combined.min.js?283-5" type="text/javascript"/>
+      <script type="text/javascript">mw.usability.addMessages({'vector-collapsiblenav-more':'More languages','vector-editwarning-warning':'Leaving this page may cause you to lose any changes you have made.\nIf you are logged in, you can disable this warning in the \"Editing\" section of your preferences.','vector-simplesearch-search':'Search','vector-simplesearch-containing':'containing...'});</script>
+      <script src="/w/index.php?title=Special:BannerController&amp;cache=/cn.js&amp;283-5" type="text/javascript"/>
+      <!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.5/vector/csshover.htc")}</style><![endif]-->
+      <script src="/w/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=vector&amp;283-5" type="text/javascript"/>
+
+   </head><body class="mediawiki ltr ns-0 ns-subject page-Joe_film skin-vector">
+      <div class="noprint" id="mw-page-base"/>
+      <div class="noprint" id="mw-head-base"/>
+      <!-- content -->
+      <div id="content">
+      <a id="top"/>
+      <div id="mw-js-message" style="display:none;"/>
+      <!-- sitenotice -->
+      <div id="siteNotice"><!-- centralNotice loads here --></div>
+      <!-- /sitenotice -->
+                                                <!-- firstHeading -->
+      <h1 class="firstHeading" id="firstHeading"><i>Joe</i> (film)</h1>
+      <!-- /firstHeading -->
+                        <!-- bodyContent -->
+      <div id="bodyContent">
+      <!-- tagline -->
+      <div id="siteSub">From Wikipedia, the free encyclopedia</div>
+      <!-- /tagline -->
+                                <!-- subtitle -->
+      <div id="contentSub"/>
+         <!-- /subtitle -->
+                                                                                                                                <!-- jumpto -->
+         <div id="jump-to-nav">
+            Jump to: <a href="#mw-head">navigation</a>,
+            <a href="#p-search">search</a>
+         </div>
+         <!-- /jumpto -->
+                                                                <!-- bodytext -->
+         <table cellspacing="5" class="infobox vevent" style="width:22em; text-align:left; font-size:88%; line-height:1.5em; font-size: 90%">
+            <tbody><tr>
+                  <th class="summary" colspan="2" style="text-align:center; text-align:center; font-size:125%; font-weight:bold; font-size: 110%; font-style: italic">Joe</th>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Directed by</th>
+                  <td class="description" style=""><a href="/wiki/John_G._Avildsen" title="John G. Avildsen">John G. Avildsen</a></td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Produced by</th>
+                  <td class="" style=""><a class="new" href="/w/index.php?title=David_Gil&amp;action=edit&amp;redlink=1" title="David Gil (page does not exist)">David Gil</a> (producer)<br/>
+                  <a href="/wiki/Yoram_Globus" title="Yoram Globus">Yoram Globus</a> (executive producer)</td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Written by</th>
+                  <td class="" style=""><a href="/wiki/Norman_Wexler" title="Norman Wexler">Norman Wexler</a></td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Starring</th>
+                  <td class="" style=""><a href="/wiki/Peter_Boyle" title="Peter Boyle">Peter Boyle</a><br/>
+                     <a href="/wiki/Dennis_Patrick" title="Dennis Patrick">Dennis Patrick</a><br/>
+                     <a class="new" href="/w/index.php?title=Audrey_Caire&amp;action=edit&amp;redlink=1" title="Audrey Caire (page does not exist)">Audrey Caire</a><br/>
+                  <a href="/wiki/Susan_Sarandon" title="Susan Sarandon">Susan Sarandon</a></td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Cinematography</th>
+                  <td class="" style=""><a href="/wiki/John_G._Avildsen" title="John G. Avildsen">John G. Avildsen</a></td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Editing by</th>
+                  <td class="" style=""><a class="new" href="/w/index.php?title=George_T._Norris&amp;action=edit&amp;redlink=1" title="George T. Norris (page does not exist)">George T. Norris</a></td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Distributed by</th>
+                  <td class="" style=""><a class="mw-redirect" href="/wiki/Cannon_Films" title="Cannon Films">Cannon Films</a></td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Release <span style="white-space:nowrap;">date(s)</span></th>
+                  <td class="" style="">July 15, 1970</td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Running time</th>
+                  <td class="" style="">102 mins <a class="mw-redirect" href="/wiki/UK" title="UK">UK</a><br/>
+                  107 mins <a href="/wiki/Norway" title="Norway">Norway</a></td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Country</th>
+                  <td class="" style=""><a class="mw-redirect" href="/wiki/USA" title="USA">USA</a></td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Language</th>
+                  <td class="" style=""><a class="mw-redirect" href="/wiki/English_Language" title="English Language">English</a></td>
+               </tr>
+               <tr class="">
+                  <th scope="row" style="text-align:left; white-space: nowrap">Budget</th>
+                  <td class="" style="">$106,000</td>
+               </tr>
+         </tbody></table>
+         <p><i><b>Joe</b></i> is a <a href="/wiki/1970_in_film" title="1970 in film">1970</a> <a href="/wiki/Drama_film" title="Drama film">drama film</a> starring <a href="/wiki/Peter_Boyle" title="Peter Boyle">Peter Boyle</a>, <a href="/wiki/Dennis_Patrick" title="Dennis Patrick">Dennis Patrick</a>, and <a href="/wiki/Susan_Sarandon" title="Susan Sarandon">Susan Sarandon</a> in her film debut. The film was directed by <a href="/wiki/John_G._Avildsen" title="John G. Avildsen">John G. Avildsen</a>.</p>
+         <table class="toc" id="toc">
+            <tbody><tr>
+                  <td>
+                     <div id="toctitle">
+                        <h2>Contents</h2>
+                     </div>
+                     <ul>
+                        <li class="toclevel-1 tocsection-1"><a href="#Plot"><span class="tocnumber">1</span> <span class="toctext">Plot</span></a></li>
+                        <li class="toclevel-1 tocsection-2"><a href="#Production"><span class="tocnumber">2</span> <span class="toctext">Production</span></a></li>
+                        <li class="toclevel-1 tocsection-3"><a href="#Arville_Garland_--_a_real-life_.22Joe.22"><span class="tocnumber">3</span> <span class="toctext">Arville Garland -- a real-life "Joe"</span></a>
+                           <ul>
+                              <li class="toclevel-2 tocsection-4"><a href="#Early_link_between_Arville_and_Joe"><span class="tocnumber">3.1</span> <span class="toctext">Early link between Arville and Joe</span></a></li>
+                              <li class="toclevel-2 tocsection-5"><a href="#Sentencing"><span class="tocnumber">3.2</span> <span class="toctext">Sentencing</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="toclevel-1 tocsection-6"><a href="#Aftermath"><span class="tocnumber">4</span> <span class="toctext">Aftermath</span></a></li>
+                        <li class="toclevel-1 tocsection-7"><a href="#Parodies"><span class="tocnumber">5</span> <span class="toctext">Parodies</span></a></li>
+                        <li class="toclevel-1 tocsection-8"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a>
+                           <ul>
+                              <li class="toclevel-2 tocsection-9"><a href="#Footnotes"><span class="tocnumber">6.1</span> <span class="toctext">Footnotes</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="toclevel-1 tocsection-10"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+                     </ul>
+                  </td>
+               </tr>
+         </tbody></table>
+         <script type="text/javascript">
+            //&lt;![CDATA[
+            if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); }
+            //]]&gt;
+         </script>
+         <h2><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=1" title="Edit section: Plot">edit</a>]</span> <span class="mw-headline" id="Plot">Plot</span></h2>
+         <p>Advertising executive Bill Compton (Patrick), his wife Joan (<a class="new" href="/w/index.php?title=Audrey_Caire&amp;action=edit&amp;redlink=1" title="Audrey Caire (page does not exist)">Audrey Caire</a>), and daughter Melissa (Sarandon) are a wealthy family living in <a href="/wiki/New_York" title="New York">New York</a>'s <a href="/wiki/Upper_East_Side" title="Upper East Side">Upper East Side</a>. Melissa has recently been living with her drug dealer boyfriend. After Melissa <a href="/wiki/Drug_overdose" title="Drug overdose">overdoses</a> and is sent to a hospital, Compton goes to her boyfriend's apartment to get her clothes. Compton then kills the boyfriend in a fit of rage.</p>
+         <p>Shaken, he grabs a bag of the boyfriend's drugs, flees from the apartment, and goes to calm down in a local bar. There, he hears factory worker Joe Curran (Boyle) ranting about how he hates <a href="/wiki/Hippie" title="Hippie">hippies</a>, and repeatedly saying, "I'd love to kill one." Compton, unable to restrain himself, blurts out "I just did," then fakes a smile once he realizes he has just made a public confession. Joe appears to believe Compton's statement at first, but then takes it as a joke.</p>
+         <p>The next day, Joe sees a news report about a drug dealer being murdered a few blocks from the bar. He immediately realizes Compton is the one who did it. Joe arranges a meeting with Compton, and the two form a very strange friendship. Compton tells Joe about the phoniness and emptiness of his smug rich friends, while Joe holds Compton in high esteem for doing what Joe could not bring himself to do: kill a rebellious youth. Joe takes Compton to meet Joe's <a class="mw-redirect" href="/wiki/Blue-collar" title="Blue-collar">blue-collar</a> friends at a bowling alley, and Compton brings Joe to a bar frequented by advertising executives. At the bar, Compton tells an executive from a rival firm that Joe was just hired as an Executive Vice President at the rival firm.</p>
+         <p>After a very awkward dinner among Joe, Compton, and their wives, Compton tells Joan, who is concerned that Joe might <a href="/wiki/Blackmail" title="Blackmail">blackmail</a> Compton, that she need not worry because Joe so identifies with Compton that Joe feels as if he were a willing accomplice to the murder. Melissa, having escaped from the hospital and returned to the family apartment, overhears her father confess to the murder. Storming out of the apartment house, she asks her father, "What are you gonna do, kill me too?" Compton tries to restrain her, but she breaks away.</p>
+         <p>With Melissa missing, Joe and Compton begin to search for her. During their search, they meet a group of hippies at a bar in downtown <a href="/wiki/Manhattan" title="Manhattan">Manhattan</a>. Joe and Compton tell the hippies they have drugs (the drugs Compton took from Melissa's boyfriend). The hippies invite Joe and Compton to join them at an apartment, where they share their drugs and girlfriends with the pair. They then abscond with the remainder of the drugs, as well as Joe's and Compton's wallets.</p>
+         <p>When he discovers this theft, Joe beats one of the girls until she tells him that the male hippies often spend time in an upstate <a href="/wiki/Commune" title="Commune">commune</a>. Joe and Compton drive to that commune, and Joe brings along some rifles and plenty of ammunition, "just to scare them." When they see the hippie thieves and demand their wallets back, one of the thieves tosses the pair their now empty wallets and begins to run away. Joe shoots the thief and goes on a rampage, firing at everyone in the commune, including people who had no involvement in the theft. Compton protests, but Joe tells him that all hippies deserve to die.</p>
+         <p>When a new group of hippies arrives at the door and Joe is out of ammo, Joe encourages Compton to join in. Compton shoots and kills several of them, and a girl in the group flees out of the building. Compton runs to the doorway and fires at the fleeing girl's back, hitting her. As she falls, she is revealed to be Melissa. Compton cries out her name and he hears in his mind, once again, her voice asking, "What are you gonna do, kill me too?"</p>
+         <h2><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=2" title="Edit section: Production">edit</a>]</span> <span class="mw-headline" id="Production">Production</span></h2>
+         <p><a href="/wiki/Norman_Wexler" title="Norman Wexler">Norman Wexler</a>'s screenplay for <i>Joe</i> received an <a class="mw-redirect" href="/wiki/Academy_Awards" title="Academy Awards">Oscar</a> nomination for <a href="/wiki/Academy_Award_for_Best_Writing_(Original_Screenplay)" title="Academy Award for Best Writing (Original Screenplay)">Best Original Screenplay</a>.</p>
+         <p><i>Joe</i> also featured an original soundtrack, introducing artists such as <a href="/wiki/Exuma_(musician)" title="Exuma (musician)">Exuma</a> with the song "You Don't Know What's Going On", <a class="new" href="/w/index.php?title=Dean_Michaels&amp;action=edit&amp;redlink=1" title="Dean Michaels (page does not exist)">Dean Michaels</a>' version of "<a href="/wiki/Hey_Joe" title="Hey Joe">Hey Joe</a>" and other original songs by <a href="/wiki/Jerry_Butler_(singer)" title="Jerry Butler (singer)">Jerry Butler</a> and <a href="/wiki/Bobby_Scott_(musician)" title="Bobby Scott (musician)">Bobby Scott</a>.</p>
+         <h2><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=3" title="Edit section: Arville Garland -- a real-life &quot;Joe&quot;">edit</a>]</span> <span class="mw-headline" id="Arville_Garland_--_a_real-life_.22Joe.22">Arville Garland -- a real-life "Joe"</span></h2>
+         <p>Ten weeks before <i><b>Joe</b></i> was released in the United States, a real-life <a href="/wiki/Mass_murder" title="Mass murder">mass murder</a> with similarities to the movie's climactic scenes occurred in <a class="mw-redirect" href="/wiki/Detroit,_Michigan" title="Detroit, Michigan">Detroit</a>, <a href="/wiki/Michigan" title="Michigan">Michigan</a>. At about 2 a.m. on 8 May 1970, a railroad worker named <b>Arville Douglas Garland</b> (<i>b.</i> 21 September 1924 - <i>d.</i> 26 April 2004) walked into Stonehead Manor, a "student-hippie residence" near the campus of <a href="/wiki/Wayne_State_University" title="Wayne State University">Wayne State University</a>, and killed his 17-year-old daughter Sandra, her 18-year-old boyfriend Scott Kabran, and their friends Gregory Walls (17) and Anthony Brown (16). Sandra Garland, Arville's oldest child, had graduated from high school at age 16. She was a resident at Stonehead Manor and was in her third semester of pre-med classes at the university.</p>
+         <p>Garland brought with him a .38 calibre revolver, a <a href="/wiki/Luger_P08_pistol" title="Luger P08 pistol">Luger</a> — both of which he used during the crime — and two pocketfuls of extra ammunition. After shooting Sandra and her friends, he began reloading the guns as he went in search of Sandra's roommate, Donna Sue Potts. It was then that his wife Martha — who had ridden along with him, expecting that they would merely retrieve their daughter and take her home — forced him to leave the building. She then insisted that he turn himself in to the police.</p>
+         <p>Although the <i><a href="/wiki/Time_(magazine)" title="Time (magazine)">Time Magazine</a></i> articles from 1970<sup class="reference" id="cite_ref-0"><a href="#cite_note-0"><span>[</span>1<span>]</span></a></sup> and 1971<sup class="reference" id="cite_ref-1"><a href="#cite_note-1"><span>[</span>2<span>]</span></a></sup> repeat Garland's claim that he shot Sandra accidentally as a result of striking Scott Kabran in the head with one of the guns, the <i><a href="/wiki/Detroit_Free_Press" title="Detroit Free Press">Detroit Free Press</a></i> in its 2000 book <i>The Detroit Almanac</i> claims that Garland actually "fired repeatedly into Sandra's sleeping body." The book also quotes Martha Garland regarding her daughter's murder: "Sandra was our princess. If we wouldn't have loved her so much, it never would have happened."<sup class="reference" id="cite_ref-2"><a href="#cite_note-2"><span>[</span>3<span>]</span></a></sup></p>
+         <h3><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=4" title="Edit section: Early link between Arville and Joe">edit</a>]</span> <span class="mw-headline" id="Early_link_between_Arville_and_Joe">Early link between Arville and <i>Joe</i></span></h3>
+         <p>During pre-trial deliberations, Judge Joseph A. Gillis saw <i>Joe</i> and strongly advised both the prosecution and defense teams to do the same. He then carefully screened each member of the jury pool and excluded any who had seen the movie. He also forbade any seated juror from watching the movie or discussing it with anyone who had seen it.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3"><span>[</span>4<span>]</span></a></sup></p>
+         <h3><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=5" title="Edit section: Sentencing">edit</a>]</span> <span class="mw-headline" id="Sentencing">Sentencing</span></h3>
+         <p>Arville Garland used two guns, brought extra bullets for both guns, and was reloading the guns while <a href="/wiki/Stalking" title="Stalking">stalking</a> Sandra's roommate immediately after the murders — all of which are clear indicators of <a href="/wiki/Premeditated_murder" title="Premeditated murder">premeditation</a> and <a href="/wiki/Intent" title="Intent">intent</a> to commit further mayhem. Yet, on 18 December 1970, he was <a href="/wiki/Sentence_(law)" title="Sentence (law)">sentenced</a> to one count of <a href="/wiki/Manslaughter" title="Manslaughter">manslaughter</a> (10 to 15 years) and three counts of <a class="mw-redirect" href="/wiki/Second_degree_murder" title="Second degree murder">second degree murder</a> (10 to 40 years for each count). Gillis allowed the four sentences to run concurrently.</p>
+         <p>Before and after sentencing, Garland received hundreds of letters from parents across the country who expressed sympathy with him. Some letter writers congratulated him for murdering his daughter and her friends. It was also reported that during the first weeks after his sentencing, he received no letters expressing outrage or condemnation of his actions.<sup class="reference" id="cite_ref-4"><a href="#cite_note-4"><span>[</span>5<span>]</span></a></sup></p>
+         <h2><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=6" title="Edit section: Aftermath">edit</a>]</span> <span class="mw-headline" id="Aftermath">Aftermath</span></h2>
+         <p>When Peter Boyle saw audience members cheering the violence in <i><b>Joe</b></i>, he refused to appear in any other film or television show that glorified violence. This included the role of <a href="/wiki/Jimmy_%22Popeye%22_Doyle" title="Jimmy &quot;Popeye&quot; Doyle">Jimmy "Popeye" Doyle</a> in <i><a href="/wiki/The_French_Connection" title="The French Connection">The French Connection</a></i> (1971). The role would earn <a href="/wiki/Gene_Hackman" title="Gene Hackman">Gene Hackman</a> the <a href="/wiki/Academy_Award" title="Academy Award">Oscar</a> for <a href="/wiki/Academy_Award_for_Best_Actor" title="Academy Award for Best Actor">Best Actor</a>.</p>
+         <p>In the 1980s, there were rumors that Peter Boyle might appear in a sequel to <i><b>Joe</b></i>. The sequel would follow Joe as he tried to rebuild his life after spending a mere ten years in prison, as Arville Garland had. The film never materialized.</p>
+         <h2><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=7" title="Edit section: Parodies">edit</a>]</span> <span class="mw-headline" id="Parodies">Parodies</span></h2>
+         <p><i>Joe</i> was spoofed in <i><a class="mw-redirect" href="/wiki/MAD_Magazine" title="MAD Magazine">MAD Magazine</a></i> as "Shmoe".</p>
+         <h2><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=8" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+         <ul>
+            <li>Nystrom, Derek (2004), "Hard Hats and Movie Brats: Auteurism and the Class Politics of the New Hollywood" Cinema Journal, Vol. 43, no. 3, pp. 18–41.</li>
+         </ul>
+         <h3><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=9" title="Edit section: Footnotes">edit</a>]</span> <span class="mw-headline" id="Footnotes">Footnotes</span></h3>
+         <ol class="references">
+            <li id="cite_note-0"><b><a href="#cite_ref-0">^</a></b> <a class="external text" href="http://www.time.com/time/magazine/article/0,9171,877135,00.html" rel="nofollow"><i>Time Magazine</i>, "Crime: Joe and Arville"</a> 07 December 1970. Accessed 2009-09-09.</li>
+            <li id="cite_note-1"><b><a href="#cite_ref-1">^</a></b> <a class="external text" href="http://www.time.com/time/magazine/article/0,9171,904633,00.html" rel="nofollow"><i>Time Magazine</i>: "The Nation: Sympathy"</a> 25 January 1971. Accessed 2009-09-10.</li>
+            <li id="cite_note-2"><b><a href="#cite_ref-2">^</a></b> Gavrilovich, Peter, and Bill McGraw, eds. <i>The Detroit Almanac: 300 Years of Life in the Motor City.</i> Detroit: Detroit Free Press, 2000. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0937247340">ISBN 0-937247-34-0</a></li>
+            <li id="cite_note-3"><b><a href="#cite_ref-3">^</a></b> <a class="external text" href="http://www.time.com/time/magazine/article/0,9171,877135,00.html" rel="nofollow"><i>Time Magazine</i>, "Crime: Joe and Arville"</a> 07 December 1970. Accessed 2009-09-09.</li>
+            <li id="cite_note-4"><b><a href="#cite_ref-4">^</a></b> <a class="external text" href="http://www.time.com/time/magazine/article/0,9171,904633,00.html" rel="nofollow"><i>Time Magazine</i>: "The Nation: Sympathy"</a> 25 January 1971. Accessed 2009-09-10.</li>
+         </ol>
+         <h2><span class="editsection">[<a href="/w/index.php?title=Joe_(film)&amp;action=edit&amp;section=10" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+         <ul>
+            <li><a class="external text" href="http://www.imdb.com/title/tt0065916/" rel="nofollow"><i>Joe</i></a> at the <a href="/wiki/Internet_Movie_Database" title="Internet Movie Database">Internet Movie Database</a></li>
+            <li><a class="external text" href="http://www.allmovie.com/work/26271" rel="nofollow"><i>Joe</i></a> at <a href="/wiki/Allmovie" title="Allmovie">Allmovie</a></li>
+         </ul>
+         <p><br/></p>
+         <table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+            <tbody><tr>
+                  <td class="mbox-image"><img alt="" height="40" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Wikiquote-logo-en.svg/40px-Wikiquote-logo-en.svg.png" width="40"/></td>
+                  <td class="mbox-text" style=""><a href="/wiki/Wikiquote" title="Wikiquote">Wikiquote</a> has a collection of quotations related to: <i><b><a class="extiw" href="http://en.wikiquote.org/wiki/Special:Search/Joe_(film)" title="q:Special:Search/Joe (film)">Joe (film)</a></b></i></td>
+               </tr>
+         </tbody></table>
+         <table cellspacing="0" class="navbox" style=";">
+            <tbody><tr>
+                  <td style="padding:2px;">
+                     <table cellspacing="0" class="nowraplinks collapsible autocollapse" style="width:100%;background:transparent;color:inherit;;">
+                        <tbody><tr>
+                              <th class="navbox-title" colspan="2" style=";">
+                                 <div style="float:left; width:6em;text-align:left;">
+                                    <div class="noprint plainlinks navbar" style="background:none; padding:0; font-weight:normal;;;border:none;; font-size:xx-small;"><a href="/wiki/Template:John_G._Avildsen" title="Template:John G. Avildsen"><span style=";;border:none;" title="View this template">v</span></a> <span style="font-size:80%;">•</span> <a href="/wiki/Template_talk:John_G._Avildsen" title="Template talk:John G. Avildsen"><span style=";;border:none;" title="Discuss this template">d</span></a> <span style="font-size:80%;">•</span> <a class="external text" href="http://en.wikipedia.org/w/index.php?title=Template:John_G._Avildsen&amp;action=edit" rel="nofollow"><span style=";;border:none;;" title="Edit this template">e</span></a></div>
+                                 </div>
+                              <span class="" style="font-size:110%;">Films directed by <a href="/wiki/John_G._Avildsen" title="John G. Avildsen">John G. Avildsen</a></span></th>
+                           </tr>
+                           <tr style="height:2px;">
+                              <td/>
+                           </tr>
+                           <tr>
+                              <td class="navbox-group" style=";;">1960s</td>
+                              <td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;">
+                                 <div style="padding:0em 0.25em"><span style="white-space:nowrap"><i><a href="/wiki/Turn_on_to_Love" title="Turn on to Love">Turn on to Love</a></i> (1969)</span></div>
+                              </td>
+                           </tr>
+                           <tr style="height:2px">
+                              <td/>
+                           </tr>
+                           <tr>
+                              <td class="navbox-group" style=";;">1970s</td>
+                              <td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;">
+                                 <div style="padding:0em 0.25em"><span style="white-space:nowrap"><i><a href="/wiki/Guess_What_We_Learned_in_School_Today%3F" title="Guess What We Learned in School Today?">Guess What We Learned in School Today?</a></i> (1970) <b>·</b></span> <span style="white-space:nowrap"><i><strong class="selflink">Joe</strong></i> (1970) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Cry_Uncle!" title="Cry Uncle!">Cry Uncle!</a></i> (1971) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Okay_Bill" title="Okay Bill">Okay Bill</a></i> (1972) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Save_the_Tiger" title="Save the Tiger">Save the Tiger</a></i> (1973) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/The_Stoolie" title="The Stoolie">The Stoolie</a></i> (1974) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Fore_Play" title="Fore Play">Fore Play</a></i> (1975) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/W.W._and_the_Dixie_Dancekings" title="W.W. and the Dixie Dancekings">W.W. and the Dixie Dancekings</a></i> (1975) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Rocky" title="Rocky">Rocky</a></i> (1976) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Slow_Dancing_in_the_Big_City" title="Slow Dancing in the Big City">Slow Dancing in the Big City</a></i> (1978)</span></div>
+                              </td>
+                           </tr>
+                           <tr style="height:2px">
+                              <td/>
+                           </tr>
+                           <tr>
+                              <td class="navbox-group" style=";;">1980s</td>
+                              <td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;">
+                                 <div style="padding:0em 0.25em"><span style="white-space:nowrap"><i><a href="/wiki/The_Formula_(1980_film)" title="The Formula (1980 film)">The Formula</a></i> (1980) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Neighbors_(film)" title="Neighbors (film)">Neighbors</a></i> (1981) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Traveling_Hopefully" title="Traveling Hopefully">Traveling Hopefully</a></i> (1982) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/A_Night_in_Heaven" title="A Night in Heaven">A Night in Heaven</a></i> (1983) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/The_Karate_Kid" title="The Karate Kid">The Karate Kid</a></i> (1984) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/The_Karate_Kid,_Part_II" title="The Karate Kid, Part II">The Karate Kid, Part II</a></i> (1986) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Happy_New_Year_(1987_film)" title="Happy New Year (1987 film)">Happy New Year</a></i> (1987) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/For_Keeps_(film)" title="For Keeps (film)">For Keeps</a></i> (1988) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Lean_on_Me_(film)" title="Lean on Me (film)">Lean on Me</a></i> (1989) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/The_Karate_Kid,_Part_III" title="The Karate Kid, Part III">The Karate Kid, Part III</a></i> (1989)</span></div>
+                              </td>
+                           </tr>
+                           <tr style="height:2px">
+                              <td/>
+                           </tr>
+                           <tr>
+                              <td class="navbox-group" style=";;">1990s</td>
+                              <td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;">
+                                 <div style="padding:0em 0.25em"><span style="white-space:nowrap"><i><a href="/wiki/Rocky_V" title="Rocky V">Rocky V</a></i> (1990) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/The_Power_of_One_(film)" title="The Power of One (film)">The Power of One</a></i> (1992) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/8_Seconds" title="8 Seconds">8 Seconds</a></i> (1994) <b>·</b></span> <span style="white-space:nowrap"><i><a href="/wiki/Inferno_(1999_film)" title="Inferno (1999 film)">Inferno</a></i> (1999)</span></div>
+                              </td>
+                           </tr>
+                     </tbody></table>
+                  </td>
+               </tr>
+         </tbody></table>
+
+
+         <!--
+NewPP limit report
+Preprocessor node count: 10502/1000000
+Post-expand include size: 55725/2048000 bytes
+Template argument size: 23730/2048000 bytes
+Expensive parser function count: 0/500
+-->
+
+         <!-- Saved in parser cache with key enwiki:pcache:idhash:5257449-0!1!0!default!!en!4 and timestamp 20101102134621 -->
+         <div class="printfooter">
+         Retrieved from "<a href="http://en.wikipedia.org/wiki/Joe_(film)">http://en.wikipedia.org/wiki/Joe_(film)</a>"</div>
+         <!-- /bodytext -->
+                                                                <!-- catlinks -->
+         <div class="catlinks" id="catlinks"><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir="ltr"><a href="/wiki/Category:1970_films" title="Category:1970 films">1970 films</a></span> | <span dir="ltr"><a href="/wiki/Category:American_drama_films" title="Category:American drama films">American drama films</a></span> | <span dir="ltr"><a href="/wiki/Category:1970s_drama_films" title="Category:1970s drama films">1970s drama films</a></span> | <span dir="ltr"><a href="/wiki/Category:English-language_films" title="Category:English-language films">English-language films</a></span> | <span dir="ltr"><a href="/wiki/Category:Independent_films" title="Category:Independent films">Independent films</a></span> | <span dir="ltr"><a href="/wiki/Category:Films_directed_by_John_G._Avildsen" title="Category:Films directed by John G. Avildsen">Films directed by John G. Avildsen</a></span></div></div>                                <!-- /catlinks -->
+         <div class="visualClear"/>
+         </div>
+         <!-- /bodyContent -->
+      </div>
+      <!-- /content -->
+                <!-- header -->
+      <div class="noprint" id="mw-head">
+
+         <!-- 0 -->
+         <div class="" id="p-personal">
+            <h5>Personal tools</h5>
+            <ul>
+               <li id="pt-prefswitch-link-anon"><a class="no-text-transform" href="http://en.wikipedia.org/w/index.php?title=Special:UsabilityInitiativePrefSwitch&amp;from=Joe_%28film%29" title="Learn about new features">New features</a></li>
+               <li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Joe_(film)" title="You are encouraged to log in; however, it is not mandatory. [o]">Log in / create account</a></li>
+            </ul>
+         </div>
+
+         <!-- /0 -->
+         <div id="left-navigation">
+
+            <!-- 0 -->
+            <div class="vectorTabs" id="p-namespaces">
+               <h5>Namespaces</h5>
+               <ul>
+                  <li class="selected" id="ca-nstab-main"><a accesskey="c" href="/wiki/Joe_(film)" title="View the content page [c]"><span>Article</span></a></li>
+                  <li id="ca-talk"><a accesskey="t" href="/wiki/Talk:Joe_(film)" title="Discussion about the content page [t]"><span>Discussion</span></a></li>
+               </ul>
+            </div>
+
+            <!-- /0 -->
+
+            <!-- 1 -->
+            <div class="vectorMenu emptyPortlet" id="p-variants">
+               <h5><span>Variants</span><a href="#"/></h5>
+               <div class="menu">
+                  <ul>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- /1 -->
+         </div>
+         <div id="right-navigation">
+
+            <!-- 0 -->
+            <div class="vectorTabs" id="p-views">
+               <h5>Views</h5>
+               <ul>
+                  <li class="selected" id="ca-view"><a href="/wiki/Joe_(film)"><span>Read</span></a></li>
+                  <li id="ca-edit"><a accesskey="e" href="/w/index.php?title=Joe_(film)&amp;action=edit" title="You can edit this page. &#10;Please use the preview button before saving. [e]"><span>Edit</span></a></li>
+                  <li class="collapsible " id="ca-history"><a accesskey="h" href="/w/index.php?title=Joe_(film)&amp;action=history" title="Past versions of this page [h]"><span>View history</span></a></li>
+               </ul>
+            </div>
+
+            <!-- /0 -->
+
+            <!-- 1 -->
+            <div class="vectorMenu emptyPortlet" id="p-cactions">
+               <h5><span>Actions</span><a href="#"/></h5>
+               <div class="menu">
+                  <ul>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- /1 -->
+
+            <!-- 2 -->
+            <div id="p-search">
+               <h5><label for="searchInput">Search</label></h5>
+               <form action="/w/index.php" id="searchform">
+                  <input name="title" type="hidden" value="Special:Search"/>
+                  <div id="simpleSearch">
+                     <input accesskey="f" id="searchInput" name="search" title="Search Wikipedia [f]" type="text" value=""/>
+                     <button id="searchButton" name="button" title="Search Wikipedia for this text" type="submit"><img alt="Search" src="http://bits.wikimedia.org/skins-1.5/vector/images/search-ltr.png?283-5"/></button>
+                  </div>
+               </form>
+            </div>
+
+            <!-- /2 -->
+         </div>
+      </div>
+      <!-- /header -->
+                <!-- panel -->
+      <div class="noprint" id="mw-panel">
+         <!-- logo -->
+         <div id="p-logo"><a href="/wiki/Main_Page" style="background-image: url(http://upload.wikimedia.org/wikipedia/commons/d/d6/Wikipedia-logo-v2-en.png);" title="Visit the main page"/></div>
+         <!-- /logo -->
+
+         <!-- navigation -->
+         <div class="portal" id="p-navigation">
+            <h5>Navigation</h5>
+            <div class="body">
+               <ul>
+                  <li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li>
+                  <li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+                  <li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content — the best of Wikipedia">Featured content</a></li>
+                  <li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+                  <li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li>
+                  <li class="active" id="n-variablepage"><a href="/w/index.php?title=Special:VariablePage&amp;utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous_donation">Donate</a></li>
+               </ul>
+            </div>
+         </div>
+
+         <!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+         <!-- interaction -->
+         <div class="portal" id="p-interaction">
+            <h5>Interaction</h5>
+            <div class="body">
+               <ul>
+                  <li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+                  <li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+                  <li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]">Recent changes</a></li>
+                  <li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+                  <li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+               </ul>
+            </div>
+         </div>
+
+         <!-- /interaction -->
+
+         <!-- TOOLBOX -->
+         <div class="portal" id="p-tb">
+            <h5>Toolbox</h5>
+            <div class="body">
+               <ul>
+                  <li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Joe_(film)" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li>
+                  <li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Joe_(film)" title="Recent changes in pages linked from this page [k]">Related changes</a></li>
+                  <li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:Upload" title="Upload files [u]">Upload file</a></li>
+                  <li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="List of all special pages [q]">Special pages</a></li>
+                  <li id="t-permalink"><a href="/w/index.php?title=Joe_(film)&amp;oldid=374392656" title="Permanent link to this revision of the page">Permanent link</a></li>
+               <li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Joe_(film)&amp;id=374392656" title="Information on how to cite this page">Cite this page</a></li>                </ul>
+            </div>
+         </div>
+
+         <!-- /TOOLBOX -->
+
+         <!-- coll-print_export -->
+         <div class="portal" id="p-coll-print_export">
+            <h5>Print/export</h5>
+            <div class="body">
+            <ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Joe+%28film%29" rel="nofollow" title="Create a book or page collection">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Joe+%28film%29&amp;oldid=374392656&amp;writer=rl" rel="nofollow" title="Download a PDF version of this wiki page">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Joe_(film)&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li></ul>                        </div>
+         </div>
+
+         <!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+      </div>
+      <!-- /panel -->
+                <!-- footer -->
+      <div id="footer">
+      <ul id="footer-info">
+         <li id="footer-info-lastmod"> This page was last modified on 19 July 2010 at 23:20.<br/></li>
+         <li id="footer-info-copyright">Text is available under the <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"/>;
+            additional terms may apply.
+            See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+         Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br/></li><li class="noprint"><a class="internal" href="http://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li>
+      </ul>
+      <ul id="footer-places">
+         <li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+         <li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+         <li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+      </ul>
+      <ul class="noprint" id="footer-icons">
+         <li id="footer-icon-poweredby"><a href="http://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="http://bits.wikimedia.org/skins-1.5/common/images/poweredby_mediawiki_88x31.png" width="88"/></a></li>
+         <li id="footer-icon-copyright"><a href="http://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/images/wikimedia-button.png" width="88"/></a></li>
+      </ul>
+      <div style="clear:both"/>
+      </div>
+      <!-- /footer -->
+                <!-- fixalpha -->
+      <script type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </script>
+      <!-- /fixalpha -->
+
+      <script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+      <script src="http://geoiplookup.wikimedia.org/" type="text/javascript"/>                <!-- Served by srv280 in 1.898 secs. -->
+</body></html>

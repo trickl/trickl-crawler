@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<trickl:wikipedia-film xmlns:trickl="http://trickl.com" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<trickl:title>The Whole Ten Yards</trickl:title>
+<trickl:film>
+<trickl:synopsis>Thanks to falsified dental records supplied by his former neighbor Nicholas "Oz" Ozeransky (Matthew Perry), retired hitman Jimmy "The Tulip" Tudeski (Bruce Willis) now spends his days compulsively cleaning his house and perfecting his culinary skills with his wife, Jill (Amanda Peet), a purported assassin who has yet to pull off a "clean" hit (everyone she is hired to kill dies in bizarre accidents before she can kill them). Oz, meanwhile, is now married to Jimmy's ex-wife Cynthia and has a dental practice in California, now expecting their first child, but the relationship is complicated due to Oz's over-excessive paranoia about security, as well as Cynthia's secret continued contact with Jimmy.</trickl:synopsis>
+<trickl:title>The Whole Ten Yards</trickl:title>
+<trickl:directors>
+<trickl:crew-member credit="1">
+<trickl:full-name>Howard Deutch</trickl:full-name>
+</trickl:crew-member>
+</trickl:directors>
+<trickl:producers>
+<trickl:producer credit="1">
+<trickl:full-name>David Bergstein</trickl:full-name>
+</trickl:producer>
+</trickl:producers>
+<trickl:writers>
+<trickl:writer credit="1">
+<trickl:full-name>Mitchell Kapner</trickl:full-name>
+</trickl:writer>
+</trickl:writers>
+<trickl:cast>
+<trickl:cast-member billing="1">
+<trickl:full-name>Bruce Willis</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="2">
+<trickl:full-name>Matthew Perry</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="3">
+<trickl:full-name>Amanda Peet</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="4">
+<trickl:full-name>Kevin Pollak</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="5">
+<trickl:full-name>Natasha Henstridge</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="101">
+<trickl:full-name>Tim Gee</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="102">
+<trickl:full-name>Mother Theresa</trickl:full-name>
+</trickl:cast-member>
+</trickl:cast>
+<trickl:music-by>
+<trickl:crew-member credit="1">
+<trickl:full-name>John Debney</trickl:full-name>
+</trickl:crew-member>
+</trickl:music-by>
+<trickl:cinematography-by>
+<trickl:crew-member credit="101">
+<trickl:full-name>Neil Roach</trickl:full-name>
+</trickl:crew-member>
+</trickl:cinematography-by>
+<trickl:editors>
+<trickl:crew-member credit="101">
+<trickl:full-name>Seth Flaum</trickl:full-name>
+</trickl:crew-member>
+</trickl:editors>
+<trickl:studio>Morgan Creek Productions</trickl:studio>
+<trickl:distributor>Warner Bros.</trickl:distributor>
+<trickl:release-date>April 7, 2004</trickl:release-date>
+<trickl:running-time>98 minutes</trickl:running-time>
+<trickl:country>United States</trickl:country>
+<trickl:language>English</trickl:language>
+<trickl:budget>$30million</trickl:budget>
+<trickl:domestic-gross-revenue>$26,155,781</trickl:domestic-gross-revenue>
+<trickl:tags>
+<trickl:tag>English-language</trickl:tag>
+<trickl:tag>Mafia comedies</trickl:tag>
+<trickl:tag>2000s comedy</trickl:tag>
+<trickl:tag>Morgan Creek</trickl:tag>
+<trickl:tag>Warner Bros.</trickl:tag>
+</trickl:tags>
+</trickl:film>
+<trickl:poster-location>http://upload.wikimedia.org/wikipedia/en/thumb/8/88/The_whole_ten_yards.jpg/220px-The_whole_ten_yards.jpg</trickl:poster-location>
+</trickl:wikipedia-film>

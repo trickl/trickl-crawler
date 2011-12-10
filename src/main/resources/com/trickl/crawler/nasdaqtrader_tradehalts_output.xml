@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<trickl:notifications xmlns:trickl="http://trickl.com" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<trickl:notification>
+<trickl:timestamp-format>dd/mm/yyyy hh:mm:ss</trickl:timestamp-format>
+<trickl:timestamp>12/09/2011 12:19:00</trickl:timestamp>
+<trickl:message>$CRRB:NASDAQ (Carrollton Bancorp) halted at 12:19:00,12/09/2011. Reason: Stock Trading Pause/Quotation Only Period</trickl:message>
+</trickl:notification>
+<trickl:notification>
+<trickl:timestamp-format>dd/mm/yyyy hh:mm:ss</trickl:timestamp-format>
+<trickl:timestamp>12/09/2011 07:00:22</trickl:timestamp>
+<trickl:message>$BCSI:NASDAQ (Blue Coat Systems, Inc.) halted at 07:00:22,12/09/2011. Reason: Resumption Times</trickl:message>
+</trickl:notification>
+<trickl:notification>
+<trickl:timestamp-format>dd/mm/yyyy hh:mm:ss</trickl:timestamp-format>
+<trickl:timestamp>11/29/2011 07:01:23</trickl:timestamp>
+<trickl:message>$BQI:NYSE (Oilsands Quest Inc Common Stock) halted at 07:01:23,11/29/2011. Reason: News Released</trickl:message>
+</trickl:notification>
+<trickl:notification>
+<trickl:timestamp-format>dd/mm/yyyy hh:mm:ss</trickl:timestamp-format>
+<trickl:timestamp>10/05/2011 13:05:26</trickl:timestamp>
+<trickl:message>$CDCS:NASDAQ (CDC Software Corp ADS) halted at 13:05:26,10/05/2011. Reason: News Released</trickl:message>
+</trickl:notification>
+<trickl:notification>
+<trickl:timestamp-format>dd/mm/yyyy hh:mm:ss</trickl:timestamp-format>
+<trickl:timestamp>09/21/2011 08:59:29</trickl:timestamp>
+<trickl:message>$CHNG:NASDAQ (China Natural Gas Cmn Stk) halted at 08:59:29,09/21/2011. Reason: Additional Information Requested By NASDAQ</trickl:message>
+</trickl:notification>
+<trickl:notification>
+<trickl:timestamp-format>dd/mm/yyyy hh:mm:ss</trickl:timestamp-format>
+<trickl:timestamp>04/20/2011 09:20:33</trickl:timestamp>
+<trickl:message>$DGW:Non NASDAQ (Duoyuan Global Water Inc American Depositary Shares) halted at 09:20:33,04/20/2011. Reason: </trickl:message>
+</trickl:notification>
+<trickl:notification>
+<trickl:timestamp-format>dd/mm/yyyy hh:mm:ss</trickl:timestamp-format>
+<trickl:timestamp>04/12/2011 07:00:20</trickl:timestamp>
+<trickl:message>$UTA:Non NASDAQ (Universal Travel Group Common Stock) halted at 07:00:20,04/12/2011. Reason: </trickl:message>
+</trickl:notification>
+</trickl:notifications>

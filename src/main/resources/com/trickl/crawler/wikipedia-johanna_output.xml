@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<trickl:wikipedia-film xmlns:trickl="http://trickl.com" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<trickl:title>Johanna (film)</trickl:title>
+<trickl:film>
+<trickl:synopsis>Johanna is a 2005 Hungarian musical film directed by Kornél Mundruczó. It was screened in the Un Certain Regard section at the 2005 Cannes Film Festival.[1]</trickl:synopsis>
+<trickl:title>Johanna</trickl:title>
+<trickl:directors>
+<trickl:crew-member credit="1">
+<trickl:full-name>Kornél Mundruczó</trickl:full-name>
+</trickl:crew-member>
+</trickl:directors>
+<trickl:producers>
+<trickl:producer credit="1">
+<trickl:full-name>Viktória Petrányi</trickl:full-name>
+</trickl:producer>
+<trickl:producer credit="2">
+<trickl:full-name>Béla Tarr</trickl:full-name>
+</trickl:producer>
+</trickl:producers>
+<trickl:writers>
+<trickl:writer credit="1">
+<trickl:full-name>Kornél Mundruczó</trickl:full-name>
+</trickl:writer>
+<trickl:writer credit="2">
+<trickl:full-name>Yvette Biro</trickl:full-name>
+</trickl:writer>
+<trickl:writer credit="101">
+<trickl:full-name>Viktória Petrányi</trickl:full-name>
+</trickl:writer>
+</trickl:writers>
+<trickl:cast>
+<trickl:cast-member billing="1">
+<trickl:full-name>Orsolya Tóth</trickl:full-name>
+</trickl:cast-member>
+</trickl:cast>
+<trickl:cinematography-by>
+<trickl:crew-member credit="101">
+<trickl:full-name>Nagy András</trickl:full-name>
+</trickl:crew-member>
+</trickl:cinematography-by>
+<trickl:editors>
+<trickl:crew-member credit="101">
+<trickl:full-name>Vanda Arányi</trickl:full-name>
+</trickl:crew-member>
+</trickl:editors>
+<trickl:release-date>18 May 2005</trickl:release-date>
+<trickl:running-time>86 minutes</trickl:running-time>
+<trickl:country>Hungary</trickl:country>
+<trickl:language>Hungarian</trickl:language>
+<trickl:tags>
+<trickl:tag>Actors</trickl:tag>
+<trickl:tag>Directors</trickl:tag>
+<trickl:tag>Cinematographers</trickl:tag>
+<trickl:tag>Composers</trickl:tag>
+<trickl:tag>Editors</trickl:tag>
+<trickl:tag>Producers</trickl:tag>
+<trickl:tag>Screenwriters</trickl:tag>
+<trickl:tag>Films A–Z</trickl:tag>
+<trickl:tag>Hungarian</trickl:tag>
+<trickl:tag>Hungarian-language</trickl:tag>
+<trickl:tag>2000s drama</trickl:tag>
+<trickl:tag>2000s musical</trickl:tag>
+</trickl:tags>
+</trickl:film>
+<trickl:poster-location>http://upload.wikimedia.org/wikipedia/en/9/98/Johanna05.jpg</trickl:poster-location>
+</trickl:wikipedia-film>

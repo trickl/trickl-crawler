@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+<HTML xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en"><HEAD>
+<TITLE>Iron Man (film) - Search results - Wikipedia, the free encyclopedia</TITLE>
+<META content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<META content="text/css" http-equiv="Content-Style-Type"/>
+<META content="MediaWiki 1.16wmf4" name="generator"/>
+<META content="noindex,nofollow" name="robots"/>
+<LINK href="http://en.wikipedia.org/apple-touch-icon.png" rel="apple-touch-icon"/>
+<LINK href="/favicon.ico" rel="shortcut icon"/>
+<LINK href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<LINK href="http://creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<LINK href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" rel="alternate" title="Wikipedia Atom feed" type="application/atom+xml"/>
+<LINK href="http://bits.wikimedia.org/skins-1.5/vector/main-ltr.css?282e" media="screen" rel="stylesheet" type="text/css"/>
+<LINK href="http://bits.wikimedia.org/skins-1.5/common/shared.css?282e" media="screen" rel="stylesheet" type="text/css"/>
+<LINK href="http://bits.wikimedia.org/skins-1.5/common/commonPrint.css?282e" media="print" rel="stylesheet" type="text/css"/>
+<LINK href="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/css/combined.min.css?101" media="all" rel="stylesheet" type="text/css"/>
+<LINK href="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/css/vector/jquery-ui-1.7.2.css?1.7.2y" media="all" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="all" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="print" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=MediaWiki:Handheld.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="handheld" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=MediaWiki:Vector.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=2678400&amp;action=raw&amp;maxage=2678400" media="all" rel="stylesheet" type="text/css"/>
+<LINK href="/w/index.php?title=-&amp;action=raw&amp;maxage=2678400&amp;gen=css" media="all" rel="stylesheet" type="text/css"/>
+<SCRIPT type="text/javascript">
+var skin="vector",
+stylepath="http://bits.wikimedia.org/skins-1.5",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/wiki/$1",
+wgScriptPath="/w",
+wgScriptExtension=".php",
+wgScript="/w/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://en.wikipedia.org",
+wgCanonicalNamespace="Special",
+wgCanonicalSpecialPageName="Search",
+wgNamespaceNumber=-1,
+wgPageName="Special:Search",
+wgTitle="Search",
+wgAction="view",
+wgArticleId=0,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="en",
+wgContentLanguage="en",
+wgBreakFrames=false,
+wgCurRevisionId=0,
+wgVersion="1.16wmf4",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Main Page",
+wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "Wikipedia", "5": "Wikipedia talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk", "100": "Portal", "101": "Portal talk", "108": "Book", "109": "Book talk"},
+wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "wikipedia": 4, "wikipedia_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "portal": 100, "portal_talk": 101, "book": 108, "book_talk": 109, "wp": 4, "wt": 5, "image": 6, "image_talk": 7},
+wgSiteName="Wikipedia",
+wgCategories=[],
+wgMWSuggestTemplate="http://en.wikipedia.org/w/api.php?action=opensearch\x26search={searchTerms}\x26namespace={namespaces}\x26suggest",
+wgDBname="enwiki",
+wgSearchNamespaces=[0],
+wgMWSuggestMessages=["with suggestions", "no suggestions"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[],
+wgWikimediaMobileUrl="http://en.m.wikipedia.org/wiki",
+wgCollapsibleNavBucketTest=false,
+wgCollapsibleNavForceNewVersion=false,
+wgVectorPreferences={"collapsiblenav": {"enable": 1}, "editwarning": {"enable": 1}},
+wgVectorEnabledModules={"collapsiblenav": true, "collapsibletabs": true, "editwarning": true, "expandablesearch": false, "footercleanup": false, "simplesearch": true},
+wgNotice="",
+wgNoticeLocal="";
+</SCRIPT><SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/wikibits.js?282e" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/jquery.min.js?282e" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/search.js?282e" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/ajax.js?282e" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/skins-1.5/common/mwsuggest.js?282e" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/w/extensions/WikimediaMobile/MobileRedirect.js?2" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/js/plugins.combined.min.js?282e" type="text/javascript"/>
+<SCRIPT src="http://bits.wikimedia.org/w/extensions/UsabilityInitiative/Vector/Vector.combined.min.js?282e" type="text/javascript"/>
+<SCRIPT type="text/javascript">mw.usability.addMessages({'vector-collapsiblenav-more':'More languages','vector-editwarning-warning':'Leaving this page may cause you to lose any changes you have made.\nIf you are logged in, you can disable this warning in the \"Editing\" section of your preferences.','vector-simplesearch-search':'Search','vector-simplesearch-containing':'containing...'});</SCRIPT>
+<SCRIPT src="http://upload.wikimedia.org/centralnotice/wikipedia/en/centralnotice.js?282e" type="text/javascript"/>
+
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins- 1.5/vector/csshover.htc")}</style><![endif]-->
+<SCRIPT src="/w/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=vector&amp;282e" type="text/javascript"/>
+
+</HEAD><BODY class="mediawiki ltr ns--1 ns-special page-Special_Search skin-vector">
+		<DIV class="noprint" id="mw-page-base"/>
+		<DIV class="noprint" id="mw-head-base"/>
+		<!-- content -->
+		<DIV id="content">
+			<A id="top"/>
+			<DIV id="mw-js-message" style="display:none;"/>
+						<!-- sitenotice -->
+			<DIV id="siteNotice"><SCRIPT type="text/javascript">if (wgNotice != '') document.writeln(wgNotice);</SCRIPT></DIV>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<H1 class="firstHeading" id="firstHeading">Search results</H1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<DIV id="bodyContent">
+				<!-- tagline -->
+				<H3 id="siteSub">From Wikipedia, the free encyclopedia</H3>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<DIV id="contentSub"/>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<DIV id="jump-to-nav">
+					Jump to: <A href="#mw-head">navigation</A>,
+					<A href="#p-search">search</A>
+				</DIV>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<FORM action="/w/index.php" id="search" method="get"><TABLE border="0" cellpadding="0" cellspacing="0" id="mw-search-top-table"><TBODY><TR>
+<INPUT name="title" type="hidden" value="Special:Search"/>
+<INPUT name="redirs" type="hidden" value="1"/>
+<INPUT id="searchText" name="search" size="50" value="Iron Man (film)"/>
+<INPUT name="fulltext" type="hidden" value="Search"/>
+<INPUT type="submit" value="Search"/>
+</TR></TBODY></TABLE><DIV class="mw-search-formheader"><DIV class="search-types"><UL><LI class="current"><A href="/w/index.php?title=Special:Search&amp;search=Iron+Man+%28film%29&amp;fulltext=Search&amp;ns0=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search in (Article)">Content pages</A></LI><LI class="normal"><A href="/w/index.php?title=Special:Search&amp;search=Iron+Man+%28film%29&amp;fulltext=Search&amp;ns6=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search for files">Multimedia</A></LI><LI class="normal"><A href="/w/index.php?title=Special:Search&amp;search=Iron+Man+%28film%29&amp;fulltext=Search&amp;ns4=1&amp;ns12=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search in Wikipedia, Help">Help and Project pages</A></LI><LI class="normal"><A href="/w/index.php?title=Special:Search&amp;search=Iron+Man+%28film%29&amp;fulltext=Search&amp;ns0=1&amp;ns1=1&amp;ns2=1&amp;ns3=1&amp;ns4=1&amp;ns5=1&amp;ns6=1&amp;ns7=1&amp;ns8=1&amp;ns9=1&amp;ns10=1&amp;ns11=1&amp;ns12=1&amp;ns13=1&amp;ns14=1&amp;ns15=1&amp;ns100=1&amp;ns101=1&amp;ns108=1&amp;ns109=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search all of content (including talk pages)">Everything</A></LI><LI class="normal"><A href="/w/index.php?title=Special:Search&amp;search=Iron+Man+%28film%29&amp;fulltext=Search&amp;advanced=1&amp;ns0=1&amp;redirs=1" onkeydown="mwSearchHeaderClick(this);" onmousedown="mwSearchHeaderClick(this);" title="Search in custom namespaces">Advanced</A></LI></UL></DIV><DIV class="results-info"><UL><LI>Results <B>1–20</B> of <B>5,420</B> for <B>Iron Man (film)</B></LI></UL></DIV><DIV style="clear:both"/></DIV><INPUT name="ns0" type="hidden" value="1"/></FORM><DIV class="searchresults"><P><B>There is a page named "<A href="/wiki/Iron_Man_(film)" title="Iron Man (film)">Iron Man (film)</A>" on Wikipedia</B> <BR/> 
+For search help, please visit <A href="/wiki/Help:Searching" title="Help:Searching">Help:Searching</A>.
+</P><DIV id="mw-search-interwiki"><DIV id="mw-search-interwiki-caption">Sister projects</DIV>
+<UL class="mw-search-iwresults">
+</UL><DIV class="mw-search-interwiki-project"><SPAN class="mw-search-interwiki-more">
+				<A href="http://en.wikiquote.org/wiki/Special:Search?search=Iron+Man+%28film%29&amp;fulltext=Search" title="q:Special:Search">(more)</A></SPAN> Quotes from Wikiquote</DIV>
+<UL><LI><A href="http://en.wikiquote.org/wiki/Iron_Man_(film)" title="q:Iron Man (film)"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> (<SPAN class="searchmatch">film</SPAN>)</A> </LI>
+</UL></DIV>
+
+<!-- Search results fetched via search=[search4,search4], highlight=[search20,search2], interwiki=[search13] in 326 ms -->
+<UL class="mw-search-results">
+<LI><A href="/wiki/Iron_Man_(film)" title="Iron Man (film)"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> (<SPAN class="searchmatch">film</SPAN>)</A>   <DIV class="searchresult"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> is a 2008  American superhero <SPAN class="searchmatch">film</SPAN>  based on the Marvel Comics  character of the same name .  <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> . Gwyneth Paltrow  plays  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">65 KB (9,413 words) - 17:26, 10 June 2010</DIV></LI>
+<LI><A href="/wiki/Iron_Man_2" title="Iron Man 2"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> 2</A> <SPAN class="searchalttitle">(redirect from <A href="/wiki/Iron_Man_2_(film)" title="Iron Man 2 (film)"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> 2 (<SPAN class="searchmatch">film</SPAN>)</A>)</SPAN>  <DIV class="searchresult"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> 2 is a 2010 American superhero <SPAN class="searchmatch">film</SPAN>  featuring the Marvel Comics  character <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> , produced by Marvel Studios  and  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">51 KB (7,116 words) - 23:58, 14 June 2010</DIV></LI>
+<LI><A href="/wiki/The_Invincible_Iron_Man_(film)" title="The Invincible Iron Man (film)">The Invincible <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> (<SPAN class="searchmatch">film</SPAN>)</A>   <DIV class="searchresult">The Invincible <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> is a direct-to-DVD  animated movie based on the Marvel  <B>...</B> Ultimate Avengers 2  <SPAN class="searchmatch">films</SPAN> along with a collector's <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>  bust.  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">13 KB (2,081 words) - 08:19, 14 May 2010</DIV></LI>
+<LI><A href="/wiki/War_Machine" title="War Machine">War Machine</A>  <SPAN class="searchalttitle">(section <A href="/wiki/War_Machine#The_all_new_Iron_Man" title="War Machine">The all new <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN></A>)</SPAN> <DIV class="searchresult">has been a featured character in the <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>  animated series, <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>: Armored Adventures  and The Invincible <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>  animated <SPAN class="searchmatch">film</SPAN>.  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">81 KB (12,537 words) - 01:24, 15 June 2010</DIV></LI>
+<LI><A href="/wiki/Iron_Man_(video_game)" title="Iron Man (video game)"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> (video game)</A>   <DIV class="searchresult"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> is a 2008  video game  based on the <SPAN class="searchmatch">film</SPAN> of the same name  as well as the classic iterations of the character It was released on  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">13 KB (1,865 words) - 04:16, 6 June 2010</DIV></LI>
+<LI><A href="/wiki/Iron_Man" title="Iron Man"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN></A>   <DIV class="searchresult"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> is a fictional  superhero  who appears in comic book s published by Marvel <B>...</B> has been adapted for several animated TV shows and <SPAN class="searchmatch">films</SPAN>.  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">62 KB (8,974 words) - 22:55, 14 June 2010</DIV></LI>
+<LI><A href="/wiki/Iron_Man:_Armored_Adventures" title="Iron Man: Armored Adventures"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>: Armored Adventures</A>   <DIV class="searchresult"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>: Armored Adventures is a 3D  CGI  cartoon series  based on the Marvel  <B>...</B> and airs after the success of the live action <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> <SPAN class="searchmatch">film</SPAN> .  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">17 KB (2,271 words) - 18:18, 13 June 2010</DIV></LI>
+<LI><A href="/wiki/Iron_Man_(1931_film)" title="Iron Man (1931 film)"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> (1931 <SPAN class="searchmatch">film</SPAN>)</A>   <DIV class="searchresult"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> (1931 ) is a drama <SPAN class="searchmatch">film</SPAN>  directed by Tod Browning  and starring Lew Ayres  and Jean Harlow  Plot: date May 2010 Prizefighter Kid Mason <B>...</B> </DIV>
+<DIV class="mw-search-result-data">3 KB (267 words) - 15:55, 24 May 2010</DIV></LI>
+<LI><A href="/wiki/The_Man_in_the_Iron_Mask_(film)" title="The Man in the Iron Mask (film)">The <SPAN class="searchmatch">Man</SPAN> in the <SPAN class="searchmatch">Iron</SPAN> Mask (<SPAN class="searchmatch">film</SPAN>)</A>   <DIV class="searchresult">There have been several <SPAN class="searchmatch">films</SPAN> that have had the title The <SPAN class="searchmatch">Man</SPAN> in the <SPAN class="searchmatch">Iron</SPAN> Mask, or that have been based on the final section of the novel  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">3 KB (357 words) - 09:02, 30 April 2010</DIV></LI>
+<LI><A href="/wiki/Mandarin_(comics)" title="Mandarin (comics)">Mandarin (comics)</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Mandarin_(comics)#Iron_Man_.28TV_series.29" title="Mandarin (comics)"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> (TV series)</A>)</SPAN> <DIV class="searchresult">fiction al character , a Marvel Comics  supervillain  and the archenemy  of <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>  <B>...</B> holds Tony Stark captive in the beginning of the <SPAN class="searchmatch">film</SPAN>.  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">48 KB (7,798 words) - 09:58, 13 June 2010</DIV></LI>
+<LI><A href="/wiki/Robert_Downey,_Jr." title="Robert Downey, Jr.">Robert Downey, Jr.</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Robert_Downey,_Jr.#Iron_Man" title="Robert Downey, Jr."><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN></A>)</SPAN> <DIV class="searchresult"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>  was globally released between April 30 and May  <B>...</B>  which cite Downey's performance as a highlight of the <SPAN class="searchmatch">film</SPAN> As a result, both Downey and  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">68 KB (9,169 words) - 22:09, 13 June 2010</DIV></LI>
+<LI><A href="/wiki/Iron_Man%27s_armor" title="Iron Man's armor"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>'s armor</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Iron_Man%27s_armor#Iron_Man" title="Iron Man's armor"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN></A>)</SPAN> <DIV class="searchresult"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>'s armor is the fictional powered exoskeleton  worn by the fictional Tony  <B>...</B> types of <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> armor appear in the 2008 <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> <SPAN class="searchmatch">film</SPAN> .  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">83 KB (13,143 words) - 00:49, 15 June 2010</DIV></LI>
+<LI><A href="/wiki/Iron_Man_(TV_series)" title="Iron Man (TV series)"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> (TV series)</A>   <DIV class="searchresult"><SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> is an animated television series  based on Marvel Comics ' superhero  <SPAN class="searchmatch">Iron</SPAN> <B>...</B> release of the live-action <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>  <SPAN class="searchmatch">film</SPAN> in 2008 ,  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">20 KB (2,889 words) - 18:52, 5 June 2010</DIV></LI>
+<LI><A href="/wiki/S.H.I.E.L.D." title="S.H.I.E.L.D.">S.H.I.E.L.D.</A>  <SPAN class="searchalttitle">(section <A href="/wiki/S.H.I.E.L.D.#Films" title="S.H.I.E.L.D."><SPAN class="searchmatch">Films</SPAN></A>)</SPAN> <DIV class="searchresult">In the 2008 <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>  <SPAN class="searchmatch">film</SPAN>, the Strategic Homeland Intervention, Enforcement, and Logistics Division is introduced as a U.S. government  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">48 KB (6,735 words) - 22:41, 11 June 2010</DIV></LI>
+<LI><A href="/wiki/Iron_Monger" title="Iron Monger"><SPAN class="searchmatch">Iron</SPAN> Monger</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Iron_Monger#Film" title="Iron Monger"><SPAN class="searchmatch">Film</SPAN></A>)</SPAN> <DIV class="searchresult">The <SPAN class="searchmatch">Iron</SPAN> Monger is an identity used by several fiction al supervillain s published  <B>...</B> Bridges  portrayed Obadiah Stane in the 2008 <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>  <SPAN class="searchmatch">film</SPAN>. <B>...</B> </DIV>
+<DIV class="mw-search-result-data">24 KB (3,772 words) - 01:07, 10 June 2010</DIV></LI>
+<LI><A href="/wiki/The_Man_in_the_Iron_Mask_(1998_film)" title="The Man in the Iron Mask (1998 film)">The <SPAN class="searchmatch">Man</SPAN> in the <SPAN class="searchmatch">Iron</SPAN> Mask (1998 <SPAN class="searchmatch">film</SPAN>)</A>   <DIV class="searchresult">The <SPAN class="searchmatch">Man</SPAN> in the <SPAN class="searchmatch">Iron</SPAN> Mask is a 1998  British/American action <SPAN class="searchmatch">film</SPAN>  directed , produced , and written  by Randall Wallace .  It uses  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">16 KB (2,376 words) - 18:51, 13 June 2010</DIV></LI>
+<LI><A href="/wiki/Jon_Favreau" title="Jon Favreau">Jon Favreau</A>   <DIV class="searchresult">He is best known for appearing in <SPAN class="searchmatch">films</SPAN> including Rudy  and Swingers , as well as directing such <SPAN class="searchmatch">films</SPAN> as Elf , <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN> , and its sequel  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">16 KB (2,009 words) - 19:51, 6 June 2010</DIV></LI>
+<LI><A href="/wiki/Pepper_Potts" title="Pepper Potts">Pepper Potts</A>  <SPAN class="searchalttitle">(section <A href="/wiki/Pepper_Potts#The_Invincible_Iron_Man" title="Pepper Potts">The Invincible <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN></A>)</SPAN> <DIV class="searchresult">supporting character  and a love interest  of <SPAN class="searchmatch">Iron</SPAN> <SPAN class="searchmatch">Man</SPAN>  in the Marvel Comics  Universe .  <B>...</B> She is portrayed by Gwyneth Paltrow  in the <SPAN class="searchmatch">films</SPAN>  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">24 KB (3,775 words) - 21:19, 13 June 2010</DIV></LI>
+<LI><A href="/wiki/The_Man_in_the_Iron_Mask_(1977_film)" title="The Man in the Iron Mask (1977 film)">The <SPAN class="searchmatch">Man</SPAN> in the <SPAN class="searchmatch">Iron</SPAN> Mask (1977 <SPAN class="searchmatch">film</SPAN>)</A>   <DIV class="searchresult">The <SPAN class="searchmatch">Man</SPAN> in the <SPAN class="searchmatch">Iron</SPAN> Mask is a 1977 television <SPAN class="searchmatch">film</SPAN> loosely adapted from The Vicomte de Bragelonne  by Alexandre Dumas, père  and presenting <B>...</B> </DIV>
+<DIV class="mw-search-result-data">2 KB (223 words) - 06:06, 6 March 2010</DIV></LI>
+<LI><A href="/wiki/The_Man_in_the_Iron_Mask_(1939_film)" title="The Man in the Iron Mask (1939 film)">The <SPAN class="searchmatch">Man</SPAN> in the <SPAN class="searchmatch">Iron</SPAN> Mask (1939 <SPAN class="searchmatch">film</SPAN>)</A>   <DIV class="searchresult">The <SPAN class="searchmatch">Man</SPAN> in the <SPAN class="searchmatch">Iron</SPAN> Mask is a 1939 American <SPAN class="searchmatch">film</SPAN> very loosely adapted from the last section of the novel The Vicomte de Bragelonne  by  <B>...</B> </DIV>
+<DIV class="mw-search-result-data">5 KB (589 words) - 22:29, 12 April 2010</DIV></LI>
+</UL>
+</DIV><P class="mw-search-pager-bottom">View (previous 20  |  <A class="mw-nextlink" href="/w/index.php?title=Special:Search&amp;limit=20&amp;offset=20&amp;ns0=1&amp;redirs=1&amp;search=Iron+Man+%28film%29" title="Next 20 results">next 20</A>) (<A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Iron+Man+%28film%29&amp;limit=20&amp;offset=0" title="Show 20 results per page">20</A> | <A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Iron+Man+%28film%29&amp;limit=50&amp;offset=0" title="Show 50 results per page">50</A> | <A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Iron+Man+%28film%29&amp;limit=100&amp;offset=0" title="Show 100 results per page">100</A> | <A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Iron+Man+%28film%29&amp;limit=250&amp;offset=0" title="Show 250 results per page">250</A> | <A class="mw-numlink" href="/w/index.php?title=Special:Search&amp;ns0=1&amp;redirs=1&amp;search=Iron+Man+%28film%29&amp;limit=500&amp;offset=0" title="Show 500 results per page">500</A>)</P>
+<DIV class="printfooter">
+Retrieved from "<A href="http://en.wikipedia.org/wiki/Special:Search">http://en.wikipedia.org/wiki/Special:Search</A>"</DIV>
+				<!-- /bodytext -->
+								<!-- catlinks -->
+				<DIV class="catlinks catlinks-allhidden" id="catlinks"/>				<!-- /catlinks -->
+												<DIV class="visualClear"/>
+			</DIV>
+			<!-- /bodyContent -->
+		</DIV>
+		<!-- /content -->
+		<!-- header -->
+		<DIV class="noprint" id="mw-head">
+			
+<!-- 0 -->
+<DIV class="" id="p-personal">
+	<H5>Personal tools</H5>
+	<UL>
+					<LI id="pt-prefswitch-link-anon"><A class="no-text-transform" href="http://en.wikipedia.org/w/index.php?title=Special:UsabilityInitiativePrefSwitch&amp;from=Special%3ASearch&amp;fromquery=redirs%3D0%26fulltext%3DSearch%26ns0%3D1%26search%3DIron%2BMan%2B%2528film%2529" title="Learn about new features">New features</A></LI>
+					<LI id="pt-login"><A accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Special:Search&amp;returntoquery=redirs%3D0%26fulltext%3DSearch%26ns0%3D1%26search%3DIron%2BMan%2B%2528film%2529" title="You are encouraged to log in; however, it is not mandatory. [o]">Log in / create account</A></LI>
+			</UL>
+</DIV>
+
+<!-- /0 -->
+			<DIV id="left-navigation">
+				
+<!-- 0 -->
+<DIV class="vectorTabs" id="p-namespaces">
+	<H5>Namespaces</H5>
+	<UL>
+					<LI class="selected" id="ca-special"><A href="/w/index.php?title=Special:Search&amp;redirs=0&amp;fulltext=Search&amp;ns0=1&amp;search=Iron+Man+(film)"><SPAN>Special page</SPAN></A></LI>
+			</UL>
+</DIV>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<DIV class="vectorMenu emptyPortlet" id="p-variants">
+		<H5><SPAN>Variants</SPAN><A href="#"/></H5>
+	<DIV class="menu">
+		<UL>
+					</UL>
+	</DIV>
+</DIV>
+
+<!-- /1 -->
+			</DIV>
+			<DIV id="right-navigation">
+				
+<!-- 0 -->
+<DIV class="vectorTabs emptyPortlet" id="p-views">
+	<H5>Views</H5>
+	<UL>
+			</UL>
+</DIV>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<DIV class="vectorMenu emptyPortlet" id="p-cactions">
+	<H5><SPAN>Actions</SPAN><A href="#"/></H5>
+	<DIV class="menu">
+		<UL>
+					</UL>
+	</DIV>
+</DIV>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<DIV id="p-search">
+	<H5><LABEL for="searchInput">Search</LABEL></H5>
+	<FORM action="/w/index.php" id="searchform">
+		<INPUT name="title" type="hidden" value="Special:Search"/>
+				<DIV id="simpleSearch">
+			<INPUT accesskey="f" id="searchInput" name="search" title="Search Wikipedia [f]" type="text" value="Iron Man (film)"/>
+			<BUTTON id="searchButton" name="button" title="Search Wikipedia for this text" type="submit"> </BUTTON>
+		</DIV>
+			</FORM>
+</DIV>
+
+<!-- /2 -->
+			</DIV>
+		</DIV>
+		<!-- /header -->
+		<!-- panel -->
+			<DIV class="noprint" id="mw-panel">
+				<!-- logo -->
+					<DIV id="p-logo"><A href="/wiki/Main_Page" style="background-image: url(http://upload.wikimedia.org/wikipedia/commons/d/d6/Wikipedia-logo-v2-en.png);" title="Visit the main page"/></DIV>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<DIV class="portal" id="p-navigation">
+	<H5>Navigation</H5>
+	<DIV class="body">
+				<UL>
+					<LI id="n-mainpage-description"><A accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</A></LI>
+					<LI id="n-contents"><A href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</A></LI>
+					<LI id="n-featuredcontent"><A href="/wiki/Portal:Featured_content" title="Featured content — the best of Wikipedia">Featured content</A></LI>
+					<LI id="n-currentevents"><A href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</A></LI>
+					<LI id="n-randompage"><A accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</A></LI>
+				</UL>
+			</DIV>
+</DIV>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<DIV class="portal" id="p-interaction">
+	<H5>Interaction</H5>
+	<DIV class="body">
+				<UL>
+					<LI id="n-aboutsite"><A href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</A></LI>
+					<LI id="n-portal"><A href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</A></LI>
+					<LI id="n-recentchanges"><A accesskey="r" href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]">Recent changes</A></LI>
+					<LI id="n-contact"><A href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</A></LI>
+					<LI id="n-sitesupport"><A href="http://wikimediafoundation.org/wiki/Support_Wikipedia/en" title="Support us">Donate to Wikipedia</A></LI>
+					<LI id="n-help"><A href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</A></LI>
+				</UL>
+			</DIV>
+</DIV>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<DIV class="portal" id="p-tb">
+	<H5>Toolbox</H5>
+	<DIV class="body">
+		<UL>
+																																		<LI id="t-upload"><A accesskey="u" href="/wiki/Wikipedia:Upload" title="Upload files [u]">Upload file</A></LI>
+											<LI id="t-specialpages"><A accesskey="q" href="/wiki/Special:SpecialPages" title="List of all special pages [q]">Special pages</A></LI>
+													</UL>
+	</DIV>
+</DIV>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</DIV>
+		<!-- /panel -->
+		<!-- footer -->
+		<DIV id="footer">
+																		<UL id="footer-places">
+																	<LI id="footer-places-privacy"><A href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</A></LI>
+																							<LI id="footer-places-about"><A href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</A></LI>
+																							<LI id="footer-places-disclaimer"><A href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</A></LI>
+															</UL>
+										<UL class="noprint" id="footer-icons">
+								<LI id="footer-icon-poweredby"><A href="http://www.mediawiki.org/"><IMG alt="Powered by MediaWiki" height="31" src="http://bits.wikimedia.org/skins-1.5/common/images/poweredby_mediawiki_88x31.png" width="88"/></A></LI>
+												<LI id="footer-icon-copyright"><A href="http://wikimediafoundation.org/"><IMG alt="Wikimedia Foundation" height="31" src="/images/wikimedia-button.png" width="88"/></A></LI>
+							</UL>
+			<DIV style="clear:both"/>
+		</DIV>
+		<!-- /footer -->
+		<!-- fixalpha -->
+		<SCRIPT type="text/javascript"> if ( window.isMSIE55 ) fixalpha(); </SCRIPT>
+		<!-- /fixalpha -->
+		
+<SCRIPT type="text/javascript">if (window.runOnloadHook) runOnloadHook();</SCRIPT>
+		<!-- Served by srv289 in 0.455 secs. -->			
+</BODY></HTML>

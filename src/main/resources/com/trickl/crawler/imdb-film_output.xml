@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<trickl:imdb-records xmlns:trickl="http://trickl.com" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<trickl:imdb-record>
+<trickl:title>Aces: Iron Eagle III </trickl:title>
+<trickl:uri>http://www.imdb.com/title/tt0103617/?fr=c2M9MXxsbT01MDB8ZmI9dXx0dD0xfG14PTIwfGh0bWw9MXxjaD0xfGNvPTF8cG49MHxmdD0xfGt3PTF8cXM9QWNlcyBJcm9uIEVhZ2xlIElJSXxzaXRlPWFrYXxxPUFjZXMgSXJvbiBFYWdsZSBJSUl8bm09MQ__;fc=1;ft=12</trickl:uri>
+<trickl:release-date>1992</trickl:release-date>
+<trickl:format>Cinema</trickl:format>
+</trickl:imdb-record>
+</trickl:imdb-records>

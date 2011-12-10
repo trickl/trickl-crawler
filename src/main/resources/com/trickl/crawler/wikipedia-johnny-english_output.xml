@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<trickl:wikipedia-film xmlns:trickl="http://trickl.com" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<trickl:film>
+<trickl:synopsis>An explosion at the funeral of Agent One, Britain's top agent, wipes out every secret agent in the country—except one. When a plot to steal the Crown Jewels is revealed, Johnny English, an inept worker at British Intelligence (whose bungling was partially responsible not only for the agents' death, but for the death of Agent One himself, after giving Agent One incorrect information about his mission) is summoned as a last resort. Together with his (far more capable) assistant Angus Bough (Ben Miller), he manages to discover the person behind the plot, the French prison entrepreneur Pascal Sauvage (John Malkovich), whose family once had a claim to the throne.</trickl:synopsis>
+<trickl:title>Johnny English</trickl:title>
+<trickl:directors>
+<trickl:person>
+<trickl:full-name>Peter Howitt</trickl:full-name>
+</trickl:person>
+</trickl:directors>
+<trickl:producers>
+<trickl:person>
+<trickl:full-name>Tim Bevan</trickl:full-name>
+</trickl:person>
+<trickl:person>
+<trickl:full-name>Eric Fellner</trickl:full-name>
+</trickl:person>
+<trickl:person>
+<trickl:full-name>Mark Huffam</trickl:full-name>
+</trickl:person>
+</trickl:producers>
+<trickl:writers>
+<trickl:person>
+<trickl:full-name>Neal Purvis</trickl:full-name>
+</trickl:person>
+<trickl:person>
+<trickl:full-name>Robert Wade</trickl:full-name>
+</trickl:person>
+<trickl:person>
+<trickl:full-name>William Davies</trickl:full-name>
+</trickl:person>
+</trickl:writers>
+<trickl:cast>
+<trickl:cast-member billing="1">
+<trickl:full-name>Rowan Atkinson</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="2">
+<trickl:full-name>John Malkovich</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="3">
+<trickl:full-name>Natalie Imbruglia</trickl:full-name>
+</trickl:cast-member>
+<trickl:cast-member billing="4">
+<trickl:full-name>Ben Miller</trickl:full-name>
+</trickl:cast-member>
+</trickl:cast>
+<trickl:music-by>
+<trickl:person>
+<trickl:full-name>Edward Shearmur</trickl:full-name>
+</trickl:person>
+</trickl:music-by>
+<trickl:cinematography-by>
+<trickl:person>
+<trickl:full-name>Remi Adefarasin</trickl:full-name>
+</trickl:person>
+</trickl:cinematography-by>
+<trickl:editors>
+<trickl:person>
+<trickl:full-name>Robin Sales</trickl:full-name>
+</trickl:person>
+</trickl:editors>
+<trickl:studio>StudioCanal</trickl:studio>
+<trickl:distributor>Universal Pictures</trickl:distributor>
+<trickl:release-date>11 July 2003</trickl:release-date>
+<trickl:running-time>88 minutes</trickl:running-time>
+<trickl:country>France</trickl:country>
+<trickl:language>English</trickl:language>
+<trickl:budget>$40 million</trickl:budget>
+<trickl:domestic-gross-revenue>$160,583,018</trickl:domestic-gross-revenue>
+<trickl:tags>
+<trickl:tag>Fictional secret agents and spies</trickl:tag>
+<trickl:tag>British</trickl:tag>
+<trickl:tag>Spy comedy</trickl:tag>
+<trickl:tag>Films set in London</trickl:tag>
+<trickl:tag>StudioCanal</trickl:tag>
+<trickl:tag>Working Title</trickl:tag>
+<trickl:tag>Films directed by Peter Howitt</trickl:tag>
+<trickl:tag>Universal Pictures</trickl:tag>
+<trickl:tag>All articles with unsourced statements</trickl:tag>
+<trickl:tag>Articles with unsourced statements from June 2010</trickl:tag>
+</trickl:tags>
+</trickl:film>
+<trickl:poster-location>http://upload.wikimedia.org/wikipedia/en/thumb/9/92/Johnny_English_movie.jpg/220px-Johnny_English_movie.jpg</trickl:poster-location>
+</trickl:wikipedia-film>

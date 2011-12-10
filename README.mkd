@@ -1,0 +1,33 @@
+Introduction
+============
+This is a Java library that is a framework for web robots, based on Apache Droids.
+
+Downloads
+=========
+The library can be downloaded as a binary or source package from [https://github.com/trickl/trickl-crawler/downloads](https://github.com/trickl/trickl-crawler/downloads "Distribution download page").
+
+The source can be also retrieved straight from the Git repository: `git clone git@github.com:trickl/trickl-crawler.git`.
+
+Features
+========
+This is a significant fork and extension of Apache Droids.
+It includes functionality for:
+SOAP Requests
+HTTP POST Requests
+Web Page Rendering (using the Mozilla Gecko Engine)
+Timed Tasks
+Task Delegation
+XSLT Transformation
+Multiple HTML Parser Support
+
+Requirements
+------------
+Uses Apache Droids.
+
+License and conditions of use
+=============================
+The program is available under Apache License Version 2.0 (see file `LICENSE-APACHE.txt` in the distribution package for the text of the license).
+
+Example usage
+=============
+Some Junit tests are provided and should be used to consult usage.

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<trickl:amazon-products xmlns:trickl="http://trickl.com" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<trickl:amazon-product>
+<trickl:title>Harry Potter and the Half-Blood Prince (Widescreen Edition)</trickl:title>
+<trickl:uri>http://www.amazon.com/Harry-Potter-Half-Blood-Prince-Widescreen/dp/B002PMV9FG/ref=sr_1_1/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-1</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter and the Half-Blood Prince (Two-Disc Limited Special Edition)</trickl:title>
+<trickl:uri>http://www.amazon.com/Potter-Half-Blood-Two-Disc-Limited-Special/dp/B000ZECQ08/ref=sr_1_2/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-2</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter and the Half-Blood Prince (+ BD-Live) [Blu-ray]</trickl:title>
+<trickl:uri>http://www.amazon.com/Potter-Half-Blood-Prince-BD-Live-Blu-ray/dp/B000ZELISO/ref=sr_1_3/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-3</trickl:uri>
+<trickl:format>Blu-ray</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter and the Half-Blood Prince (Full-Screen Edition)</trickl:title>
+<trickl:uri>http://www.amazon.com/Harry-Potter-Half-Blood-Prince-Full-Screen/dp/B002PMV9K6/ref=sr_1_4/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-4</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter Years 1-6 Giftset (Widescreen Edition)</trickl:title>
+<trickl:uri>http://www.amazon.com/Harry-Potter-Years-Giftset-Widescreen/dp/B002Q4VPM0/ref=sr_1_5/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-5</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter and the Half-Blood Prince (Limited Edition Death Eater Case) [Blu-ray]</trickl:title>
+<trickl:uri>http://www.amazon.com/Potter-Half-Blood-Prince-Limited-Blu-ray/dp/B00308WOJY/ref=sr_1_6/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-6</trickl:uri>
+<trickl:format>Blu-ray</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter and the Half-Blood Prince 2-disc Special Edition DVD</trickl:title>
+<trickl:uri>http://www.amazon.com/Potter-Half-Blood-Prince-2-disc-Special/dp/B00308YN2U/ref=sr_1_7/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-7</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter Years 1-6 Giftset [Blu-ray]</trickl:title>
+<trickl:uri>http://www.amazon.com/Harry-Potter-Years-Giftset-Blu-ray/dp/B002Q8GKLM/ref=sr_1_8/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-8</trickl:uri>
+<trickl:format>Blu-ray</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter Years 1-6 Giftset (Full-Screen Edition)</trickl:title>
+<trickl:uri>http://www.amazon.com/Harry-Potter-Years-Giftset-Full-Screen/dp/B002Q4VPLG/ref=sr_1_9/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-9</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter and the Half Blood Prince [UMD for PSP]</trickl:title>
+<trickl:uri>http://www.amazon.com/Harry-Potter-Half-Blood-Prince/dp/B0030VWR8Y/ref=sr_1_10/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-10</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter and the Half-Blood Prince (Collector's Edition with The Marauder's Map)</trickl:title>
+<trickl:uri>http://www.amazon.com/Potter-Half-Blood-Prince-Collectors-Marauders/dp/B00308TGGS/ref=sr_1_11/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-11</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Star Trek (Three-Disc Edition)  [Blu-ray]</trickl:title>
+<trickl:uri>http://www.amazon.com/Star-Trek-Three-Disc-Blu-ray-Chris/dp/B001AVCFK6/ref=sr_1_12/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-12</trickl:uri>
+<trickl:format>Blu-ray</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Star Trek (Single-Disc Edition)</trickl:title>
+<trickl:uri>http://www.amazon.com/Star-Trek-Single-Disc-Chris-Pine/dp/B002HWRYJE/ref=sr_1_13/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-13</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Harry Potter and the Order of the Phoenix (Full-Screen Edition)</trickl:title>
+<trickl:uri>http://www.amazon.com/Harry-Potter-Order-Phoenix-Full-Screen/dp/B000W7GKWI/ref=sr_1_14/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-14</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Night at the Museum: Battle of the Smithsonian (Single-Disc Edition)</trickl:title>
+<trickl:uri>http://www.amazon.com/Night-Museum-Battle-Smithsonian-Single-Disc/dp/B002GJTYIW/ref=sr_1_15/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-15</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+<trickl:amazon-product>
+<trickl:title>Star Trek (Collector's Edition Steelbook)</trickl:title>
+<trickl:uri>http://www.amazon.com/Star-Trek-Collectors-Steelbook-Chris/dp/B002YB1FOS/ref=sr_1_16/184-8445199-4630555?ie=UTF8&amp;s=dvd&amp;qid=1274193908&amp;sr=8-16</trickl:uri>
+<trickl:format>DVD</trickl:format>
+</trickl:amazon-product>
+</trickl:amazon-products>

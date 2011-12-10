@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<trickl:wikipedia-pages xmlns:trickl="http://trickl.com" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+   <trickl:wikipedia-page>
+      <trickl:title>titanic</trickl:title>
+      <trickl:uri>http://en.wiktionary.org/wiki/titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic</trickl:title>
+      <trickl:uri>http://en.wiktionary.org/wiki/Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Wiktionary</trickl:title>
+      <trickl:uri>/wiki/Wiktionary</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>RMS Titanic</trickl:title>
+      <trickl:uri>/wiki/RMS_Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>RMS Titanic Inc.</trickl:title>
+      <trickl:uri>/wiki/Premier_Exhibitions</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic, Saskatchewan</trickl:title>
+      <trickl:uri>/wiki/Titanic,_Saskatchewan</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>List of films about the RMS Titanic</trickl:title>
+      <trickl:uri>/wiki/List_of_films_about_the_RMS_Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic (1943 film)</trickl:title>
+      <trickl:uri>/wiki/Titanic_(1943_film)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic (1953 film)</trickl:title>
+      <trickl:uri>/wiki/Titanic_(1953_film)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic (TV miniseries)</trickl:title>
+      <trickl:uri>/wiki/Titanic_(TV_miniseries)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic (1997 film)</trickl:title>
+      <trickl:uri>/wiki/Titanic_(1997_film)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic (band)</trickl:title>
+      <trickl:uri>/wiki/Titanic_(band)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic (musical)</trickl:title>
+      <trickl:uri>/wiki/Titanic_(musical)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>"The Titanic" (song)</trickl:title>
+      <trickl:uri>/wiki/The_Titanic_(song)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic (soundtrack)</trickl:title>
+      <trickl:uri>/wiki/Titanic_(soundtrack)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic Records</trickl:title>
+      <trickl:uri>/wiki/Titanic_Records</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Mark Seymour</trickl:title>
+      <trickl:uri>/wiki/Mark_Seymour</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Nachtflug</trickl:title>
+      <trickl:uri>/wiki/Nachtflug</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Frederik</trickl:title>
+      <trickl:uri>/wiki/Frederik</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic (magazine)</trickl:title>
+      <trickl:uri>/wiki/Titanic_(magazine)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic (play)</trickl:title>
+      <trickl:uri>/wiki/Titanic_(play)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic: Adventure Out of Time</trickl:title>
+      <trickl:uri>/wiki/Titanic:_Adventure_Out_of_Time</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>MY Titanic</trickl:title>
+      <trickl:uri>/wiki/MY_Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic acid</trickl:title>
+      <trickl:uri>/wiki/Titanic_acid</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic Quarter, Belfast</trickl:title>
+      <trickl:uri>/wiki/Titanic_Quarter,_Belfast</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Salman Raduyev</trickl:title>
+      <trickl:uri>/wiki/Salman_Raduyev</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanic steel</trickl:title>
+      <trickl:uri>/wiki/Titanic_steel</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Starship Titanic</trickl:title>
+      <trickl:uri>/wiki/Starship_Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titan (disambiguation)</trickl:title>
+      <trickl:uri>/wiki/Titan_(disambiguation)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Titanium</trickl:title>
+      <trickl:uri>/wiki/Titanium</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Itanic</trickl:title>
+      <trickl:uri>/wiki/Itanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Exclamationaire</trickl:title>
+      <trickl:uri>/wiki/Exclamationaire</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Peter Schilling</trickl:title>
+      <trickl:uri>/wiki/Peter_Schilling</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title/>
+      <trickl:uri>/wiki/File:Disambig_gray.svg</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>disambiguation</trickl:title>
+      <trickl:uri>/wiki/Help:Disambiguation</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>internal link</trickl:title>
+      <trickl:uri>http://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Titanic_(disambiguation)&amp;namespace=0</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>http://en.wikipedia.org/wiki/Titanic_(disambiguation)#Film_and_TV</trickl:title>
+      <trickl:uri>http://en.wikipedia.org/wiki/Titanic_(disambiguation)#Film_and_TV</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Categories</trickl:title>
+      <trickl:uri>/wiki/Special:Categories</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Disambiguation pages</trickl:title>
+      <trickl:uri>/wiki/Category:Disambiguation_pages</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>All article disambiguation pages</trickl:title>
+      <trickl:uri>/wiki/Category:All_article_disambiguation_pages</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>All disambiguation pages</trickl:title>
+      <trickl:uri>/wiki/Category:All_disambiguation_pages</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>New features</trickl:title>
+      <trickl:uri>http://en.wikipedia.org/w/index.php?title=Special:UsabilityInitiativePrefSwitch&amp;from=Titanic_%28disambiguation%29</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Article</trickl:title>
+      <trickl:uri>/wiki/Titanic_(disambiguation)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Discussion</trickl:title>
+      <trickl:uri>/wiki/Talk:Titanic_(disambiguation)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Read</trickl:title>
+      <trickl:uri>/wiki/Titanic_(disambiguation)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title/>
+      <trickl:uri>/wiki/Main_Page</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Main page</trickl:title>
+      <trickl:uri>/wiki/Main_Page</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Contents</trickl:title>
+      <trickl:uri>/wiki/Portal:Contents</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Featured content</trickl:title>
+      <trickl:uri>/wiki/Portal:Featured_content</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Current events</trickl:title>
+      <trickl:uri>/wiki/Portal:Current_events</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Random article</trickl:title>
+      <trickl:uri>/wiki/Special:Random</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Help</trickl:title>
+      <trickl:uri>/wiki/Help:Contents</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>About Wikipedia</trickl:title>
+      <trickl:uri>/wiki/Wikipedia:About</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Community portal</trickl:title>
+      <trickl:uri>/wiki/Wikipedia:Community_portal</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Recent changes</trickl:title>
+      <trickl:uri>/wiki/Special:RecentChanges</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Contact Wikipedia</trickl:title>
+      <trickl:uri>/wiki/Wikipedia:Contact_us</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>What links here</trickl:title>
+      <trickl:uri>/wiki/Special:WhatLinksHere/Titanic_(disambiguation)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Related changes</trickl:title>
+      <trickl:uri>/wiki/Special:RecentChangesLinked/Titanic_(disambiguation)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Upload file</trickl:title>
+      <trickl:uri>/wiki/Wikipedia:Upload</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Special pages</trickl:title>
+      <trickl:uri>/wiki/Special:SpecialPages</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Afrikaans</trickl:title>
+      <trickl:uri>http://af.wikipedia.org/wiki/Titanic_(dubbelsinnig)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Azərbaycanca</trickl:title>
+      <trickl:uri>http://az.wikipedia.org/wiki/Titanik</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Bosanski</trickl:title>
+      <trickl:uri>http://bs.wikipedia.org/wiki/Titanic_(%C4%8Dvor)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Català</trickl:title>
+      <trickl:uri>http://ca.wikipedia.org/wiki/Titanic_(desambiguaci%C3%B3)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Česky</trickl:title>
+      <trickl:uri>http://cs.wikipedia.org/wiki/Titanic_(rozcestn%C3%ADk)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Dansk</trickl:title>
+      <trickl:uri>http://da.wikipedia.org/wiki/Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Deutsch</trickl:title>
+      <trickl:uri>http://de.wikipedia.org/wiki/Titanic_(Begriffskl%C3%A4rung)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Español</trickl:title>
+      <trickl:uri>http://es.wikipedia.org/wiki/Titanic_(desambiguaci%C3%B3n)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Esperanto</trickl:title>
+      <trickl:uri>http://eo.wikipedia.org/wiki/Titanic_(apartigilo)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Euskara</trickl:title>
+      <trickl:uri>http://eu.wikipedia.org/wiki/Titanic_filmeak_(argipena)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>فارسی</trickl:title>
+      <trickl:uri>http://fa.wikipedia.org/wiki/%D8%AA%D8%A7%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%DA%A9_(%D8%A7%D8%A8%D9%87%D8%A7%D9%85%E2%80%8C%D8%B2%D8%AF%D8%A7%DB%8C%DB%8C)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Français</trickl:title>
+      <trickl:uri>http://fr.wikipedia.org/wiki/Titanic_(homonymie)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Galego</trickl:title>
+      <trickl:uri>http://gl.wikipedia.org/wiki/Titanic_(hom%C3%B3nimos)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>한국어</trickl:title>
+      <trickl:uri>http://ko.wikipedia.org/wiki/%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Hrvatski</trickl:title>
+      <trickl:uri>http://hr.wikipedia.org/wiki/Titanic_(razdvojba)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Bahasa Indonesia</trickl:title>
+      <trickl:uri>http://id.wikipedia.org/wiki/Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Íslenska</trickl:title>
+      <trickl:uri>http://is.wikipedia.org/wiki/Titanic_(a%C3%B0greining)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Italiano</trickl:title>
+      <trickl:uri>http://it.wikipedia.org/wiki/Titanic_(disambigua)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>עברית</trickl:title>
+      <trickl:uri>http://he.wikipedia.org/wiki/%D7%98%D7%99%D7%98%D7%A0%D7%99%D7%A7_(%D7%A4%D7%99%D7%A8%D7%95%D7%A9%D7%95%D7%A0%D7%99%D7%9D)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Magyar</trickl:title>
+      <trickl:uri>http://hu.wikipedia.org/wiki/Titanic_(egy%C3%A9rtelm%C5%B1s%C3%ADt%C5%91_lap)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Bahasa Melayu</trickl:title>
+      <trickl:uri>http://ms.wikipedia.org/wiki/Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Nederlands</trickl:title>
+      <trickl:uri>http://nl.wikipedia.org/wiki/Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Nedersaksisch</trickl:title>
+      <trickl:uri>http://nds-nl.wikipedia.org/wiki/Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>日本語</trickl:title>
+      <trickl:uri>http://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%8B%E3%83%83%E3%82%AF</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>‪Norsk (bokmål)‬</trickl:title>
+      <trickl:uri>http://no.wikipedia.org/wiki/Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>‪Norsk (nynorsk)‬</trickl:title>
+      <trickl:uri>http://nn.wikipedia.org/wiki/Titanic</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Polski</trickl:title>
+      <trickl:uri>http://pl.wikipedia.org/wiki/Titanic_(ujednoznacznienie)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Русский</trickl:title>
+      <trickl:uri>http://ru.wikipedia.org/wiki/%D0%A2%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%BA_(%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Slovenčina</trickl:title>
+      <trickl:uri>http://sk.wikipedia.org/wiki/Titanic_(rozli%C5%A1ovacia_str%C3%A1nka)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Slovenščina</trickl:title>
+      <trickl:uri>http://sl.wikipedia.org/wiki/Titanik</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Srpskohrvatski / Српскохрватски</trickl:title>
+      <trickl:uri>http://sh.wikipedia.org/wiki/Titanic_(razvrstavanje)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Suomi</trickl:title>
+      <trickl:uri>http://fi.wikipedia.org/wiki/Titanic_(t%C3%A4smennyssivu)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Svenska</trickl:title>
+      <trickl:uri>http://sv.wikipedia.org/wiki/Titanic_(olika_betydelser)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Türkçe</trickl:title>
+      <trickl:uri>http://tr.wikipedia.org/wiki/Titanik</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Українська</trickl:title>
+      <trickl:uri>http://uk.wikipedia.org/wiki/%D0%A2%D0%B8%D1%82%D0%B0%D0%BD%D1%96%D0%BA_(%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Tiếng Việt</trickl:title>
+      <trickl:uri>http://vi.wikipedia.org/wiki/Titanic_(%C4%91%E1%BB%8Bnh_h%C6%B0%E1%BB%9Bng)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>中文</trickl:title>
+      <trickl:uri>http://zh.wikipedia.org/wiki/%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7_(%E6%B6%88%E6%AD%A7%E4%B9%89)</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Creative Commons Attribution-ShareAlike License</trickl:title>
+      <trickl:uri>http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Terms of Use</trickl:title>
+      <trickl:uri>http://wikimediafoundation.org/wiki/Terms_of_Use</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Wikimedia Foundation, Inc.</trickl:title>
+      <trickl:uri>http://www.wikimediafoundation.org/</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Contact us</trickl:title>
+      <trickl:uri>http://en.wikipedia.org/wiki/Wikipedia:Contact_us</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Privacy policy</trickl:title>
+      <trickl:uri>http://wikimediafoundation.org/wiki/Privacy_policy</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>About Wikipedia</trickl:title>
+      <trickl:uri>/wiki/Wikipedia:About</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title>Disclaimers</trickl:title>
+      <trickl:uri>/wiki/Wikipedia:General_disclaimer</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title/>
+      <trickl:uri>http://www.mediawiki.org/</trickl:uri>
+   </trickl:wikipedia-page>
+   <trickl:wikipedia-page>
+      <trickl:title/>
+      <trickl:uri>http://wikimediafoundation.org/</trickl:uri>
+   </trickl:wikipedia-page>
+</trickl:wikipedia-pages>
