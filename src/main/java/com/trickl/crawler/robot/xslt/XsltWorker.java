@@ -61,7 +61,11 @@ public class XsltWorker<T extends Task> implements Worker<T> {
                   droid.getXslTransformHandler().handle(task, (Document) parse.getData());                  
                }
             }
-         } finally {
+         }
+         catch (Exception ex) {
+            logger.log(Level.WARNING, "XSL tranformation failed. Reason: {0}", ex.getMessage());
+         }
+         finally {            
             entity.finish();
          }
       } else {
