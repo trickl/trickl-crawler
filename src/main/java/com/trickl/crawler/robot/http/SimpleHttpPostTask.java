@@ -25,10 +25,14 @@ import org.apache.http.client.methods.HttpPost;
 public class SimpleHttpPostTask implements HttpPostTask, Serializable
 {
    private URI uri;
-   private HashMap<String, String> headerData;
-   private HashMap<String, Object> postData;
+   private Map<String, String> headerData;
+   private Map<String, Object> postData;
    private Date started;
    private boolean aborted = false;
+   
+   public SimpleHttpPostTask() {
+      this.started = new Date();
+   }
 
    public SimpleHttpPostTask(URI uri, Map<String, String> headerData, Map<String, Object> postData)
    {
@@ -80,6 +84,34 @@ public class SimpleHttpPostTask implements HttpPostTask, Serializable
    @Override
    public boolean isAborted() {
       return aborted;
+   }
+
+   /**
+    * @return the uri
+    */
+   public URI getUri() {
+      return uri;
+   }
+
+   /**
+    * @param uri the uri to set
+    */
+   public void setUri(URI uri) {
+      this.uri = uri;
+   }
+
+   /**
+    * @param headerData the headerData to set
+    */
+   public void setHeaderData(Map<String, String> headerData) {
+      this.headerData = headerData;
+   }
+
+   /**
+    * @param postData the postData to set
+    */
+   public void setPostData(Map<String, Object> postData) {
+      this.postData = postData;
    }
 
 }
