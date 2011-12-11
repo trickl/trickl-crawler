@@ -15,95 +15,97 @@ package com.trickl.crawler.protocol.resource;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
 import java.net.URI;
-
+import java.net.URL;
 import org.apache.droids.api.ManagedContentEntity;
 import org.apache.droids.api.Parse;
 import org.apache.droids.api.Protocol;
 
 public class ResourceProtocol implements Protocol {
 
-  private ClassLoader classLoader = ResourceProtocol.class.getClassLoader();
+   private ClassLoader classLoader = ResourceProtocol.class.getClassLoader();
 
-  public ResourceProtocol()
-  {
-  }
+   public ResourceProtocol() {
+   }
 
-  public void setClassLoader(ClassLoader classLoader)
-  {
-     this.classLoader = classLoader; 
-  }
+   public void setClassLoader(ClassLoader classLoader) {
+      this.classLoader = classLoader;
+   }
 
    @Override
-  public boolean isAllowed(URI uri) {
-     return true;
-  }
+   public boolean isAllowed(URI uri) {
+      return true;
+   }
 
    @Override
-  public ManagedContentEntity load(URI uri) throws IOException {
-    String location = extractLocation(uri);
-    URL url = classLoader.getResource(location);
-    if (url == null) throw new IOException("Unable to find resource at '" + location + "'");
-    return new ResourceContentEntity(url);
-  }
-
-  private String extractLocation(URI uri) {
-    String location = uri.toString();
-    final int start = location.indexOf(":");
-    if(start>-1){
-      location = location.substring(start + 1);
-    }
-    return location;
-  }
-
-  static class ResourceContentEntity implements ManagedContentEntity {
-    
-    private final URL url;
-    private final String mimeType;
-    private final String charset;
-
-    private Parse parse = null;
-    
-    public ResourceContentEntity(URL url) throws IOException {
-      super();
-      this.url = url;
-      String s = url.getFile().toLowerCase();
-      if (s.endsWith(".html") || s.endsWith(".htm")) {
-        this.mimeType = "text/html";
-        this.charset = "ISO-8859-1";
-      } else if (s.endsWith(".txt")) {
-        this.mimeType = "text/plain";
-        this.charset = "ISO-8859-1";
-      } else {
-        this.mimeType = "binary/octet-stream";
-        this.charset = null;
+   public ManagedContentEntity load(URI uri) throws IOException {
+      String location = extractLocation(uri);
+      URL url = classLoader.getResource(location);
+      if (url == null) {
+         throw new IOException("Unable to find resource at '" + location + "'");
       }
-    }
+      return new ResourceContentEntity(url);
+   }
 
-    public InputStream obtainContent() throws IOException {
-      return url.openStream();
-    }
+   private String extractLocation(URI uri) {
+      String location = uri.toString();
+      final int start = location.indexOf(":");
+      if (start > -1) {
+         location = location.substring(start + 1);
+      }
+      return location;
+   }
 
-    public void finish() {
-    }
+   static class ResourceContentEntity implements ManagedContentEntity {
 
-    public String getMimeType() {
-      return mimeType;
-    }
+      private final URL url;
+      private final String mimeType;
+      private final String charset;
+      private Parse parse = null;
 
-    public String getCharset() {
-      return charset;
-    }
+      public ResourceContentEntity(URL url) throws IOException {
+         super();
+         this.url = url;
+         String s = url.getFile().toLowerCase();
+         if (s.endsWith(".html") || s.endsWith(".htm")) {
+            this.mimeType = "text/html";
+            this.charset = "ISO-8859-1";
+         } else if (s.endsWith(".txt")) {
+            this.mimeType = "text/plain";
+            this.charset = "ISO-8859-1";
+         } else {
+            this.mimeType = "binary/octet-stream";
+            this.charset = null;
+         }
+      }
 
-    public Parse getParse() {
-      return this.parse;
-    }
+      @Override
+      public InputStream obtainContent() throws IOException {
+         return url.openStream();
+      }
 
-    public void setParse(Parse parse) {
-      this.parse = parse;
-    }
+      @Override
+      public void finish() {
+      }
 
-  }
-  
+      @Override
+      public String getMimeType() {
+         return mimeType;
+      }
+
+      @Override
+      public String getCharset() {
+         return charset;
+      }
+
+      @Override
+      public Parse getParse() {
+         return this.parse;
+      }
+
+      @Override
+      public void setParse(Parse parse) {
+         this.parse = parse;
+      }
+   }
 }
