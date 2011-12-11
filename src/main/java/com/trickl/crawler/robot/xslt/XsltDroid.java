@@ -13,24 +13,20 @@
  */
 package com.trickl.crawler.robot.xslt;
 
-import com.trickl.crawler.handle.XslTransformHandler;
-import com.trickl.crawler.handle.LinkExtractor;
-import com.trickl.crawler.handle.TaskResultHandler;
-import com.trickl.crawler.parser.html.NekoHtmlParser;
 import com.trickl.crawler.api.Droid;
 import com.trickl.crawler.api.Parser;
 import com.trickl.crawler.api.Task;
 import com.trickl.crawler.api.Worker;
+import com.trickl.crawler.handle.LinkExtractor;
+import com.trickl.crawler.handle.TaskResultHandler;
+import com.trickl.crawler.handle.XslTransformHandler;
 import com.trickl.crawler.parser.ParserFactory;
-import com.trickl.crawler.protocol.http.HttpProtocol;
-
+import com.trickl.crawler.parser.html.NekoHtmlParser;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Collection;
 import java.net.URI;
-        
+import java.util.Collection;
+import java.util.HashMap;
 import org.apache.droids.exception.DroidsException;
-
 import org.w3c.dom.Document;
 
 public class XsltDroid<T extends Task> implements Droid<T>
