@@ -222,7 +222,7 @@ public class HttpProtocol implements Protocol {
       this.postData = postData;
    }
 
-   public void setHeaderData(HashMap<String, String> headerData) {
+   public void setHeaderData(Map<String, String> headerData) {
       this.headerData = headerData;
    }
 }
