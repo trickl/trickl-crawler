@@ -18,6 +18,7 @@ import com.trickl.crawler.api.Task;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -63,6 +64,7 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
       }
    }
 
+   @Override
    public void handle(T task, Document document) throws DroidsException, IOException
    {
       if (task == null || document == null) throw new NullPointerException();
@@ -77,7 +79,7 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
 
             if (transformedDocument.getDocumentElement() == null)
             {
-               logger.info("Task '" + task.getId() + "' XSL transform produced an empty XML document.");
+               logger.log(Level.INFO, "Task ''{0}'' XSL transform produced an empty XML document.", task.getId());
             }
             else
             {               
@@ -120,7 +122,7 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
       {
          try
          {
-            url = (file.contains(":/") ? new URL(file) : new URL("file://" + file));
+            url = (file.contains(":") ? new URL(file) : new URL("file://" + file));
          }
          catch (MalformedURLException e)
          {
