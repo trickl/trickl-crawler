@@ -45,7 +45,7 @@ public class XsltWorker<T extends Task> implements Worker<T> {
       final Protocol protocol = task.getProtocol();
             
       if (droid.getForceAllow() || protocol.isAllowed(uri)) {
-         logger.log(Level.INFO, "Loading {0}", uri);
+         logger.log(Level.FINE, "Loading {0}", uri);
          
          ManagedContentEntity entity = protocol.load(uri);
          try {
