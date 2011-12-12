@@ -17,18 +17,13 @@ import com.trickl.crawler.api.Droid;
 import com.trickl.crawler.api.Parser;
 import com.trickl.crawler.api.Task;
 import com.trickl.crawler.api.Worker;
-import com.trickl.crawler.handle.LinkExtractor;
 import com.trickl.crawler.handle.TaskResultHandler;
 import com.trickl.crawler.parser.ParserFactory;
 import com.trickl.crawler.parser.html.NekoHtmlParser;
 import com.trickl.crawler.parser.json.JsonParser;
-import java.io.IOException;
-import java.net.URI;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
-import org.apache.droids.exception.DroidsException;
 
 public class StandardDroid<T extends Task> implements Droid<T>
 {
