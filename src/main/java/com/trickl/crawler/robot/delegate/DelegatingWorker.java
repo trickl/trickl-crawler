@@ -16,9 +16,7 @@ package com.trickl.crawler.robot.delegate;
 import com.trickl.crawler.api.Droid;
 import com.trickl.crawler.api.Task;
 import com.trickl.crawler.api.Worker;
-
 import java.io.IOException;
-
 import org.apache.droids.exception.DroidsException;
 
 public class DelegatingWorker<T extends Task> implements Worker<T> {

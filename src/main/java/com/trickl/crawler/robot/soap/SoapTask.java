@@ -15,10 +15,11 @@ package com.trickl.crawler.robot.soap;
 
 import com.trickl.crawler.api.Task;
 import java.net.URI;
+import javax.xml.transform.Source;
 
-public interface SoapTask<RequestType> extends Task {
+public interface SoapTask extends Task {
 
-   RequestType getSOAPRequest();
+   Source getSOAPRequest();
 
    URI getSOAPAction();
 }

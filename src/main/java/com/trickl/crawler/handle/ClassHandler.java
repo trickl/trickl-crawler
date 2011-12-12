@@ -31,6 +31,7 @@ public class ClassHandler<T extends Task, Object> implements TaskResultHandler<T
    }
 
    @SuppressWarnings("unchecked")
+   @Override
    public void handle(T task, Object obj) throws DroidsException, IOException
    {
       if (task == null || obj == null) throw new NullPointerException();

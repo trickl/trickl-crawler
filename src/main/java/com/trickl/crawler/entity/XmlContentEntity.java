@@ -43,16 +43,19 @@ public class XmlContentEntity implements ManagedContentEntity
       this.document = document;
    }
 
+   @Override
    public String getMimeType()
    {
       return "text/xml";
    }
 
+   @Override
    public String getCharset()
    {
       return "UTF-8";
    }
 
+   @Override
    public InputStream obtainContent() throws IOException
    {
       ByteArrayOutputStream buffer = new ByteArrayOutputStream();
@@ -72,16 +75,19 @@ public class XmlContentEntity implements ManagedContentEntity
       return new ByteArrayInputStream(buffer.toByteArray());
    }
 
+   @Override
    public Parse getParse()
    {
       return this.parse;
    }
 
+   @Override
    public void setParse(Parse parse)
    {
       this.parse = parse;
    }
 
+   @Override
    public void finish()
    {
    }

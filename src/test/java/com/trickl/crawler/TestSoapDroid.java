@@ -1,9 +1,10 @@
 package com.trickl.crawler;
 
+import com.trickl.crawler.handle.JAXBHandler;
 import com.trickl.crawler.handle.TaskResultHandler;
+import com.trickl.crawler.robot.StandardDroid;
 import com.trickl.crawler.xml.bind.DefaultNamespace;
-import com.trickl.crawler.robot.soap.SimpleSoapTask;
-import com.trickl.crawler.robot.soap.SoapDroid;
+import com.trickl.crawler.robot.soap.TypedSoapTask;
 import com.trickl.crawler.robot.soap.SoapTask;
 import java.io.IOException;
 
@@ -35,35 +36,39 @@ public class TestSoapDroid {
       java.util.logging.Handler logHandler = new ConsoleHandler();
       logHandler.setLevel(Level.FINEST);
 
-      SoapDroid<SoapTask<GetTitleListStringFullWithPagination>,
-              GetTitleListStringFullWithPagination,
-              GetTitleListStringFullWithPaginationResponse> droid
-              = new SoapDroid<SoapTask<GetTitleListStringFullWithPagination>,
-              GetTitleListStringFullWithPagination,
-              GetTitleListStringFullWithPaginationResponse>();
-      droid.setContextPath("org.cara.webcarasearch.wsdl");
-      DefaultNamespace defaultNamespaceMapper = new DefaultNamespace();
-      defaultNamespaceMapper.setDefaultNamespaceUri("http://cara.org");
-      droid.setNamespacePrefixMapper(defaultNamespaceMapper);
-      WebServiceTemplate webServiceTemplate = new WebServiceTemplate();
-      droid.setWebServiceTemplate(webServiceTemplate);
-      droid.setOutputHandler(new TaskResultHandler<SoapTask<GetTitleListStringFullWithPagination>,
+      StandardDroid droid = new StandardDroid();
+      
+      // Define the handler
+      JAXBHandler<TypedSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse> jaxbHandler
+              = new JAXBHandler<TypedSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse>();
+      jaxbHandler.setOutputHandler(new TaskResultHandler<TypedSoapTask<GetTitleListStringFullWithPagination>,
               GetTitleListStringFullWithPaginationResponse>() {
          @Override
-         public void handle(SoapTask<GetTitleListStringFullWithPagination> task,
+         public void handle(TypedSoapTask<GetTitleListStringFullWithPagination> task,
                             GetTitleListStringFullWithPaginationResponse response) throws DroidsException, IOException {
             System.out.println(response.getGetTitleListStringFullWithPaginationResult());
          }
       });
   
+      // Define the task
+      TypedSoapTask<GetTitleListStringFullWithPagination> soapTask = new TypedSoapTask<GetTitleListStringFullWithPagination>();      
       GetTitleListStringFullWithPagination request = new GetTitleListStringFullWithPagination();
       request.setSearch("Love Actually");
       request.setStartRow(1);
       request.setEndRow(25);
       URI service = new URI("http://cara.org/filmRatings_Cara/WebCaraSearch/service.asmx");
       URI action = new URI("http://cara.org/GetTitleListStringFullWithPagination");
+      soapTask.setUri(service);
+      soapTask.setAction(action);
+      soapTask.setContextPath("org.cara.webcarasearch.wsdl");      
+      DefaultNamespace defaultNamespaceMapper = new DefaultNamespace();
+      defaultNamespaceMapper.setDefaultNamespaceUri("http://cara.org");
+      soapTask.setNamespacePrefixMapper(defaultNamespaceMapper);
+      WebServiceTemplate webServiceTemplate = new WebServiceTemplate();
+      soapTask.setWebServiceTemplate(webServiceTemplate);
+      soapTask.setRequest(request);
 
-      droid.getNewWorker().execute(new SimpleSoapTask(service, request, action));
+      droid.getNewWorker().execute(soapTask);
    }
 
    @Test
@@ -72,27 +77,22 @@ public class TestSoapDroid {
       java.util.logging.Handler logHandler = new ConsoleHandler();
       logHandler.setLevel(Level.FINEST);
 
-      SoapDroid<SoapTask<GetTitleListByYearRatingFullWithPagination>,
-              GetTitleListByYearRatingFullWithPagination,
-              GetTitleListByYearRatingFullWithPaginationResponse> droid
-              = new SoapDroid<SoapTask<GetTitleListByYearRatingFullWithPagination>,
-              GetTitleListByYearRatingFullWithPagination,
-              GetTitleListByYearRatingFullWithPaginationResponse>();
-      droid.setContextPath("org.cara.webcarasearch.wsdl");
-      DefaultNamespace defaultNamespaceMapper = new DefaultNamespace();
-      defaultNamespaceMapper.setDefaultNamespaceUri("http://cara.org");
-      droid.setNamespacePrefixMapper(defaultNamespaceMapper);
-      WebServiceTemplate webServiceTemplate = new WebServiceTemplate();
-      droid.setWebServiceTemplate(webServiceTemplate);
-      droid.setOutputHandler(new TaskResultHandler<SoapTask<GetTitleListByYearRatingFullWithPagination>,
+      StandardDroid droid = new StandardDroid();
+      
+      // Define the handler
+      JAXBHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse> jaxbHandler
+              = new JAXBHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse>();
+      jaxbHandler.setOutputHandler(new TaskResultHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>,
               GetTitleListByYearRatingFullWithPaginationResponse>() {
          @Override
-         public void handle(SoapTask<GetTitleListByYearRatingFullWithPagination> task,
+         public void handle(TypedSoapTask<GetTitleListByYearRatingFullWithPagination> task,
                             GetTitleListByYearRatingFullWithPaginationResponse response) throws DroidsException, IOException {
             System.out.println(response.getGetTitleListByYearRatingFullWithPaginationResult());
          }
       });
-
+  
+      // Define the task
+      TypedSoapTask<GetTitleListByYearRatingFullWithPagination> soapTask = new TypedSoapTask<GetTitleListByYearRatingFullWithPagination>();      
       GetTitleListByYearRatingFullWithPagination request = new GetTitleListByYearRatingFullWithPagination();
       request.setYear("2010");
       request.setRating(Rating.PG.toString());
@@ -100,6 +100,16 @@ public class TestSoapDroid {
       request.setEndRow(25);
       URI service = new URI("http://cara.org/filmRatings_Cara/WebCaraSearch/service.asmx");
       URI action = new URI("http://cara.org/GetTitleListByYearRatingFullWithPagination");
-      droid.getNewWorker().execute(new SimpleSoapTask(service, request, action));
+      soapTask.setUri(service);
+      soapTask.setAction(action);
+      soapTask.setContextPath("org.cara.webcarasearch.wsdl");      
+      DefaultNamespace defaultNamespaceMapper = new DefaultNamespace();
+      defaultNamespaceMapper.setDefaultNamespaceUri("http://cara.org");
+      soapTask.setNamespacePrefixMapper(defaultNamespaceMapper);
+      WebServiceTemplate webServiceTemplate = new WebServiceTemplate();
+      soapTask.setWebServiceTemplate(webServiceTemplate);
+      soapTask.setRequest(request);
+
+      droid.getNewWorker().execute(soapTask);
    }
 }

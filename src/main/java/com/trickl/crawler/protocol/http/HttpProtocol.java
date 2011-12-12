@@ -71,7 +71,7 @@ public class HttpProtocol implements Protocol {
 
   @Override
   public ManagedContentEntity load(URI uri) throws IOException {    
-    HttpRequestBase httpRequest = null;
+    HttpRequestBase httpRequest;
     
     if (method.equalsIgnoreCase(HttpPost.METHOD_NAME)) {
         HttpPost httpPost = new HttpPost(uri);

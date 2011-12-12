@@ -15,29 +15,17 @@ package com.trickl.crawler.handle;
 
 import com.trickl.crawler.api.Task;
 import java.io.*;
-import java.util.logging.Logger;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
-import javax.xml.transform.TransformerFactory;
 import org.apache.droids.exception.DroidsException;
 
 public class StreamPipeHandler<T extends Task> implements TaskResultHandler<T, InputStream> {
 
-   private static final Logger logger = Logger.getLogger(StreamPipeHandler.class.getCanonicalName());
-   private final Transformer transformer;
    private OutputStream outputStream;
 
    public StreamPipeHandler(OutputStream outputStream) throws DroidsException {
-      try {
-         this.outputStream = outputStream;
-         transformer = TransformerFactory.newInstance().newTransformer();
-         transformer.setOutputProperty(OutputKeys.METHOD, "xml");         
-      } catch (TransformerConfigurationException e) {
-         throw new DroidsException("Failed to instantiate XML transform", e);
-      }
+      this.outputStream = outputStream;
    }
 
+   @Override
    public void handle(T task, InputStream stream) throws DroidsException, IOException {
       if (task == null || stream == null) {
          throw new NullPointerException();
@@ -50,7 +38,7 @@ public class StreamPipeHandler<T extends Task> implements TaskResultHandler<T, I
 
    protected static void pipe(Reader reader, Writer writer) throws IOException {
       char[] buf = new char[1024];
-      int read = 0;
+      int read;
       while ((read = reader.read(buf)) >= 0) {
          writer.write(buf, 0, read);
       }

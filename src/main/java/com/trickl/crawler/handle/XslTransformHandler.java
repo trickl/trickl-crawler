@@ -15,6 +15,7 @@ package com.trickl.crawler.handle;
 
 
 import com.trickl.crawler.api.Task;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -26,6 +27,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMResult;
 import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import org.apache.droids.exception.DroidsException;
 import org.w3c.dom.Document;
@@ -76,6 +78,12 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
          {            
             Document transformedDocument = documentBuilder.newDocument();
             xslTransformer.transform(new DOMSource(document), new DOMResult(transformedDocument));
+            
+            if (logger.isLoggable(Level.FINEST)) {
+               ByteArrayOutputStream stream = new ByteArrayOutputStream();
+               xslTransformer.transform(new DOMSource(document), new StreamResult(stream));
+               logger.log(Level.FINEST, "Transform output:\n{0}", stream.toString());
+            }
 
             if (transformedDocument.getDocumentElement() == null)
             {
