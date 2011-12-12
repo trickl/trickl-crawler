@@ -15,6 +15,7 @@ package com.trickl.crawler.handle;
 
 import com.trickl.crawler.api.Task;
 import java.io.IOException;
+import java.util.logging.Level;
 import org.apache.commons.beanutils.BeanMap;
 import org.apache.droids.exception.DroidsException;
 
@@ -38,6 +39,10 @@ public class BeanMemberHandler<T extends Task, BeanType, BeanMemberType> impleme
       {     
          BeanMap beanMap = new BeanMap(bean);
          BeanMemberType beanMember = (BeanMemberType) beanMap.get(propertyName);
+         
+         if (beanMember == null) {
+            throw new DroidsException("Bean does not contain a value for member '" + propertyName + "'");
+         }
          outputHandler.handle(task, beanMember);
       }
    }

@@ -19,13 +19,13 @@ import org.apache.droids.exception.DroidsException;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.ObjectMapper;
 
-public class JsonToBeanHandler<T extends Task, BeanType> implements TaskResultHandler<T, JsonNode>
+public class JsonStringMemberHandler<T extends Task> implements TaskResultHandler<T, JsonNode>
 {
-   private TaskResultHandler<T, BeanType> outputHandler;
+   private String propertyName = "result";
    
-   private Class<T> beanTypeClass;
+   private TaskResultHandler<T, String> outputHandler;
 
-   public JsonToBeanHandler()
+   public JsonStringMemberHandler()
    {
    }
 
@@ -37,29 +37,37 @@ public class JsonToBeanHandler<T extends Task, BeanType> implements TaskResultHa
 
       if (outputHandler != null)
       {     
-         ObjectMapper mapper = new ObjectMapper();
-         BeanType bean = (BeanType) mapper.treeToValue(node, beanTypeClass);
-
-         outputHandler.handle(task, bean);
+         
+         ObjectMapper mapper = new ObjectMapper();         
+         JsonNode property = node.path(propertyName);
+         if (property.isMissingNode()) {
+            throw new DroidsException("JSON does not contain a value for member '" + propertyName + "'");
+         }
+         if (property.isTextual()) {
+            outputHandler.handle(task, property.getTextValue());
+         }
+         else {
+            throw new DroidsException("JSON member '" + propertyName + "' is not a textual value.");
+         }
       }
    }
 
-   public void setOutputHandler(TaskResultHandler<T, BeanType> outputHandler)
+   public void setOutputHandler(TaskResultHandler<T, String> outputHandler)
    {
      this.outputHandler = outputHandler;
    }
 
    /**
-    * @return the beanTypeClass
+    * @return the propertyName
     */
-   public Class<T> getBeanTypeClass() {
-      return beanTypeClass;
+   public String getPropertyName() {
+      return propertyName;
    }
 
    /**
-    * @param beanTypeClass the beanTypeClass to set
+    * @param propertyName the propertyName to set
     */
-   public void setBeanTypeClass(Class<T> beanTypeClass) {
-      this.beanTypeClass = beanTypeClass;
+   public void setPropertyName(String propertyName) {
+      this.propertyName = propertyName;
    }
 }
