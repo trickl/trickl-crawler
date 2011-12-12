@@ -13,43 +13,42 @@
  */
 package com.trickl.crawler.handle;
 
-
 import com.trickl.crawler.api.Task;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.transform.*;
-import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import org.apache.droids.exception.DroidsException;
-import org.w3c.dom.Document;
 
-public class DocumentStreamHandler<T extends Task> implements TaskResultHandler<T, Document>
+public class SourceStreamHandler<T extends Task> implements TaskResultHandler<T, Source>
 {
-   private static final Logger logger = Logger.getLogger(DocumentStreamHandler.class.getCanonicalName());
+   private static final Logger logger = Logger.getLogger(SourceStreamHandler.class.getCanonicalName());
 
    private TaskResultHandler<T, InputStream> outputHandler; 
 
-   private final Transformer transformer;
+   private Transformer transformer;
 
-   public DocumentStreamHandler() throws DroidsException
+   public SourceStreamHandler() 
    {
       try 
       {        
          transformer = TransformerFactory.newInstance().newTransformer();
          transformer.setOutputProperty(OutputKeys.METHOD, "xml");
       }
-      catch (TransformerConfigurationException e)
+      catch (TransformerConfigurationException ex)
       {
-         throw new DroidsException("Failed to instantiate XML transform", e);
+         logger.log(Level.SEVERE, "Failed to instantiate XML transform", ex);
       }
    }
 
-   public void handle(T task, Document document) throws DroidsException, IOException
+   @Override
+   public void handle(T task, Source source) throws DroidsException, IOException
    {
-      if (task == null || document == null) throw new NullPointerException();
+      if (task == null || source == null) throw new NullPointerException();
 
       if (outputHandler != null)
       {     
@@ -58,7 +57,6 @@ public class DocumentStreamHandler<T extends Task> implements TaskResultHandler<
          {            
                ByteArrayOutputStream buffer = new ByteArrayOutputStream();
 
-               final Source source = new DOMSource(document);
                final Result result = new StreamResult(buffer);
 
                transformer.transform(source, result);

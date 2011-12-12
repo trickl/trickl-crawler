@@ -17,11 +17,14 @@ import com.trickl.crawler.api.Task;
 import java.io.*;
 import org.apache.droids.exception.DroidsException;
 
-public class StreamPipeHandler<T extends Task> implements TaskResultHandler<T, InputStream> {
+public class InputOutputStream<T extends Task> implements TaskResultHandler<T, InputStream> {
 
    private OutputStream outputStream;
 
-   public StreamPipeHandler(OutputStream outputStream) throws DroidsException {
+   public InputOutputStream() {
+   }
+   
+   public InputOutputStream(OutputStream outputStream) {
       this.outputStream = outputStream;
    }
 
@@ -43,5 +46,19 @@ public class StreamPipeHandler<T extends Task> implements TaskResultHandler<T, I
          writer.write(buf, 0, read);
       }
       writer.flush();
+   }
+
+   /**
+    * @return the outputStream
+    */
+   public OutputStream getOutputStream() {
+      return outputStream;
+   }
+
+   /**
+    * @param outputStream the outputStream to set
+    */
+   public void setOutputStream(OutputStream outputStream) {
+      this.outputStream = outputStream;
    }
 }

@@ -21,29 +21,31 @@ import com.trickl.crawler.handle.LinkExtractor;
 import com.trickl.crawler.handle.TaskResultHandler;
 import com.trickl.crawler.parser.ParserFactory;
 import com.trickl.crawler.parser.html.NekoHtmlParser;
+import com.trickl.crawler.parser.json.JsonParser;
 import java.io.IOException;
 import java.net.URI;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.List;
 import org.apache.droids.exception.DroidsException;
 
 public class StandardDroid<T extends Task> implements Droid<T>
 {
-   private TaskResultHandler<T, Object> outputHandler;
-
-   private LinkExtractor<T> linkExtractor;
+   protected List<TaskResultHandler> outputHandlers = new
+           ArrayList<TaskResultHandler>();
    
-   private ParserFactory parserFactory;
+   protected ParserFactory parserFactory;
    
-   private boolean forceAllow;
+   protected boolean forceAllow;
 
-   public StandardDroid() throws DroidsException
+   public StandardDroid()
    {
       parserFactory = new ParserFactory();
       Parser htmlParser = new NekoHtmlParser();
       parserFactory.setMap(new HashMap<String, Object>());
       parserFactory.getMap().put("text/html", htmlParser);
-      linkExtractor = new LinkExtractor<T>();
+      parserFactory.getMap().put("application/json", new JsonParser());      
    }
    
    public boolean getForceAllow() {
@@ -55,30 +57,15 @@ public class StandardDroid<T extends Task> implements Droid<T>
       this.forceAllow = forceAllow;
    }
 
-   public void setOutputHandler(TaskResultHandler<T, Object> outputHandler)
+   public void setOutputHandler(List<TaskResultHandler> outputHandlers)
    {
-      this.outputHandler = outputHandler;
-   }
-
-   public void setLinkHandler(TaskResultHandler<T, Collection<URI> > linkHandler)
-   {
-      this.linkExtractor.setOutputHandler(linkHandler);
-   }
-
-   public LinkExtractor<T> getLinkExtractor()
-   {
-      return linkExtractor;
+      this.outputHandlers = outputHandlers;
    }
 
    public ParserFactory getParserFactory()
    {
       return parserFactory;
    }
-
-   public void setRegexURLFile(String file) throws IOException
-   {
-      linkExtractor.setRegexURLFile(file);
-   }   
 
    @Override
    public Worker<T> getNewWorker() {
@@ -90,7 +77,7 @@ public class StandardDroid<T extends Task> implements Droid<T>
    /**
     * @return the outputHandler
     */
-   public TaskResultHandler<T, Object> getOutputHandler() {
-      return outputHandler;
+   public List<TaskResultHandler> getOutputHandlers() {
+      return outputHandlers;
    }
 }

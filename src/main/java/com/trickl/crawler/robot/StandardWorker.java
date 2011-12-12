@@ -16,6 +16,7 @@ package com.trickl.crawler.robot;
 import com.trickl.crawler.api.Parser;
 import com.trickl.crawler.api.Task;
 import com.trickl.crawler.api.Worker;
+import com.trickl.crawler.handle.TaskResultHandler;
 import java.io.IOException;
 import java.net.URI;
 import java.util.logging.Level;
@@ -24,7 +25,6 @@ import org.apache.droids.api.ManagedContentEntity;
 import org.apache.droids.api.Parse;
 import org.apache.droids.api.Protocol;
 import org.apache.droids.exception.DroidsException;
-import org.w3c.dom.Document;
 
 public class StandardWorker<T extends Task> implements Worker<T> {
 
@@ -55,8 +55,10 @@ public class StandardWorker<T extends Task> implements Worker<T> {
                Parser parser = droid.getParserFactory().getParser(contentType);
                if (parser != null) {
                   Parse parse = parser.parse(entity, task);
-                  droid.getLinkExtractor().handle(task, (Document) parse.getData());
-                  droid.getOutputHandler().handle(task, parse.getData());                  
+                  Object parseData = parse.getData();
+                  for(TaskResultHandler<T, Object> handler : droid.getOutputHandlers()) {
+                     handler.handle(task, parseData);
+                  }
                }
             }
          }

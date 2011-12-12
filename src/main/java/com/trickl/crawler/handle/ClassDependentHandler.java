@@ -20,13 +20,13 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.droids.exception.DroidsException;
 
-public class ClassHandler<T extends Task, Object> implements TaskResultHandler<T, Object>
+public class ClassDependentHandler<T extends Task, Object> implements TaskResultHandler<T, Object>
 {
-   private static final Logger logger = Logger.getLogger(ClassHandler.class.getCanonicalName());
+   private static final Logger logger = Logger.getLogger(ClassDependentHandler.class.getCanonicalName());
 
    private Map<String, TaskResultHandler> outputHandlerMap;
 
-   public ClassHandler() throws DroidsException
+   public ClassDependentHandler()
    {
    }
 

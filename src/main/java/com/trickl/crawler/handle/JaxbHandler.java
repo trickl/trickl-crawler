@@ -18,24 +18,24 @@ import java.io.IOException;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
+import javax.xml.transform.Source;
 import org.apache.droids.exception.DroidsException;
-import org.w3c.dom.Document;
 
-public class JAXBHandler<T extends Task, JAXBType> implements TaskResultHandler<T, Document>
+public class JaxbHandler<T extends Task, JAXBType> implements TaskResultHandler<T, Source>
 {
    private TaskResultHandler<T, JAXBType> outputHandler;
 
    private Unmarshaller unmarshaller;
 
-   public JAXBHandler()
+   public JaxbHandler()
    {
    }
 
    @SuppressWarnings("unchecked")
    @Override
-   public void handle(T task, Document document) throws DroidsException, IOException
+   public void handle(T task, Source source) throws DroidsException, IOException
    {
-      if (task == null || document == null) throw new NullPointerException();
+      if (task == null || source == null) throw new NullPointerException();
 
       if (unmarshaller == null) throw new DroidsException("Unmarshaller is not allocated. JAXB Context path must be set.");
 
@@ -43,7 +43,7 @@ public class JAXBHandler<T extends Task, JAXBType> implements TaskResultHandler<
       {     
          try
          {
-            JAXBType jaxbObject = (JAXBType) unmarshaller.unmarshal(document);
+            JAXBType jaxbObject = (JAXBType) unmarshaller.unmarshal(source);
 
             outputHandler.handle(task, jaxbObject);
          }

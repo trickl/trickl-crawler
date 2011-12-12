@@ -1,6 +1,6 @@
 package com.trickl.crawler;
 
-import com.trickl.crawler.handle.JAXBHandler;
+import com.trickl.crawler.handle.JaxbHandler;
 import com.trickl.crawler.handle.TaskResultHandler;
 import com.trickl.crawler.robot.StandardDroid;
 import com.trickl.crawler.xml.bind.DefaultNamespace;
@@ -21,7 +21,7 @@ import org.junit.Test;
 import org.mpaa.Rating;
 import org.springframework.ws.client.core.WebServiceTemplate;
 
-public class TestSoapDroid {
+public class TestSoapTask {
 
    @BeforeClass
    public static void beforeClass()
@@ -39,8 +39,8 @@ public class TestSoapDroid {
       StandardDroid droid = new StandardDroid();
       
       // Define the handler
-      JAXBHandler<TypedSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse> jaxbHandler
-              = new JAXBHandler<TypedSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse>();
+      JaxbHandler<TypedSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse> jaxbHandler
+              = new JaxbHandler<TypedSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse>();
       jaxbHandler.setOutputHandler(new TaskResultHandler<TypedSoapTask<GetTitleListStringFullWithPagination>,
               GetTitleListStringFullWithPaginationResponse>() {
          @Override
@@ -80,8 +80,8 @@ public class TestSoapDroid {
       StandardDroid droid = new StandardDroid();
       
       // Define the handler
-      JAXBHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse> jaxbHandler
-              = new JAXBHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse>();
+      JaxbHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse> jaxbHandler
+              = new JaxbHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse>();
       jaxbHandler.setOutputHandler(new TaskResultHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>,
               GetTitleListByYearRatingFullWithPaginationResponse>() {
          @Override

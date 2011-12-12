@@ -32,21 +32,21 @@ import javax.xml.transform.stream.StreamSource;
 import org.apache.droids.exception.DroidsException;
 import org.w3c.dom.Document;
 
-public class XslTransformHandler<T extends Task> implements TaskResultHandler<T, Document>
+public class XslTransformHandler<T extends Task> implements TaskResultHandler<T, Source>
 {
    private static final Logger logger = Logger.getLogger(XslTransformHandler.class.getCanonicalName());
 
    private Transformer xslTransformer;
 
-   private TaskResultHandler<T, Document> outputHandler;
+   private TaskResultHandler<T, Source> outputHandler;
 
    private Object classLoaderObject = this;
 
-   private final DocumentBuilder documentBuilder;
+   private DocumentBuilder documentBuilder;
 
-   private final Transformer transformer;
+   private Transformer transformer;
 
-   public XslTransformHandler() throws DroidsException
+   public XslTransformHandler() 
    {
       try 
       {
@@ -56,32 +56,32 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
          transformer = TransformerFactory.newInstance().newTransformer();
          transformer.setOutputProperty(OutputKeys.METHOD, "xml");
       }
-      catch (ParserConfigurationException e)
+      catch (ParserConfigurationException ex)
       {
-         throw new DroidsException("Failed to instantiate transform.", e);
+         logger.log(Level.SEVERE, "Failed to instantiate transform.", ex);
       }
-      catch (TransformerConfigurationException e)
+      catch (TransformerConfigurationException ex)
       {
-         throw new DroidsException("Failed to instantiate XML transform", e);
+         logger.log(Level.SEVERE, "Failed to instantiate XML transform", ex);
       }
    }
 
    @Override
-   public void handle(T task, Document document) throws DroidsException, IOException
+   public void handle(T task, Source source) throws DroidsException, IOException
    {
-      if (task == null || document == null) throw new NullPointerException();
-
+      if (task == null || source == null) throw new NullPointerException();
+      
       if (xslTransformer != null && outputHandler != null)
       {     
          // Transform XML
          try
          {            
             Document transformedDocument = documentBuilder.newDocument();
-            xslTransformer.transform(new DOMSource(document), new DOMResult(transformedDocument));
+            xslTransformer.transform(source, new DOMResult(transformedDocument));
             
             if (logger.isLoggable(Level.FINEST)) {
                ByteArrayOutputStream stream = new ByteArrayOutputStream();
-               xslTransformer.transform(new DOMSource(document), new StreamResult(stream));
+               xslTransformer.transform(source, new StreamResult(stream));
                logger.log(Level.FINEST, "Transform output:\n{0}", stream.toString());
             }
 
@@ -91,7 +91,7 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
             }
             else
             {               
-               outputHandler.handle(task, transformedDocument);
+               outputHandler.handle(task, new DOMSource(transformedDocument));
             }
          }
          catch (TransformerException e)
@@ -101,12 +101,12 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
       }
    }
 
-   public TaskResultHandler<T, Document> getOutputHandler()
+   public TaskResultHandler<T, Source> getOutputHandler()
    {
       return outputHandler;
    }
-
-   public void setOutputHandler(TaskResultHandler<T, Document> outputHandler)
+  
+   public void setOutputHandler(TaskResultHandler<T, Source> outputHandler)
    {
      this.outputHandler = outputHandler;
    }

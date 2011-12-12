@@ -1,8 +1,8 @@
 package com.trickl.crawler;
 
 import com.trickl.crawler.robot.xslt.XsltDroid;
-import com.trickl.crawler.handle.DocumentStreamHandler;
-import com.trickl.crawler.handle.StreamPipeHandler;
+import com.trickl.crawler.handle.SourceStreamHandler;
+import com.trickl.crawler.handle.InputOutputStream;
 import com.trickl.crawler.robot.http.HttpPostTask;
 import com.trickl.crawler.robot.http.LinkTask;
 import com.trickl.crawler.robot.http.SimpleHttpPostTask;
@@ -28,8 +28,8 @@ public class TestXsltDroid {
       
       droid.setRegexURLFile("classpath:/com/trickl/crawler/xslt-droid.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/xslt-droid.xsl");
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();      
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("classpath:/com/trickl/crawler/xslt-droid-index.html"), 0));
@@ -48,8 +48,8 @@ public class TestXsltDroid {
       droid.setXsltFile("classpath:/com/trickl/crawler/film-releases.xsl");
       droid.setForceAllow(true);
       //droid.setXsltFile("classpath:/com/trickl/crawler/pass-through.xsl");
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://www.film-releases.com/film-release-schedule-2010.php"), 0));
@@ -67,8 +67,8 @@ public class TestXsltDroid {
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/technorati.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://technorati.com/blogs/directory/business/finance/"), 0));
@@ -87,8 +87,8 @@ public class TestXsltDroid {
       droid.setXsltFile("classpath:/com/trickl/crawler/technorati.xsl");
       droid.setForceAllow(true);
       //droid.setXsltFile("classpath:/com/trickl/crawler/pass-through.xsl");
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://technorati.com/blogs/www.boygeniusreport.com"), 0));
@@ -107,9 +107,9 @@ public class TestXsltDroid {
       //droid.setXsltFile("classpath:/com/trickl/crawler/wikipedia-film.xsl");
       droid.setXsltFile("classpath:/com/trickl/crawler/pass-through.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
       //FileOutputStream fout = new FileOutputStream("the-whole-ten-yards.xml");
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       //droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://en.wikipedia.org/wiki/Johnny_English"), 0));
@@ -133,8 +133,8 @@ public class TestXsltDroid {
       droid.setXsltFile("classpath:/com/trickl/crawler/wikipedia-search.xsl");
       droid.setForceAllow(true);
       //droid.setXsltFile("classpath:/com/trickl/crawler/pass-through.xsl");
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://en.wikipedia.org/w/index.php?title=Special:Search&redirs=0&fulltext=Search&ns0=1&search=Iron+Man+(film)"), 0));
@@ -152,8 +152,8 @@ public class TestXsltDroid {
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/boxofficemojo.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://www.boxofficemojo.com/movies/?id=ironman.htm"), 0));
@@ -171,8 +171,8 @@ public class TestXsltDroid {
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/boxofficemojo.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://www.boxofficemojo.com/movies/?id=ironman.htm"), 0));
@@ -190,8 +190,8 @@ public class TestXsltDroid {
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/lovefilm-search.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://www.lovefilm.com/search/results/?query=Harry+Potter+And+The+Half-Blood+Prince"), 0));
@@ -211,8 +211,8 @@ public class TestXsltDroid {
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/pass-through.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
       droid.setForceAllow(true);
 
@@ -231,8 +231,8 @@ public class TestXsltDroid {
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/amazon-title-search.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://www.amazon.com/s/ref=nbsb_noss?url=search-alias=aps&field-keywords=Adam+Rib"), 0));
@@ -250,8 +250,8 @@ public class TestXsltDroid {
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/imdb-title-search.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://www.imdb.com/find?s=tt&q=harry+potter+and+the+half+blood+prince"), 0));
@@ -270,8 +270,8 @@ public class TestXsltDroid {
       droid.setXsltFile("classpath:/com/trickl/crawler/imdb-title-search.xsl");
       //droid.setXsltFile("classpath:/com/trickl/crawler/pass-through.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
 
       droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("http://www.imdb.com/find?s=all&q=Aces+Iron+Eagle+III"), 0));
@@ -289,8 +289,8 @@ public class TestXsltDroid {
       
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/yahoo-siteexplorer.xsl");
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
       droid.setForceAllow(true);
 
@@ -308,8 +308,8 @@ public class TestXsltDroid {
             
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/alexa.xsl");
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
       droid.setForceAllow(true);
 
@@ -328,8 +328,8 @@ public class TestXsltDroid {
       
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       droid.setXsltFile("classpath:/com/trickl/crawler/google-directorysearch.xsl");
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
       droid.setForceAllow(true);
 
@@ -348,8 +348,8 @@ public class TestXsltDroid {
       droid.setRegexURLFile("classpath:/com/trickl/crawler/deny-all.filter");
       //droid.setXsltFile("classpath:/com/trickl/crawler/google-directorypage.xsl");
       droid.setXsltFile("classpath:/com/trickl/crawler/pass-through.xsl");
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
       droid.setForceAllow(true);
 
@@ -369,8 +369,8 @@ public class TestXsltDroid {
       droid.setXsltFile("classpath:/com/trickl/crawler/nasdaqtrader_tradehalts.xsl");
       //droid.setXsltFile("classpath:/com/trickl/crawler/pass-through.xsl");
       droid.setForceAllow(true);
-      DocumentStreamHandler outputHandler = new DocumentStreamHandler();
-      outputHandler.setOutputHandler(new StreamPipeHandler(System.out));
+      SourceStreamHandler outputHandler = new SourceStreamHandler();
+      outputHandler.setOutputHandler(new InputOutputStream(System.out));
       droid.setOutputHandler(outputHandler);
       HashMap<String, String> headerData = new HashMap<String, String>();
       headerData.put("Referer", "www.nasdaqtrader.com");

@@ -202,5 +202,11 @@
       <artifactId>jackson-lgpl</artifactId>
       <version>0.9.5</version>
     </dependency>
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>1.7.0</version>
+      <type>jar</type>
+    </dependency>
   </dependencies>
 </project>

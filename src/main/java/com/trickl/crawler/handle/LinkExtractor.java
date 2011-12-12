@@ -21,6 +21,7 @@ import java.net.URL;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.droids.exception.DroidsException;
 import org.apache.droids.helper.factories.URLFiltersFactory;
@@ -63,7 +64,7 @@ public class LinkExtractor<T extends Task> implements TaskResultHandler<T, Docum
 
    private URLFiltersFactory filtersFactory;
 
-   public LinkExtractor() throws DroidsException {
+   public LinkExtractor() {
    }
 
    @Override
@@ -85,7 +86,7 @@ public class LinkExtractor<T extends Task> implements TaskResultHandler<T, Docum
          }
          catch (URISyntaxException ex)
          {
-            logger.warning("Base URI for task " + task.getId() + " not interpretable");
+            logger.log(Level.WARNING, "Base URI for task {0} not interpretable", task.getId());
          }
          for (Node node = walker.nextNode(); node != null; node = walker.nextNode())
          {
@@ -132,7 +133,7 @@ public class LinkExtractor<T extends Task> implements TaskResultHandler<T, Docum
             return new URI(target.split("#")[0]);
          }
       } catch (Exception e) {
-         logger.fine("Ignoring unreadable target: " + target);
+         logger.log(Level.FINE, "Ignoring unreadable target: {0}", target);
       }
       return null;
    }

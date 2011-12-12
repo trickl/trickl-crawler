@@ -13,55 +13,42 @@
  */
 package com.trickl.crawler.robot.xslt;
 
-import com.trickl.crawler.api.Droid;
-import com.trickl.crawler.api.Parser;
 import com.trickl.crawler.api.Task;
-import com.trickl.crawler.api.Worker;
 import com.trickl.crawler.handle.LinkExtractor;
+import com.trickl.crawler.handle.ObjectToSourceHandler;
 import com.trickl.crawler.handle.TaskResultHandler;
 import com.trickl.crawler.handle.XslTransformHandler;
-import com.trickl.crawler.parser.ParserFactory;
-import com.trickl.crawler.parser.html.NekoHtmlParser;
+import com.trickl.crawler.robot.StandardDroid;
 import java.io.IOException;
 import java.net.URI;
 import java.util.Collection;
-import java.util.HashMap;
+import javax.xml.transform.Source;
 import org.apache.droids.exception.DroidsException;
 import org.w3c.dom.Document;
 
-public class XsltDroid<T extends Task> implements Droid<T>
+/**
+ * Extension of StandardDroid for common XSLT configuration
+ * @author tgee
+ * @param <T> 
+ */
+public class XsltDroid<T extends Task> extends StandardDroid<T>
 {
    private XslTransformHandler<T> xslTransformHandler;
 
    private LinkExtractor<T> linkExtractor;
    
-   private ParserFactory parserFactory;
-   
-   private boolean forceAllow;
-
-   public XsltDroid() throws DroidsException
+   public XsltDroid() 
    {
-      parserFactory = new ParserFactory();
-      Parser htmlParser = new NekoHtmlParser();
-      //Parser htmlParser = new HtmlCleanerParser();
-      //Parser htmlParser = new JTidyParser();
-      //Parser htmlParser = new RedirectParser(System.out);
-
-      parserFactory.setMap(new HashMap<String, Object>());
-      parserFactory.getMap().put("text/html", htmlParser);
-
+      super();
+            
       xslTransformHandler = new XslTransformHandler<T>();
+      ObjectToSourceHandler<T> objectToSourceHandler = new ObjectToSourceHandler<T>();
+      objectToSourceHandler.setOutputHandler(xslTransformHandler);
+      
       linkExtractor = new LinkExtractor<T>();
-   }
-   
-   public boolean getForceAllow() {
-      return forceAllow;
-   }
-
-   public void setForceAllow(boolean forceAllow)
-   {
-      this.forceAllow = forceAllow;
-   }
+      outputHandlers.add(linkExtractor);
+      outputHandlers.add(xslTransformHandler);
+   }   
 
    public void setXsltFile(String file) throws DroidsException
    {
@@ -69,7 +56,7 @@ public class XsltDroid<T extends Task> implements Droid<T>
       xslTransformHandler.setFile(file);
    }
 
-   public void setOutputHandler(TaskResultHandler<T, Document> outputHandler)
+   public void setOutputHandler(TaskResultHandler<T, Source> outputHandler)
    {
       xslTransformHandler.setOutputHandler(outputHandler);
    }
@@ -79,30 +66,8 @@ public class XsltDroid<T extends Task> implements Droid<T>
       this.linkExtractor.setOutputHandler(linkHandler);
    }
 
-   public LinkExtractor<T> getLinkExtractor()
-   {
-      return linkExtractor;
-   }
-
-   public XslTransformHandler<T> getXslTransformHandler()
-   {
-      return xslTransformHandler;
-   }
-
-   public ParserFactory getParserFactory()
-   {
-      return parserFactory;
-   }
-
    public void setRegexURLFile(String file) throws IOException
    {
       linkExtractor.setRegexURLFile(file);
    }   
-
-   @Override
-   public Worker<T> getNewWorker() {
-      final XsltWorker<T> worker = new XsltWorker<T>(this);
-
-      return worker;
-   }
 }
