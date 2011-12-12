@@ -16,6 +16,7 @@ package com.trickl.crawler.handle;
 import com.trickl.crawler.api.Task;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.StringReader;
 import javax.xml.transform.Source;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamSource;
@@ -43,7 +44,8 @@ public class ObjectToSourceHandler<T extends Task> implements TaskResultHandler<
          source = new StreamSource((InputStream) source);
       }
       else if (object instanceof String) {
-         source = new StreamSource((String) object);
+         
+         source = new StreamSource(new StringReader((String) object));
       }
       else {
          throw new DroidsException("ObjectToSourceHandler cannot handle type:" + source.getClass().getCanonicalName());
