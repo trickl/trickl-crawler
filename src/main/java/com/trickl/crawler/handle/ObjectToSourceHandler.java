@@ -23,42 +23,36 @@ import javax.xml.transform.stream.StreamSource;
 import org.apache.droids.exception.DroidsException;
 import org.w3c.dom.Node;
 
-public class ObjectToSourceHandler<T extends Task> implements TaskResultHandler<T, Object>
-{
+public class ObjectToSourceHandler<T extends Task> implements TaskResultHandler<T, Object> {
+
    private TaskResultHandler<T, Source> outputHandler;
 
-   public ObjectToSourceHandler()
-   {
+   public ObjectToSourceHandler() {
    }
 
    @SuppressWarnings("unchecked")
    @Override
-   public void handle(T task, Object object) throws DroidsException, IOException
-   {
-      if (task == null || object == null) throw new NullPointerException();
+   public void handle(T task, Object object) throws DroidsException, IOException {
+      if (task == null || object == null) {
+         throw new NullPointerException();
+      }
       Source source = null;
       if (object instanceof Node) {
          source = new DOMSource((Node) object);
-      }
-      else if (object instanceof InputStream) {
+      } else if (object instanceof InputStream) {
          source = new StreamSource((InputStream) source);
-      }
-      else if (object instanceof String) {
-         
+      } else if (object instanceof String) {
          source = new StreamSource(new StringReader((String) object));
-      }
-      else {
+      } else {
          throw new DroidsException("ObjectToSourceHandler cannot handle type:" + source.getClass().getCanonicalName());
       }
 
-      if (outputHandler != null)
-      {  
-         outputHandler.handle(task, source);         
+      if (outputHandler != null) {
+         outputHandler.handle(task, source);
       }
    }
 
-   public void setOutputHandler(TaskResultHandler<T, Source> outputHandler)
-   {
-     this.outputHandler = outputHandler;
+   public void setOutputHandler(TaskResultHandler<T, Source> outputHandler) {
+      this.outputHandler = outputHandler;
    }
 }
