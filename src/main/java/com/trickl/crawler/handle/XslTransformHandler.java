@@ -116,7 +116,7 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
       this.classLoaderObject = obj;
    }
 
-   public void setFile(String file) throws DroidsException
+   public void setXslTemplate(String file) throws DroidsException
    {
       if (file == null) throw new NullPointerException();
 

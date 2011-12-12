@@ -53,7 +53,7 @@ public class XsltDroid<T extends Task> extends StandardDroid<T>
    public void setXsltFile(String file) throws DroidsException
    {
       xslTransformHandler.setClassLoaderObject(this);
-      xslTransformHandler.setFile(file);
+      xslTransformHandler.setXslTemplate(file);
    }
 
    public void setOutputHandler(TaskResultHandler<T, Source> outputHandler)

@@ -57,7 +57,7 @@ public class StandardDroid<T extends Task> implements Droid<T>
       this.forceAllow = forceAllow;
    }
 
-   public void setOutputHandler(List<TaskResultHandler> outputHandlers)
+   public void setOutputHandlers(List<TaskResultHandler> outputHandlers)
    {
       this.outputHandlers = outputHandlers;
    }
