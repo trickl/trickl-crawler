@@ -170,12 +170,6 @@
       <version>${jaxb-impl.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.trickl</groupId>
-      <artifactId>trickl-model</artifactId>
-      <version>1.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>xmlunit</groupId>
       <artifactId>xmlunit</artifactId>
       <version>${xmlunit.version}</version>
