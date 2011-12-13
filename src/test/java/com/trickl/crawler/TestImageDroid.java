@@ -6,12 +6,10 @@ import com.trickl.crawler.robot.http.LinkTask;
 import com.trickl.crawler.robot.http.SimpleLinkTask;
 
 import java.awt.image.BufferedImage;
+import java.io.*;
 import java.util.logging.*;
 import javax.imageio.ImageIO;
 import java.net.URI;
-import java.io.FileOutputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
 import org.apache.droids.exception.DroidsException;
 import org.junit.Test;
@@ -32,7 +30,13 @@ public class TestImageDroid {
          {
             try
             {
-               FileOutputStream stream = new FileOutputStream("trickl-copy.png");
+               String filename = "trickl-copy.png";
+               String packagePath = this.getClass().getPackage().getName().replaceAll("\\.", "/");
+               File outputFile = new File("src/test/resources/"
+                     + packagePath
+                     + "/" + filename);
+                     
+               FileOutputStream stream = new FileOutputStream(outputFile);
                ImageIO.write(image, "png", stream);
                stream.close();
             }
@@ -43,7 +47,7 @@ public class TestImageDroid {
          }
       });
 
-      droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("classpath:com/trickl/crawler/trickl.png"), 0));
+      droid.getNewWorker().execute(new SimpleLinkTask(null, new URI("classpath:/com/trickl/crawler/trickl.png"), 0));
    }
 
    @Test
@@ -60,7 +64,13 @@ public class TestImageDroid {
          {
             try
             {
-               FileOutputStream stream = new FileOutputStream("poster.png");
+               String filename = "burbs-poster.png";
+               String packagePath = this.getClass().getPackage().getName().replaceAll("\\.", "/");
+               File outputFile = new File("src/test/resources/"
+                     + packagePath
+                     + "/" + filename);
+                     
+               FileOutputStream stream = new FileOutputStream(outputFile);
                ImageIO.write(image, "png", stream);
                stream.close();
             }
