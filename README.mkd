@@ -14,7 +14,8 @@ This is a significant fork and extension of Apache Droids.
 It includes functionality for:
 SOAP Requests
 HTTP POST Requests
-Web Page Rendering (using the Mozilla Gecko Engine)
+JSON processing.
+Web Page Rendering (using the Mozilla Gecko Engine) *note this code is quite old and untested.
 Timed Tasks
 Task Delegation
 XSLT Transformation
