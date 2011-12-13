@@ -13,7 +13,6 @@
  */
 package com.trickl.crawler.handle;
 
-
 import com.trickl.crawler.api.Task;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

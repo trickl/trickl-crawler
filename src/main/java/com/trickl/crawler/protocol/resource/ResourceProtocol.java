@@ -49,9 +49,9 @@ public class ResourceProtocol implements Protocol {
 
    private String extractLocation(URI uri) {
       String location = uri.toString();
-      final int start = location.indexOf(":");
-      if (start > -1) {
-         location = location.substring(start + 1);
+      if (location.startsWith("classpath:/"))
+      {
+         location = location.substring("classpath:/".length());
       }
       return location;
    }

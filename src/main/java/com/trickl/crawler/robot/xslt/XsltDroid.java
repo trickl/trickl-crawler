@@ -24,7 +24,6 @@ import java.net.URI;
 import java.util.Collection;
 import javax.xml.transform.Source;
 import org.apache.droids.exception.DroidsException;
-import org.w3c.dom.Document;
 
 /**
  * Extension of StandardDroid for common XSLT configuration
@@ -47,7 +46,7 @@ public class XsltDroid<T extends Task> extends StandardDroid<T>
       
       linkExtractor = new LinkExtractor<T>();
       outputHandlers.add(linkExtractor);
-      outputHandlers.add(xslTransformHandler);
+      outputHandlers.add(objectToSourceHandler);
    }   
 
    public void setXsltFile(String file) throws DroidsException
