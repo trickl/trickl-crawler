@@ -15,7 +15,6 @@ It includes functionality for:
 SOAP Requests
 HTTP POST Requests
 JSON processing.
-Web Page Rendering (using the Mozilla Gecko Engine) *note this code is quite old and untested.
 Timed Tasks
 Task Delegation
 XSLT Transformation
@@ -24,13 +23,6 @@ Multiple HTML Parser Support
 Requirements
 ------------
 Uses Apache Droids.
-
-The following dependencies are not in Maven Central and will need to be installed manually:
-swt:swt-linux-gtk:jar:3.5.2 (Architecture dependent - http://archive.eclipse.org/eclipse/downloads/drops/R-3.5.2-201002111343/index.php#SWT)
-org.htmlcleaner:htmlcleaner:jar:2.1 (http://htmlcleaner.sourceforge.net/download.php)
-org.mozilla:javaxpcom:jar:1.9.2 (Part of XULRunner - http://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/1.9.2/sdk/)
-org.mozilla:interfaces:jar:1.9.2 (Part of XULRunner - http://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/1.9.2/sdk/)
-org.mozilla:mozdom4java:jar:1.3 (http://mozdom4java.mozdev.org/download.html)
 
 
 License and conditions of use
