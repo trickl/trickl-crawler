@@ -13,6 +13,8 @@
  */
 package com.trickl.crawler.parser.json;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trickl.crawler.api.Parser;
 import com.trickl.crawler.api.Task;
 import java.io.IOException;
@@ -22,8 +24,6 @@ import org.apache.droids.api.ContentEntity;
 import org.apache.droids.api.Parse;
 import org.apache.droids.exception.DroidsException;
 import org.apache.droids.parse.ParseImpl;
-import org.codehaus.jackson.JsonNode;
-import org.codehaus.jackson.map.ObjectMapper;
 
 public class JsonParser implements Parser {
 

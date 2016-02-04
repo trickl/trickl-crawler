@@ -13,11 +13,11 @@
  */
 package com.trickl.crawler.handle;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trickl.crawler.api.Task;
 import java.io.IOException;
 import org.apache.droids.exception.DroidsException;
-import org.codehaus.jackson.JsonNode;
-import org.codehaus.jackson.map.ObjectMapper;
 
 public class JsonToBeanHandler<T extends Task, BeanType> implements TaskResultHandler<T, JsonNode>
 {

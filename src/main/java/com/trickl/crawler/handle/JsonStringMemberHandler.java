@@ -13,11 +13,11 @@
  */
 package com.trickl.crawler.handle;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trickl.crawler.api.Task;
 import java.io.IOException;
 import org.apache.droids.exception.DroidsException;
-import org.codehaus.jackson.JsonNode;
-import org.codehaus.jackson.map.ObjectMapper;
 
 public class JsonStringMemberHandler<T extends Task> implements TaskResultHandler<T, JsonNode>
 {
@@ -44,7 +44,7 @@ public class JsonStringMemberHandler<T extends Task> implements TaskResultHandle
             throw new DroidsException("JSON does not contain a value for member '" + propertyName + "'");
          }
          if (property.isTextual()) {
-            outputHandler.handle(task, property.getTextValue());
+            outputHandler.handle(task, property.textValue());
          }
          else {
             throw new DroidsException("JSON member '" + propertyName + "' is not a textual value.");
