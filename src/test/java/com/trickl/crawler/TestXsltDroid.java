@@ -16,9 +16,6 @@ public class TestXsltDroid {
    @Test
    public void createSimpleCrawler() throws Exception {
 
-      java.util.logging.Handler logHandler = new ConsoleHandler();
-      logHandler.setLevel(Level.FINEST);  
-
       XsltDroid<LinkTask> droid = new XsltDroid<LinkTask>();
       
       droid.setRegexURLFile("classpath:/com/trickl/crawler/xslt-droid.filter");

@@ -7,7 +7,6 @@ import com.trickl.crawler.robot.http.SimpleLinkTask;
 
 import java.awt.image.BufferedImage;
 import java.io.*;
-import java.util.logging.*;
 import javax.imageio.ImageIO;
 import java.net.URI;
 
@@ -18,9 +17,6 @@ public class TestImageDroid {
 
    @Test
    public void copyLocalImageFile() throws Exception {
-
-      java.util.logging.Handler logHandler = new ConsoleHandler();
-      logHandler.setLevel(Level.FINEST);
 
       ImageDroid<LinkTask> droid = new ImageDroid<LinkTask>();
       droid.setOutputHandler(new TaskResultHandler<LinkTask, BufferedImage>()
@@ -52,9 +48,6 @@ public class TestImageDroid {
 
    @Test
    public void copyHttpImageFile() throws Exception {
-
-      java.util.logging.Handler logHandler = new ConsoleHandler();
-      logHandler.setLevel(Level.FINEST);
 
       ImageDroid<LinkTask> droid = new ImageDroid<LinkTask>();
       droid.setOutputHandler(new TaskResultHandler<LinkTask, BufferedImage>()

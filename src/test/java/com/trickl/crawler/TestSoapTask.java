@@ -5,11 +5,9 @@ import com.trickl.crawler.handle.TaskResultHandler;
 import com.trickl.crawler.robot.StandardDroid;
 import com.trickl.crawler.xml.bind.DefaultNamespace;
 import com.trickl.crawler.robot.soap.TypedSoapTask;
-import com.trickl.crawler.robot.soap.SoapTask;
 import java.io.IOException;
 
 import java.net.URI;
-import java.util.logging.*;
 import org.apache.droids.exception.DroidsException;
 import org.cara.webcarasearch.wsdl.GetTitleListByYearRatingFullWithPagination;
 import org.cara.webcarasearch.wsdl.GetTitleListByYearRatingFullWithPaginationResponse;
@@ -32,9 +30,6 @@ public class TestSoapTask {
 
    @Test
    public void requestMPAAFilmRatingByTitle() throws Exception {
-
-      java.util.logging.Handler logHandler = new ConsoleHandler();
-      logHandler.setLevel(Level.FINEST);
 
       StandardDroid droid = new StandardDroid();
       
@@ -73,9 +68,6 @@ public class TestSoapTask {
 
    @Test
    public void requestMPAAFilmRatingByYearAndRating() throws Exception {
-
-      java.util.logging.Handler logHandler = new ConsoleHandler();
-      logHandler.setLevel(Level.FINEST);
 
       StandardDroid droid = new StandardDroid();
       
