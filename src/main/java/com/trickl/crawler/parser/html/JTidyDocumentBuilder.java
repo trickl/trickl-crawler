@@ -46,7 +46,7 @@ public class JTidyDocumentBuilder implements DocumentBuilder {
       htmlParser.setSmartIndent(false);
       htmlParser.setIndentContent(false);
       htmlParser.setIndentAttributes(false);
-      htmlParser.setXmlTags(true);
+      htmlParser.setXHTML(true);
       htmlParser.setWraplen(0);
 
       xmlParser = new XmlParser();
