@@ -54,8 +54,8 @@ public class HttpProtocol implements Protocol {
   
   private boolean forceAllow = false;
   private String method = HttpGet.METHOD_NAME;
-  private Map<String, Object> postData = new HashMap<String, Object>();
-  private Map<String, String> headerData = new HashMap<String, String>();
+  private Map<String, Object> postData = new HashMap<>();
+  private Map<String, String> headerData = new HashMap<>();
   private String userAgent = "Apache-Droids/1.1 (java 1.5)";
 
   public HttpProtocol(final HttpClient httpclient) {
@@ -66,7 +66,7 @@ public class HttpProtocol implements Protocol {
   }
   
   public HttpProtocol() {
-    this(new DroidsHttpClient());
+    this(new TaskHttpClient());
   }
 
   @Override
