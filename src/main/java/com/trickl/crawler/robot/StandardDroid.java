@@ -19,9 +19,14 @@ import com.trickl.crawler.api.Task;
 import com.trickl.crawler.api.Worker;
 import com.trickl.crawler.handle.TaskResultHandler;
 import com.trickl.crawler.parser.ParserFactory;
-import com.trickl.crawler.parser.html.NekoHtmlParser;
+import com.trickl.crawler.parser.html.DocumentBuilder;
+import com.trickl.crawler.parser.html.HtmlCleanerDocumentBuilder;
+import com.trickl.crawler.parser.html.HtmlParser;
+import com.trickl.crawler.parser.html.JTidyDocumentBuilder;
+import com.trickl.crawler.parser.html.NekoHtmlDocumentBuilder;
 import com.trickl.crawler.parser.json.JsonParser;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -37,7 +42,12 @@ public class StandardDroid<T extends Task> implements Droid<T>
    public StandardDroid()
    {
       parserFactory = new ParserFactory();
-      Parser htmlParser = new NekoHtmlParser();
+      Parser htmlParser = new HtmlParser(Arrays.asList(new DocumentBuilder [] {
+          // Why settle for one when we can wash HTML through all three parsers
+          new NekoHtmlDocumentBuilder(),
+          new HtmlCleanerDocumentBuilder(), 
+          new JTidyDocumentBuilder()})
+      );
       parserFactory.setMap(new HashMap<String, Object>());
       parserFactory.getMap().put("text/html", htmlParser);
       parserFactory.getMap().put("application/json", new JsonParser());      

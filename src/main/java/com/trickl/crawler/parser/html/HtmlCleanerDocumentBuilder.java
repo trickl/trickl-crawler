@@ -13,8 +13,6 @@
  */
 package com.trickl.crawler.parser.html;
 
-import com.trickl.crawler.api.Parser;
-import com.trickl.crawler.api.Task;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -25,16 +23,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import org.apache.droids.api.ContentEntity;
-import org.apache.droids.api.Parse;
-import org.apache.droids.exception.DroidsException;
-import org.apache.droids.parse.ParseImpl;
 import org.htmlcleaner.*;
 import org.w3c.dom.Comment;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-public class HtmlCleanerParser implements Parser {
+public class HtmlCleanerDocumentBuilder implements DocumentBuilder {
 
    // Namespace-aware serializer
    public static class DomSerializerNS {
@@ -52,7 +46,7 @@ public class HtmlCleanerParser implements Parser {
       }
 
       private Map<String, String> getDeclaredNamespaces(TagNode rootNode) {
-         Map<String, String> namespaces = new HashMap<String, String>();
+         Map<String, String> namespaces = new HashMap<>();
          for (Object attribute : rootNode.getAttributes().keySet()) {
             String attr = attribute.toString().toLowerCase();
             if (attr.startsWith("xmlns")) {
@@ -148,10 +142,10 @@ public class HtmlCleanerParser implements Parser {
       }
    }
 
-   private static final Logger logger = Logger.getLogger(HtmlCleanerParser.class.getCanonicalName());
+   private static final Logger logger = Logger.getLogger(HtmlCleanerDocumentBuilder.class.getCanonicalName());
    private HtmlCleaner parserImpl;
 
-   public HtmlCleanerParser() {
+   public HtmlCleanerDocumentBuilder() {
       parserImpl = new HtmlCleaner();
       CleanerProperties props = parserImpl.getProperties();
       props.setOmitComments(true);
@@ -163,30 +157,15 @@ public class HtmlCleanerParser implements Parser {
       props.setNamespacesAware(true);
    }
 
-   public Parse parse(ContentEntity entity, Task newLink) throws DroidsException, IOException {
-
-      // create HTML parser
-      Document document = null;
-      InputStream stream = entity.obtainContent();
-      try {
-         document = parse(stream);
-      } finally {
-         stream.close();
-      }
-      return new ParseImpl(newLink.getId(), document, null);
-   }
-
-   public Document parse(InputStream stream) {
+   @Override
+   public Document build(InputStream stream) {
       Document document = null;
       try {
          DomSerializerNS serializer = new DomSerializerNS(parserImpl.getProperties(), true);
          TagNode node = parserImpl.clean(stream);
          document = serializer.createDOM(node);
-      } catch (ParserConfigurationException e) {
-         logger.log(Level.WARNING, "Parse configuration error processing HTML", e);
-         e.printStackTrace();
-      } catch (IOException e) {
-         logger.log(Level.WARNING, "IO error processing HTML", e);
+      } catch (ParserConfigurationException | IOException e) {
+         logger.log(Level.WARNING, "Error processing HTML", e);
       }
 
       return document;
