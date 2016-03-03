@@ -132,7 +132,14 @@ public class TaskService<T extends Task> implements TaskMaster<T> {
                      }
                      switch (result) {
                         case WARN:
-                           logger.log(Level.WARNING, ex.getMessage(), ex);
+                           if (logger.isLoggable(Level.FINER)) {
+                              // Only show stacktrace for warnings when debugging
+                              logger.log(Level.WARNING, ex.getMessage(), ex);
+                           }
+                           else {
+                              logger.log(Level.WARNING, ex.getMessage());    
+                           }
+                           
                            break;
                         case FATAL:
                            logger.log(Level.SEVERE, ex.getMessage(), ex);
