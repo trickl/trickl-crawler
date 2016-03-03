@@ -36,8 +36,8 @@ class TaskHttpRequestRetryHandler implements HttpRequestRetryHandler
       return false;
     }
     if (exception instanceof NoHttpResponseException) {
-      // Cannot connect
-      return false;
+      // Lost connection
+      return true;
     }
     if (exception instanceof InterruptedIOException) {
       // Timeout
