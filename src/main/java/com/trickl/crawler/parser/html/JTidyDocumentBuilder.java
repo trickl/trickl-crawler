@@ -61,9 +61,9 @@ public class JTidyDocumentBuilder implements DocumentBuilder {
       htmlParser.setErrout(new PrintWriter(errOut));
       htmlParser.parse(stream, xmlOut);
 
-      if (errOut.size() > 0)
+      if (logger.isLoggable(Level.FINER) && errOut.size() > 0)
       {
-         logger.log(Level.WARNING, "JTidy encountered errors:{0}", errOut.toString());
+         logger.log(Level.FINER, "JTidy encountered errors:{0}", errOut.toString());
       }
       else
       {
