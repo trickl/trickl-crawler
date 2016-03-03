@@ -44,8 +44,8 @@ public class StandardDroid<T extends Task> implements Droid<T>
       parserFactory = new ParserFactory();
       Parser htmlParser = new HtmlParser(Arrays.asList(new DocumentBuilder [] {
           // Why settle for one when we can wash HTML through all three parsers
-          new NekoHtmlDocumentBuilder(),
-          new HtmlCleanerDocumentBuilder(), 
+          //new NekoHtmlDocumentBuilder(),
+          //new HtmlCleanerDocumentBuilder(), 
           new JTidyDocumentBuilder()})
       );
       parserFactory.setMap(new HashMap<String, Object>());
