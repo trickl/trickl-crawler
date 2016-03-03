@@ -43,25 +43,16 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
 
    private DocumentBuilder documentBuilder;
 
-   private Transformer transformer;
-
    public XslTransformHandler() 
    {
       try 
       {
          DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
          documentBuilder = documentFactory.newDocumentBuilder();
-
-         transformer = TransformerFactory.newInstance().newTransformer();
-         transformer.setOutputProperty(OutputKeys.METHOD, "xml");
       }
       catch (ParserConfigurationException ex)
       {
          logger.log(Level.SEVERE, "Failed to instantiate transform.", ex);
-      }
-      catch (TransformerConfigurationException ex)
-      {
-         logger.log(Level.SEVERE, "Failed to instantiate XML transform", ex);
       }
    }
 
@@ -79,9 +70,14 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
             xslTransformer.transform(source, new DOMResult(transformedDocument));
             
             if (logger.isLoggable(Level.FINEST)) {
-               ByteArrayOutputStream stream = new ByteArrayOutputStream();
-               xslTransformer.transform(source, new StreamResult(stream));
-               logger.log(Level.FINEST, "Transform output:\n{0}", stream.toString());
+               Transformer passthroughTransformer = TransformerFactory.newInstance().newTransformer();
+               ByteArrayOutputStream inputStream = new ByteArrayOutputStream();
+               passthroughTransformer.transform(source, new StreamResult(inputStream));
+               logger.log(Level.FINEST, "Transform input:\n{0}", inputStream.toString());               
+               
+               ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+               xslTransformer.transform(source, new StreamResult(outputStream));
+               logger.log(Level.FINEST, "Transform output:\n{0}", outputStream.toString());
             }
 
             if (transformedDocument.getDocumentElement() == null)
@@ -140,7 +136,7 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
       TransformerFactory xslTransformerFactory = TransformerFactory.newInstance();
       try
       {
-         xslTransformer = xslTransformerFactory.newTransformer(new StreamSource(url.openStream()));
+         xslTransformer = xslTransformerFactory.newTransformer(new StreamSource(url.openStream()));         
       }
       catch (IOException e)
       {
