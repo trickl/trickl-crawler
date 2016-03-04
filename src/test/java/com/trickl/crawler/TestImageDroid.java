@@ -1,8 +1,8 @@
 package com.trickl.crawler;
 
+import com.trickl.crawler.api.Task;
 import com.trickl.crawler.robot.image.ImageDroid;
 import com.trickl.crawler.handle.TaskResultHandler;
-import com.trickl.crawler.robot.http.LinkTask;
 import com.trickl.crawler.robot.http.SimpleLinkTask;
 
 import java.awt.image.BufferedImage;
@@ -18,11 +18,11 @@ public class TestImageDroid {
    @Test
    public void copyLocalImageFile() throws Exception {
 
-      ImageDroid<LinkTask> droid = new ImageDroid<LinkTask>();
-      droid.setOutputHandler(new TaskResultHandler<LinkTask, BufferedImage>()
+      ImageDroid<Task> droid = new ImageDroid<>();
+      droid.setOutputHandler(new TaskResultHandler<Task, BufferedImage>()
       {
          @Override
-         public void handle(LinkTask link, BufferedImage image) throws DroidsException, IOException
+         public void handle(Task link, BufferedImage image) throws DroidsException, IOException
          {
             try
             {
@@ -49,11 +49,11 @@ public class TestImageDroid {
    @Test
    public void copyHttpImageFile() throws Exception {
 
-      ImageDroid<LinkTask> droid = new ImageDroid<LinkTask>();
-      droid.setOutputHandler(new TaskResultHandler<LinkTask, BufferedImage>()
+      ImageDroid<Task> droid = new ImageDroid<>();
+      droid.setOutputHandler(new TaskResultHandler<Task, BufferedImage>()
       {
          @Override
-         public void handle(LinkTask link, BufferedImage image) throws DroidsException, IOException
+         public void handle(Task link, BufferedImage image) throws DroidsException, IOException
          {
             try
             {

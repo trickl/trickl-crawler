@@ -13,8 +13,8 @@
  */
 package com.trickl.crawler.robot.image;
 
+import com.trickl.crawler.api.Task;
 import com.trickl.crawler.api.Worker;
-import com.trickl.crawler.robot.http.LinkTask;
 import java.io.IOException;
 import java.net.URI;
 import java.util.logging.Level;
@@ -23,7 +23,7 @@ import org.apache.droids.api.ManagedContentEntity;
 import org.apache.droids.api.Protocol;
 import org.apache.droids.exception.DroidsException;
 
-public class ImageWorker<T extends LinkTask> implements Worker<T> {
+public class ImageWorker<T extends Task> implements Worker<T> {
 
    public final static Logger logger = Logger.getLogger(ImageWorker.class.getCanonicalName());
    private final ImageDroid<T> droid;

@@ -23,18 +23,19 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.apache.droids.api.Link;
 import org.apache.droids.api.Protocol;
 import org.apache.droids.exception.ProtocolNotFoundException;
 import org.apache.droids.helper.factories.ProtocolFactory;
 import org.apache.droids.protocol.file.FileProtocol;
 
-public class SimpleLinkTask implements LinkTask, Serializable {
+public class SimpleLinkTask implements Link, Task, Serializable {
 
    private static final long serialVersionUID = -44808094386453088L;
    private Date started;
    private final int depth;
    private final URI uri;
-   private final LinkTask from;
+   private final Link from;
    private Date lastModifedDate;
    private Collection<URI> linksTo;
    private String anchorText;
@@ -42,11 +43,11 @@ public class SimpleLinkTask implements LinkTask, Serializable {
    private boolean aborted = false;
    private ProtocolFactory protocolFactory;
 
-   public SimpleLinkTask(LinkTask from, URI uri, int depth) {
+   public SimpleLinkTask(Link from, URI uri, int depth) {
       this(from, uri, depth, 0);
    }
 
-   public SimpleLinkTask(LinkTask from, URI uri, int depth, int weight) {
+   public SimpleLinkTask(Link from, URI uri, int depth, int weight) {
       this.from = from;
       this.uri = uri;
       this.depth = depth;
@@ -83,7 +84,7 @@ public class SimpleLinkTask implements LinkTask, Serializable {
    }
 
    @Override
-   public LinkTask getFrom() {
+   public Link getFrom() {
       return from;
    }
 

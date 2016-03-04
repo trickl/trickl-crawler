@@ -14,14 +14,14 @@
 package com.trickl.crawler.robot.image;
 
 import com.trickl.crawler.api.Droid;
+import com.trickl.crawler.api.Task;
 import com.trickl.crawler.api.Worker;
 import com.trickl.crawler.handle.ImageHandler;
 import com.trickl.crawler.handle.TaskResultHandler;
-import com.trickl.crawler.robot.http.LinkTask;
 import java.awt.image.BufferedImage;
 
 
-public class ImageDroid<T extends LinkTask> implements Droid<T>
+public class ImageDroid<T extends Task> implements Droid<T>
 {
    private ImageHandler<T> imageHandler;
    

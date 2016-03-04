@@ -15,7 +15,6 @@ package com.trickl.crawler.parser;
 
 import com.trickl.crawler.api.Parser;
 import com.trickl.crawler.api.Task;
-import com.trickl.crawler.robot.http.LinkTask;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
