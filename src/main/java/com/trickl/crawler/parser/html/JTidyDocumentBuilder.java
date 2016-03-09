@@ -39,6 +39,7 @@ public class JTidyDocumentBuilder implements DocumentBuilder {
       htmlParser = new Tidy();
       
       htmlParser.setFixUri(true);
+      htmlParser.setTidyMark(false);
       htmlParser.setXmlOut(true);
       htmlParser.setForceOutput(true);
       htmlParser.setMakeClean(true);
@@ -46,8 +47,9 @@ public class JTidyDocumentBuilder implements DocumentBuilder {
       htmlParser.setSmartIndent(false);
       htmlParser.setIndentContent(false);
       htmlParser.setIndentAttributes(false);
+      htmlParser.setHideComments(true);
       htmlParser.setXHTML(true);
-      htmlParser.setWraplen(0);
+      htmlParser.setWraplen(0);            
 
       xmlParser = new XmlParser();
    }
@@ -62,16 +64,20 @@ public class JTidyDocumentBuilder implements DocumentBuilder {
       htmlParser.setErrout(new PrintWriter(errOut));
       htmlParser.parse(stream, xmlOut);
 
-      if (logger.isLoggable(Level.FINER) && errOut.size() > 0)
+      if (logger.isLoggable(Level.FINEST) && errOut.size() > 0)
       {
-         logger.log(Level.FINER, "JTidy encountered errors:{0}", errOut.toString());
+         logger.log(Level.FINEST, "JTidy encountered errors:{0}", errOut.toString());
       }
-      else
+      
+      // Parse into an XML DOM
+      ByteArrayInputStream xmlIn = new ByteArrayInputStream(xmlOut.toByteArray());
+      
+      if (logger.isLoggable(Level.FINER))
       {
-         // Parse into an XML DOM
-         ByteArrayInputStream xmlIn = new ByteArrayInputStream(xmlOut.toByteArray());
-         document = xmlParser.parse(xmlIn);
+         logger.log(Level.FINER, "JTidy output: {0}", xmlOut.toString());
       }
+      
+      document = xmlParser.parse(xmlIn);      
 
       return document;
    }
