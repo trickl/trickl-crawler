@@ -23,10 +23,16 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathExpressionException;
+import javax.xml.xpath.XPathFactory;
 import org.htmlcleaner.*;
 import org.w3c.dom.Comment;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.Node;
 
 public class HtmlCleanerDocumentBuilder implements DocumentBuilder {
 
@@ -78,7 +84,7 @@ public class HtmlCleanerDocumentBuilder implements DocumentBuilder {
          return namespace;
       }
 
-      public Document createDOM(TagNode rootNode) throws ParserConfigurationException {
+      public Document createDOM(TagNode rootNode) throws ParserConfigurationException, XPathExpressionException {
          DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
          Map<String, String> namespaces = getDeclaredNamespaces(rootNode);
@@ -89,10 +95,10 @@ public class HtmlCleanerDocumentBuilder implements DocumentBuilder {
          document.appendChild(rootElement);
 
          createSubnodes(document, rootElement, rootNode.getChildren(), namespaces);
-
+         
          return document;
       }
-
+      
       private void createSubnodes(Document document, Element element, List tagChildren, Map<String, String> namespaces) {
          if (tagChildren != null) {
             Iterator it = tagChildren.iterator();
@@ -155,6 +161,8 @@ public class HtmlCleanerDocumentBuilder implements DocumentBuilder {
       props.setOmitDoctypeDeclaration(false);
       props.setOmitDeprecatedTags(false);
       props.setNamespacesAware(true);
+      props.setBooleanAttributeValues("self");
+      props.setIgnoreQuestAndExclam(true);
    }
    
    public void setPruneTags(String pruneTags) {
@@ -169,7 +177,7 @@ public class HtmlCleanerDocumentBuilder implements DocumentBuilder {
          DomSerializerNS serializer = new DomSerializerNS(parserImpl.getProperties(), true);
          TagNode node = parserImpl.clean(stream);
          document = serializer.createDOM(node);
-      } catch (ParserConfigurationException | IOException e) {
+      } catch (ParserConfigurationException | XPathExpressionException | IOException e) {
          logger.log(Level.WARNING, "Error processing HTML", e);
       }
 
