@@ -65,19 +65,23 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
       {     
          // Transform XML
          try
-         {            
+         {       
+            if (logger.isLoggable(Level.FINEST)) {
+               Transformer transformer = TransformerFactory.newInstance().newTransformer();
+               ByteArrayOutputStream stream = new ByteArrayOutputStream();
+               transformer.transform(source, new StreamResult(stream));
+               logger.log(Level.FINEST, "Transform input:\n{0}", stream.toString()); 
+            }
+             
             Document transformedDocument = documentBuilder.newDocument();
             xslTransformer.transform(source, new DOMResult(transformedDocument));
             
-            if (logger.isLoggable(Level.FINEST)) {
-               Transformer passthroughTransformer = TransformerFactory.newInstance().newTransformer();
-               ByteArrayOutputStream inputStream = new ByteArrayOutputStream();
-               passthroughTransformer.transform(source, new StreamResult(inputStream));
-               logger.log(Level.FINEST, "Transform input:\n{0}", inputStream.toString());               
-               
-               ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-               xslTransformer.transform(source, new StreamResult(outputStream));
-               logger.log(Level.FINEST, "Transform output:\n{0}", outputStream.toString());
+            if (logger.isLoggable(Level.FINEST)) {             
+               Transformer transformer = TransformerFactory.newInstance().newTransformer();
+               transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+               ByteArrayOutputStream stream = new ByteArrayOutputStream();
+               transformer.transform(new DOMSource(transformedDocument), new StreamResult(stream));
+               logger.log(Level.FINEST, "Transform output:\n{0}", stream.toString()); 
             }
 
             if (transformedDocument.getDocumentElement() == null)
