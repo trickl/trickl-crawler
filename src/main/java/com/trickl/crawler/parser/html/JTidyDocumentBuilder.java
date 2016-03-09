@@ -38,9 +38,10 @@ public class JTidyDocumentBuilder implements DocumentBuilder {
    public JTidyDocumentBuilder() {
       htmlParser = new Tidy();
       
+      // Defaults
       htmlParser.setFixUri(true);
       htmlParser.setTidyMark(false);
-      htmlParser.setXmlOut(true);
+      htmlParser.setXHTML(true);
       htmlParser.setForceOutput(true);
       htmlParser.setMakeClean(true);
       htmlParser.setMakeBare(true);
@@ -48,10 +49,17 @@ public class JTidyDocumentBuilder implements DocumentBuilder {
       htmlParser.setIndentContent(false);
       htmlParser.setIndentAttributes(false);
       htmlParser.setHideComments(true);
-      htmlParser.setXHTML(true);
       htmlParser.setWraplen(0);            
 
       xmlParser = new XmlParser();
+   }
+   
+   public void setXHTML(boolean xhtml) {
+       htmlParser.setXHTML(xhtml);
+   }
+   
+   public void setXmlOut(boolean xmlOut) {
+       htmlParser.setXmlOut(xmlOut);
    }
 
    @Override
