@@ -156,6 +156,11 @@ public class HtmlCleanerDocumentBuilder implements DocumentBuilder {
       props.setOmitDeprecatedTags(false);
       props.setNamespacesAware(true);
    }
+   
+   public void setPruneTags(String pruneTags) {
+       CleanerProperties props = parserImpl.getProperties();
+       props.setPruneTags(pruneTags);
+   }
 
    @Override
    public Document build(InputStream stream) {
