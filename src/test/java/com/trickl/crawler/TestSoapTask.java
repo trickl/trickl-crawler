@@ -4,7 +4,7 @@ import com.trickl.crawler.handle.JaxbHandler;
 import com.trickl.crawler.handle.TaskResultHandler;
 import com.trickl.crawler.robot.StandardDroid;
 import com.trickl.crawler.xml.bind.DefaultNamespace;
-import com.trickl.crawler.robot.soap.TypedSoapTask;
+import com.trickl.crawler.robot.soap.SimpleSoapTask;
 import java.io.IOException;
 
 import java.net.URI;
@@ -34,19 +34,19 @@ public class TestSoapTask {
       StandardDroid droid = new StandardDroid();
       
       // Define the handler
-      JaxbHandler<TypedSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse> jaxbHandler
-              = new JaxbHandler<TypedSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse>();
-      jaxbHandler.setOutputHandler(new TaskResultHandler<TypedSoapTask<GetTitleListStringFullWithPagination>,
+      JaxbHandler<SimpleSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse> jaxbHandler
+              = new JaxbHandler<SimpleSoapTask<GetTitleListStringFullWithPagination>, GetTitleListStringFullWithPaginationResponse>();
+      jaxbHandler.setOutputHandler(new TaskResultHandler<SimpleSoapTask<GetTitleListStringFullWithPagination>,
               GetTitleListStringFullWithPaginationResponse>() {
          @Override
-         public void handle(TypedSoapTask<GetTitleListStringFullWithPagination> task,
+         public void handle(SimpleSoapTask<GetTitleListStringFullWithPagination> task,
                             GetTitleListStringFullWithPaginationResponse response) throws DroidsException, IOException {
             System.out.println(response.getGetTitleListStringFullWithPaginationResult());
          }
       });
   
       // Define the task
-      TypedSoapTask<GetTitleListStringFullWithPagination> soapTask = new TypedSoapTask<GetTitleListStringFullWithPagination>();      
+      SimpleSoapTask<GetTitleListStringFullWithPagination> soapTask = new SimpleSoapTask<GetTitleListStringFullWithPagination>();      
       GetTitleListStringFullWithPagination request = new GetTitleListStringFullWithPagination();
       request.setSearch("Love Actually");
       request.setStartRow(1);
@@ -72,19 +72,19 @@ public class TestSoapTask {
       StandardDroid droid = new StandardDroid();
       
       // Define the handler
-      JaxbHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse> jaxbHandler
-              = new JaxbHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse>();
-      jaxbHandler.setOutputHandler(new TaskResultHandler<TypedSoapTask<GetTitleListByYearRatingFullWithPagination>,
+      JaxbHandler<SimpleSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse> jaxbHandler
+              = new JaxbHandler<SimpleSoapTask<GetTitleListByYearRatingFullWithPagination>, GetTitleListByYearRatingFullWithPaginationResponse>();
+      jaxbHandler.setOutputHandler(new TaskResultHandler<SimpleSoapTask<GetTitleListByYearRatingFullWithPagination>,
               GetTitleListByYearRatingFullWithPaginationResponse>() {
          @Override
-         public void handle(TypedSoapTask<GetTitleListByYearRatingFullWithPagination> task,
+         public void handle(SimpleSoapTask<GetTitleListByYearRatingFullWithPagination> task,
                             GetTitleListByYearRatingFullWithPaginationResponse response) throws DroidsException, IOException {
             System.out.println(response.getGetTitleListByYearRatingFullWithPaginationResult());
          }
       });
   
       // Define the task
-      TypedSoapTask<GetTitleListByYearRatingFullWithPagination> soapTask = new TypedSoapTask<GetTitleListByYearRatingFullWithPagination>();      
+      SimpleSoapTask<GetTitleListByYearRatingFullWithPagination> soapTask = new SimpleSoapTask<GetTitleListByYearRatingFullWithPagination>();      
       GetTitleListByYearRatingFullWithPagination request = new GetTitleListByYearRatingFullWithPagination();
       request.setYear("2010");
       request.setRating(Rating.PG.toString());
