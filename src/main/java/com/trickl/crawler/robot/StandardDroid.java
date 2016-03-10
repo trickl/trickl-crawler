@@ -23,6 +23,7 @@ import com.trickl.crawler.parser.html.DocumentBuilder;
 import com.trickl.crawler.parser.html.HtmlParser;
 import com.trickl.crawler.parser.html.JTidyDocumentBuilder;
 import com.trickl.crawler.parser.json.JsonParser;
+import com.trickl.crawler.parser.xml.XmlParser;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -45,6 +46,7 @@ public class StandardDroid<T extends Task> implements Droid<T>
           new JTidyDocumentBuilder()})
       );
       parserFactory.setMap(new HashMap<String, Object>());
+      parserFactory.getMap().put("text/xml", new XmlParser());
       parserFactory.getMap().put("text/html", htmlParser);
       parserFactory.getMap().put("application/json", new JsonParser());      
    }
