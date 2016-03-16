@@ -15,6 +15,7 @@ package com.trickl.crawler.parser.xml;
 
 import com.trickl.crawler.api.Parser;
 import com.trickl.crawler.api.Task;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.logging.Level;
@@ -22,6 +23,14 @@ import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
 import org.apache.droids.api.ContentEntity;
 import org.apache.droids.api.Parse;
 import org.apache.droids.exception.DroidsException;
@@ -70,11 +79,20 @@ public class XmlParser implements Parser {
       // Parse into an XML DOM
       try {
          document = documentBuilder.parse(stream);
-      } catch (SAXException ex) {
-         logger.log(Level.WARNING, "XML error processing HTML", ex);
-      } catch (IOException e) {
-         logger.log(Level.WARNING, "IO error processing HTML", e);
-      }
+      } catch (SAXException | IOException ex) {
+          try {
+              logger.log(Level.WARNING, "Error processing stream", ex);
+              Transformer transformer;
+              transformer = TransformerFactory.newInstance().newTransformer();              
+              transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+              ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+              transformer.transform(new StreamSource(stream), new StreamResult(outputStream));
+              logger.log(Level.FINEST, "Input:\n{0}", outputStream.toString());              
+              throw new DroidsException(ex);
+          } catch (TransformerException ex2) {
+              Logger.getLogger(XmlParser.class.getName()).log(Level.SEVERE, "Unable to dump stream.", ex2);
+          }
+      } 
 
       return document;
    }
