@@ -63,10 +63,10 @@ public class StandardWorker<T extends Task> implements Worker<T> {
             }
          }
          catch (Exception ex) {
-            logger.log(Level.WARNING, "XSL tranformation failed. Reason: {0}", ex.getMessage());
+            logger.log(Level.WARNING, "Output could not be processed. Reason: {0}", ex.getMessage());
          }
          catch (Error ex) {
-            logger.log(Level.SEVERE, "XSL tranformation failed. Reason: {0}", ex.getMessage());
+            logger.log(Level.SEVERE, "Output could not be processed. Reason: {0}", ex.getMessage());
             throw ex;
          }
          finally {            
