@@ -48,7 +48,11 @@ public class StandardDroid<T extends Task> implements Droid<T>
       parserFactory.setMap(new HashMap<String, Object>());
       parserFactory.getMap().put("text/xml", new XmlParser());
       parserFactory.getMap().put("text/html", htmlParser);
-      parserFactory.getMap().put("application/json", new JsonParser());      
+      
+      Parser jsonParser = new JsonParser();
+      parserFactory.getMap().put("text/javascript", jsonParser);      
+      parserFactory.getMap().put("application/json", jsonParser);      
+      
    }
    
    public void setParserFactory(ParserFactory parserFactory) {

@@ -50,7 +50,7 @@ public class StandardWorker<T extends Task> implements Worker<T> {
             String contentType = entity.getMimeType();
             logger.log(Level.FINE, "Content type {0}", contentType);
             if (contentType == null) {
-               logger.info("Missing content type... can't parse...");
+               logger.log(Level.WARNING, "Missing content type... can't parse unknown mime type...");
             } else {
                Parser parser = droid.getParserFactory().getParser(contentType);
                if (parser != null) {
@@ -59,6 +59,10 @@ public class StandardWorker<T extends Task> implements Worker<T> {
                   for(TaskResultHandler<T, Object> handler : droid.getOutputHandlers()) {
                      handler.handle(task, parseData);
                   }
+               }
+               else 
+               {
+                   logger.log(Level.WARNING, "No parser understands content type: " + contentType);                   
                }
             }
          }
