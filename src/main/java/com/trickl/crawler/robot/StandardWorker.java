@@ -66,8 +66,9 @@ public class StandardWorker<T extends Task> implements Worker<T> {
                }
             }
          }
-         catch (Exception ex) {
+         catch (DroidsException | IOException ex) {
             logger.log(Level.WARNING, "Output could not be processed. Reason: {0}", ex.getMessage());
+            throw ex;
          }
          catch (Error ex) {
             logger.log(Level.SEVERE, "Output could not be processed. Reason: {0}", ex.getMessage());
