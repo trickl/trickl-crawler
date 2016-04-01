@@ -13,160 +13,120 @@
  */
 package com.trickl.crawler.robot.soap;
 
-import com.sun.xml.bind.marshaller.NamespacePrefixMapper;
 import com.trickl.crawler.protocol.soap.SoapProtocol;
-import com.trickl.crawler.xml.bind.DefaultNamespace;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.beans.PropertyEditor;
 import java.io.Serializable;
 import java.net.URI;
 import java.util.Date;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.PropertyException;
-import javax.xml.transform.Source;
-import javax.xml.transform.stream.StreamSource;
 import org.apache.droids.api.Protocol;
-import org.apache.droids.exception.DroidsException;
 import org.springframework.ws.client.core.WebServiceTemplate;
 
-public class SimpleSoapTask<RequestType>  implements SoapTask, Serializable {
+public class SimpleSoapTask<RequestType> implements SoapTask, Serializable {
 
-   private URI uri;
-   private final Date started;
-   private boolean aborted = false;
-   private URI action;
-   private WebServiceTemplate webServiceTemplate = null;
-   private RequestType request;
-   private Marshaller requestMarshaller = null;
-   private NamespacePrefixMapper namespacePrefixMapper = null;
-   
-   public SimpleSoapTask() {
-      this.started = new Date(); 
-   }
-      
-   @Override
-   public URI getURI() {
-      return uri;
-   }
-   
-   @Override
-   public String getId() {
-      return uri.toString();
-   }
-   
-   @Override
-   public Date getTaskDate() {
-      return started;
-   }
-   
-   @Override
-   public void abort() {
-      aborted = true;
-   }
-   
-   @Override
-   public boolean isAborted() {
-      return aborted;
-   }   
-   
-   @Override
-   public URI getSOAPAction() {
-      return action;
-   }
-   
-   /**
-    * @return the uri
-    */
-   public URI getUri() {
-      return uri;
-   }
+    private URI uri;
+    private final Date started;
+    private boolean aborted = false;
+    private URI action;
+    private WebServiceTemplate webServiceTemplate = null;
+    private RequestType request;
+    private PropertyEditor propertyEditor;
 
-   /**
-    * @param uri the uri to set
-    */
-   public void setUri(URI uri) {
-      this.uri = uri;
-   }
+    public SimpleSoapTask() {
+        this.started = new Date();
+    }
 
-   /**
-    * @return the action
-    */
-   public URI getAction() {
-      return action;
-   }
+    @Override
+    public URI getURI() {
+        return uri;
+    }
 
-   /**
-    * @param action the action to set
-    */
-   public void setAction(URI action) {
-      this.action = action;
-   }
+    @Override
+    public String getId() {
+        return uri.toString();
+    }
 
-   /**
-    * @return the webServiceTemplate
-    */
-   public WebServiceTemplate getWebServiceTemplate() {
-      return webServiceTemplate;
-   }
-   
-   public void setWebServiceTemplate(WebServiceTemplate webServiceTemplate) {
-      this.webServiceTemplate = webServiceTemplate;
-   }
-      
-   
-   @Override
-   public <T> T getSOAPRequest(Class<T> cls) {
-      return (T) request;
-   }
+    @Override
+    public Date getTaskDate() {
+        return started;
+    }
 
-   /**
-    * @param request the request to set
-    */
-   public void setRequest(RequestType request) {
-      this.request = request;
-   }
-   
-   
-   @Override
+    @Override
+    public void abort() {
+        aborted = true;
+    }
+
+    @Override
+    public boolean isAborted() {
+        return aborted;
+    }
+
+    @Override
+    public URI getSOAPAction() {
+        return action;
+    }
+
+    /**
+     * @return the uri
+     */
+    public URI getUri() {
+        return uri;
+    }
+
+    /**
+     * @param uri the uri to set
+     */
+    public void setUri(URI uri) {
+        this.uri = uri;
+    }
+
+    /**
+     * @return the action
+     */
+    public URI getAction() {
+        return action;
+    }
+
+    /**
+     * @param action the action to set
+     */
+    public void setAction(URI action) {
+        this.action = action;
+    }
+
+    /**
+     * @return the webServiceTemplate
+     */
+    public WebServiceTemplate getWebServiceTemplate() {
+        return webServiceTemplate;
+    }
+
+    public void setWebServiceTemplate(WebServiceTemplate webServiceTemplate) {
+        this.webServiceTemplate = webServiceTemplate;
+    }
+
+    @Override
+    public <T> T getSOAPRequest(Class<T> cls) {
+        return (T) request;
+    }
+
+    /**
+     * @param request the request to set
+     */
+    public void setRequest(RequestType request) {
+        this.request = request;
+    }
+
+    public void setPropertyEditor(PropertyEditor propertyEditor) {
+        this.propertyEditor = propertyEditor;
+    }
+
+    @Override
     public Protocol getProtocol() {
         SoapProtocol soapProtocol = new SoapProtocol();
         soapProtocol.setAction(action);
-
-       // Marshall the request into XML
-       try (ByteArrayOutputStream xmlOut = new ByteArrayOutputStream()) {
-           requestMarshaller.marshal(request, xmlOut);
-
-           try (ByteArrayInputStream xmlIn = new ByteArrayInputStream(xmlOut.toByteArray())) {
-               Source source = new StreamSource(xmlIn);
-
-               soapProtocol.setRequest(source);
-           } catch (IOException ex) {
-               return null;
-           }
-       } catch (JAXBException | IOException ex) {
-           return null;
-       }
-
+        soapProtocol.setRequest(request);
+        soapProtocol.setPropertyEditor(propertyEditor);
         soapProtocol.setWebServiceTemplate(webServiceTemplate);
         return soapProtocol;
     }
-
-   public void setNamespacePrefixMapper(NamespacePrefixMapper namespacePrefixMapper) throws PropertyException {
-      this.namespacePrefixMapper = namespacePrefixMapper;
-      if (requestMarshaller != null) {
-         requestMarshaller.setProperty(DefaultNamespace.PROPERTY_NAME, namespacePrefixMapper);
-      }
-   }
-   
-   public void setContextPath(String contextPath) throws JAXBException, PropertyException, DroidsException {
-      JAXBContext context = JAXBContext.newInstance(contextPath);
-      requestMarshaller = context.createMarshaller();
-      requestMarshaller.setProperty("jaxb.fragment", Boolean.TRUE);
-      if (namespacePrefixMapper != null) {
-         setNamespacePrefixMapper(namespacePrefixMapper);
-      }
-   }
 }

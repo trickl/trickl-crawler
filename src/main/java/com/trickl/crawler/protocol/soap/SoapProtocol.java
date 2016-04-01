@@ -13,6 +13,7 @@
  */
 package com.trickl.crawler.protocol.soap;
 
+import java.beans.PropertyEditor;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -20,6 +21,7 @@ import java.io.InputStream;
 import java.net.URI;
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
 import org.apache.droids.api.ManagedContentEntity;
 import org.apache.droids.api.Parse;
 import org.apache.droids.api.Protocol;
@@ -30,107 +32,122 @@ import org.springframework.ws.soap.SoapMessage;
 
 public class SoapProtocol implements Protocol {
 
-   private WebServiceTemplate webServiceTemplate;
-   private Source request;
-   private URI    action;
+    private WebServiceTemplate webServiceTemplate;
+    private Object request;
+    private URI action;
+    
+    PropertyEditor propertyEditor;
 
-   public SoapProtocol() {
+    public SoapProtocol() {        
+    }
+    
+    public void setPropertyEditor(PropertyEditor propertyEditor) {       
+      this.propertyEditor = propertyEditor;
    }
 
-   @Override
-   public boolean isAllowed(URI uri) {
-      return true;
-   }
+    @Override
+    public boolean isAllowed(URI uri) {
+        return true;
+    }
 
-   @Override
-   public ManagedContentEntity load(URI uri) throws IOException {
-      if (uri == null) throw new NullPointerException();
+    @Override
+    public ManagedContentEntity load(URI uri) throws IOException {
+        if (uri == null) {
+            throw new NullPointerException();
+        }
 
-      try (ByteArrayOutputStream xmlOut = new ByteArrayOutputStream()) {
-         StreamResult response = new StreamResult(xmlOut);
-         boolean success = getWebServiceTemplate().sendSourceAndReceiveToResult(uri.toString(),
-                 getRequest(),
-                 new WebServiceMessageCallback() {
-                    // Set the SOAP header
-                     @Override
-                    public void doWithMessage(WebServiceMessage message) {
-                       URI action = SoapProtocol.this.getAction();
-                       if (action != null) {
-                          ((SoapMessage) message).setSoapAction(action.toString());
-                       }
-                    }
-                 },
-                 response);
+        // Marshall the request into XML            
+        propertyEditor.setValue(request);
+        try (ByteArrayInputStream xmlRequestIn = new ByteArrayInputStream(propertyEditor.getAsText().getBytes())) {
+            Source source = new StreamSource(xmlRequestIn);
 
-         if (!success) {
-            throw new IOException("No soap response received from'" + uri.toString() + "'");
-         }
-         return new TransformResultContentEntity(xmlOut);
-      }
-   }
+            try (ByteArrayOutputStream xmlOut = new ByteArrayOutputStream()) {
+                StreamResult response = new StreamResult(xmlOut);
 
-   public WebServiceTemplate getWebServiceTemplate() {
-      return webServiceTemplate;
-   }
+                boolean success = getWebServiceTemplate().sendSourceAndReceiveToResult(uri.toString(),
+                        source,
+                        new WebServiceMessageCallback() {
+                            // Set the SOAP header
+                            @Override
+                            public void doWithMessage(WebServiceMessage message) {
+                                URI action = SoapProtocol.this.getAction();
+                                if (action != null) {
+                                    ((SoapMessage) message).setSoapAction(action.toString());
+                                }
+                            }
+                        },
+                        response);
 
-   public void setWebServiceTemplate(WebServiceTemplate webServiceTemplate) {
-      this.webServiceTemplate = webServiceTemplate;
-   }
+                if (!success) {
+                    throw new IOException("No soap response received from'" + uri.toString() + "'");
+                }
+                return new TransformResultContentEntity(xmlOut);
+            }
+        } 
+    }
 
-   public Source getRequest() {
-      return request;
-   }
+    public WebServiceTemplate getWebServiceTemplate() {
+        return webServiceTemplate;
+    }
 
-   public void setRequest(Source request) {
-      this.request = request;
-   }
+    public void setWebServiceTemplate(WebServiceTemplate webServiceTemplate) {
+        this.webServiceTemplate = webServiceTemplate;
+    }
 
-   public URI getAction() {
-      return action;
-   }
+    public Object getRequest() {
+        return request;
+    }
 
-   public void setAction(URI action) {
-      this.action = action;
-   }
+    public void setRequest(Object request) {
+        this.request = request;
+    }
 
-   static class TransformResultContentEntity implements ManagedContentEntity {
+    public URI getAction() {
+        return action;
+    }
 
-      private final ByteArrayOutputStream xmlOut;
-      private Parse parse = null;
+    public void setAction(URI action) {
+        this.action = action;
+    }
 
-      public TransformResultContentEntity(ByteArrayOutputStream xmlOut) throws IOException {
-         super();
-         this.xmlOut = xmlOut;
-      }
+    static class TransformResultContentEntity implements ManagedContentEntity {
 
-      @Override
-      public InputStream obtainContent() throws IOException {
-         ByteArrayInputStream xmlIn = new ByteArrayInputStream(xmlOut.toByteArray());
-         return xmlIn;
-      }
+        private final ByteArrayOutputStream xmlOut;
+        private Parse parse = null;
 
-      @Override
-      public void finish() {
-      }
+        public TransformResultContentEntity(ByteArrayOutputStream xmlOut) throws IOException {
+            super();
+            this.xmlOut = xmlOut;
+        }
 
-      @Override
-      public String getMimeType() {
-         return "text/xml";
-      }
+        @Override
+        public InputStream obtainContent() throws IOException {
+            ByteArrayInputStream xmlIn = new ByteArrayInputStream(xmlOut.toByteArray());
+            return xmlIn;
+        }
 
-      @Override
-      public String getCharset() {
-         return "ISO-8859-1";
-      }
+        @Override
+        public void finish() {
+        }
 
-      @Override
-      public Parse getParse() {
-         return this.parse;
-      }
+        @Override
+        public String getMimeType() {
+            return "text/xml";
+        }
 
-      @Override
-      public void setParse(Parse parse) {
-         this.parse = parse;
-      }
-   }
+        @Override
+        public String getCharset() {
+            return "ISO-8859-1";
+        }
+
+        @Override
+        public Parse getParse() {
+            return this.parse;
+        }
+
+        @Override
+        public void setParse(Parse parse) {
+            this.parse = parse;
+        }
+    }
 }
