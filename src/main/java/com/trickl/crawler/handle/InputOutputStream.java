@@ -34,9 +34,10 @@ public class InputOutputStream<T extends Task> implements TaskResultHandler<T, I
          throw new NullPointerException();
       }
 
-      Reader reader = new InputStreamReader(stream);
-      Writer output = new OutputStreamWriter(outputStream);
-      pipe(reader, output);
+      try (Reader reader = new InputStreamReader(stream);
+           Writer output = new OutputStreamWriter(outputStream)) {
+         pipe(reader, output);
+      }
    }
 
    protected static void pipe(Reader reader, Writer writer) throws IOException {

@@ -38,10 +38,7 @@ public class RedirectParser implements Parser {
 
    public Parse parse(ContentEntity entity, Task newLink) throws DroidsException, IOException {
 
-      InputStream in = entity.obtainContent();
-
-      try
-      {
+      try (InputStream in = entity.obtainContent()) {
          // TODO -Should this be threaded, not sure if the servlet is on the same thread
          byte[] imageBytes = new byte[1024];
          while (in.read(imageBytes) != -1)
@@ -52,10 +49,6 @@ public class RedirectParser implements Parser {
       catch (IOException e)
       {
          throw e;
-      }
-      finally
-      {
-         out.close();
       }
 
       return new ParseImpl(newLink.getId(), null, null);

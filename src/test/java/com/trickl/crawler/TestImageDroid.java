@@ -32,9 +32,9 @@ public class TestImageDroid {
                      + packagePath
                      + "/" + filename);
                      
-               FileOutputStream stream = new FileOutputStream(outputFile);
-               ImageIO.write(image, "png", stream);
-               stream.close();
+               try (FileOutputStream stream = new FileOutputStream(outputFile)) {
+                  ImageIO.write(image, "png", stream);
+               }
             }
             catch (FileNotFoundException e)
             {
@@ -63,9 +63,9 @@ public class TestImageDroid {
                      + packagePath
                      + "/" + filename);
                      
-               FileOutputStream stream = new FileOutputStream(outputFile);
-               ImageIO.write(image, "png", stream);
-               stream.close();
+               try (FileOutputStream stream = new FileOutputStream(outputFile)) {
+                  ImageIO.write(image, "png", stream);
+               }
             }
             catch (FileNotFoundException e)
             {

@@ -53,14 +53,14 @@ public class SourceStreamHandler<T extends Task> implements TaskResultHandler<T,
       if (outputHandler != null)
       {     
          // Transform XML
-         try
-         {            
-               ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+         try (ByteArrayOutputStream buffer = new ByteArrayOutputStream()) {
 
                final Result result = new StreamResult(buffer);
 
                transformer.transform(source, result);
-               outputHandler.handle(task, new ByteArrayInputStream(buffer.toByteArray()));
+               try (ByteArrayInputStream in = new ByteArrayInputStream(buffer.toByteArray())) {
+                  outputHandler.handle(task, in);
+               }
          }
          catch (TransformerException e)
          {

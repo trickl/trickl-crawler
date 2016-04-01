@@ -46,26 +46,27 @@ public class SoapProtocol implements Protocol {
    public ManagedContentEntity load(URI uri) throws IOException {
       if (uri == null) throw new NullPointerException();
 
-      ByteArrayOutputStream xmlOut = new ByteArrayOutputStream();
-      StreamResult response = new StreamResult(xmlOut);
-      boolean success = getWebServiceTemplate().sendSourceAndReceiveToResult(uri.toString(),
-              getRequest(),
-              new WebServiceMessageCallback() {
-                 // Set the SOAP header
-         @Override
-                 public void doWithMessage(WebServiceMessage message) {
-                    URI action = SoapProtocol.this.getAction();
-                    if (action != null) {
-                       ((SoapMessage) message).setSoapAction(action.toString());
+      try (ByteArrayOutputStream xmlOut = new ByteArrayOutputStream()) {
+         StreamResult response = new StreamResult(xmlOut);
+         boolean success = getWebServiceTemplate().sendSourceAndReceiveToResult(uri.toString(),
+                 getRequest(),
+                 new WebServiceMessageCallback() {
+                    // Set the SOAP header
+                     @Override
+                    public void doWithMessage(WebServiceMessage message) {
+                       URI action = SoapProtocol.this.getAction();
+                       if (action != null) {
+                          ((SoapMessage) message).setSoapAction(action.toString());
+                       }
                     }
-                 }
-              },
-              response);
+                 },
+                 response);
 
-      if (!success) {
-         throw new IOException("No soap response received from'" + uri.toString() + "'");
+         if (!success) {
+            throw new IOException("No soap response received from'" + uri.toString() + "'");
+         }
+         return new TransformResultContentEntity(xmlOut);
       }
-      return new TransformResultContentEntity(xmlOut);
    }
 
    public WebServiceTemplate getWebServiceTemplate() {

@@ -42,12 +42,13 @@ public class HtmlParser implements Parser {
             for (DocumentBuilder builder : documentBuilders) {
                 if (document != null) {
                     // Reconvert the existing document back to a stream
-                    ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+                    try (ByteArrayOutputStream outputStream = new ByteArrayOutputStream()) {
                     Source xmlSource = new DOMSource(document);
                     Result outputTarget = new StreamResult(outputStream);
                     TransformerFactory.newInstance().newTransformer().transform(xmlSource, outputTarget);
                     stream.close();
                     stream = new ByteArrayInputStream(outputStream.toByteArray());
+                    }
                 }
                 
                 document = builder.build(stream);

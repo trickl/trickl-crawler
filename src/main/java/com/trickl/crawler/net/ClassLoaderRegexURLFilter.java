@@ -27,130 +27,131 @@ import org.apache.droids.api.URLFilter;
 
 /**
  * Regular expression implementation of an UrlFilter. Evaluates the url based on
- * regular expression. This is the same as the droids core filter, except
- * it provides a class loader accessor.
- * Duplicate code, should be removed when possible.
- * 
+ * regular expression. This is the same as the droids core filter, except it
+ * provides a class loader accessor. Duplicate code, should be removed when
+ * possible.
+ *
  * @version 1.0
- * 
+ *
  */
 @Deprecated
 public class ClassLoaderRegexURLFilter implements URLFilter {
 
+    /**
+     * An array of applicable rules
+     */
+    private final List<RegexRule> rules;
 
-  /** An array of applicable rules */
-  private final List<RegexRule> rules;
+    private Object classLoaderObject = this;
 
-  private Object classLoaderObject = this;
-
-  public ClassLoaderRegexURLFilter(){
-    rules = new ArrayList< RegexRule >();
-  }
-
-  /**
-   * Adds a new regex rule to this filter <br>
-   */
-  public void addRule(final boolean sign, final String regex) {
-    if( regex == null ){
-      throw new IllegalArgumentException();
+    public ClassLoaderRegexURLFilter() {
+        rules = new ArrayList< RegexRule>();
     }
 
-    RegexRule rule = createRule(sign, regex);
-    rules.add(rule);
-  }
-
-
-  /*
-   * (non-Javadoc)
-   * 
-   * @see org.apache.droids.api.URLFilter#filter(java.lang.String)
-   */
-   @Override
-  public String filter(String url) {
-    synchronized (rules) {
-      for (RegexRule rule : rules) {
-        if (rule.match(url)) {
-          return rule.accept() ? url : null;
+    /**
+     * Adds a new regex rule to this filter <br>
+     */
+    public void addRule(final boolean sign, final String regex) {
+        if (regex == null) {
+            throw new IllegalArgumentException();
         }
-      }
-    }
-    return null;
-  }
 
-  public void setClassLoaderObject(Object obj)
-  {
-     this.classLoaderObject = obj;
-  }
-
-  /**
-   * @param file
-   */
-  public void setFile(String file) throws IOException 
-  {
-    URL url = null;
-    if (file.startsWith("classpath:/")) {
-      url = classLoaderObject.getClass().getClassLoader().getResource(
-          file.substring("classpath:/".length()));
-    } else {
-      url = (file.contains(":/") ? new URL(file) : new URL("file://" + file));
-    }
-    InputStream inputStream = url.openStream();
-    Reader reader = new InputStreamReader(inputStream);
-    rules.addAll(readRulesFile(reader));
-    inputStream.close();
-  }
-
-  private List<RegexRule> readRulesFile(Reader reader) throws IOException {
-    BufferedReader in = new BufferedReader(reader);
-    List<RegexRule> localRules = new ArrayList<RegexRule>();
-    String line = null;
-
-    while ((line = in.readLine()) != null) {
-      if (line.length() == 0) {
-        continue;
-      }
-      char first = line.charAt(0);
-      boolean sign = false;
-      switch (first) {
-      case '+':
-        sign = true;
-        break;
-      case '-':
-        sign = false;
-        break;
-      case ' ':
-      case '\n':
-      case '#': // skip blank & comment lines
-        continue;
-      default:
-        throw new IOException("Invalid first character: " + line);
-      }
-
-      String regex = line.substring(1);
-
-      final RegexRule rule = createRule(sign, regex);
-      localRules.add(rule);
-    }
-    return localRules;
-
-  }
-
-  private static RegexRule createRule(boolean sign, String regex) {
-    return new Rule(sign, regex);
-  }
-
-  private static class Rule extends RegexRule {
-
-    private Pattern pattern;
-
-    Rule(boolean sign, String regex) {
-      super(sign);
-      pattern = Pattern.compile(regex);
+        RegexRule rule = createRule(sign, regex);
+        rules.add(rule);
     }
 
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see org.apache.droids.api.URLFilter#filter(java.lang.String)
+     */
     @Override
-    protected boolean match(String url) {
-      return pattern.matcher(url).matches();
+    public String filter(String url) {
+        synchronized (rules) {
+            for (RegexRule rule : rules) {
+                if (rule.match(url)) {
+                    return rule.accept() ? url : null;
+                }
+            }
+        }
+        return null;
     }
-  }
+
+    public void setClassLoaderObject(Object obj) {
+        this.classLoaderObject = obj;
+    }
+
+    /**
+     * @param file
+     */
+    public void setFile(String file) throws IOException {
+        URL url = null;
+        if (file.startsWith("classpath:/")) {
+            url = classLoaderObject.getClass().getClassLoader().getResource(
+                    file.substring("classpath:/".length()));
+        } else {
+            url = (file.contains(":/") ? new URL(file) : new URL("file://" + file));
+        }
+        try (InputStream inputStream = url.openStream();
+                Reader reader = new InputStreamReader(inputStream)) {
+            rules.addAll(readRulesFile(reader));
+        }
+    }
+
+    private List<RegexRule> readRulesFile(Reader reader) throws IOException {
+        List<RegexRule> localRules = new ArrayList<RegexRule>();
+        try (BufferedReader in = new BufferedReader(reader)) {
+
+            String line = null;
+
+            while ((line = in.readLine()) != null) {
+                if (line.length() == 0) {
+                    continue;
+                }
+                char first = line.charAt(0);
+                boolean sign = false;
+                switch (first) {
+                    case '+':
+                        sign = true;
+                        break;
+                    case '-':
+                        sign = false;
+                        break;
+                    case ' ':
+                    case '\n':
+                    case '#': // skip blank & comment lines
+                        continue;
+                    default:
+                        throw new IOException("Invalid first character: " + line);
+                }
+
+                String regex = line.substring(1);
+
+                final RegexRule rule = createRule(sign, regex);
+                localRules.add(rule);
+            }
+        }
+        return localRules;
+
+    }
+
+    private static RegexRule createRule(boolean sign, String regex) {
+        return new Rule(sign, regex);
+    }
+
+    private static class Rule extends RegexRule {
+
+        private Pattern pattern;
+
+        Rule(boolean sign, String regex) {
+            super(sign);
+            pattern = Pattern.compile(regex);
+        }
+
+        @Override
+        protected boolean match(String url) {
+            return pattern.matcher(url).matches();
+        }
+    }
 }

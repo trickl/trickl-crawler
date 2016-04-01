@@ -58,21 +58,22 @@ public class XmlContentEntity implements ManagedContentEntity
    @Override
    public InputStream obtainContent() throws IOException
    {
-      ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+      try (ByteArrayOutputStream buffer = new ByteArrayOutputStream()) {
 
-      final Source source = new DOMSource(document);
-      final Result result = new StreamResult(buffer);
+         final Source source = new DOMSource(document);
+         final Result result = new StreamResult(buffer);
 
-      try
-      {
-         transformer.transform(source, result);              
+         try
+         {
+            transformer.transform(source, result);              
+         }
+         catch (TransformerException e)
+         {
+            throw new IOException("Unable to serialize XML.", e);
+         }      
+
+         return new ByteArrayInputStream(buffer.toByteArray());
       }
-      catch (TransformerException e)
-      {
-         throw new IOException("Unable to serialize XML.", e);
-      }      
-
-      return new ByteArrayInputStream(buffer.toByteArray());
    }
 
    @Override

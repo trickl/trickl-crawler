@@ -38,9 +38,7 @@ public class ImageHandler<T extends Task> implements TaskResultHandler<T, Conten
            entity.getMimeType().startsWith("image"))
           && outputHandler != null)
       {     
-         InputStream input = entity.obtainContent();
-
-         try
+         try (InputStream input = entity.obtainContent())
          {
             BufferedImage image = ImageIO.read(input);
             if (image == null) throw new DroidsException("Unable to interpret stream as an image.");
@@ -49,10 +47,6 @@ public class ImageHandler<T extends Task> implements TaskResultHandler<T, Conten
          catch (IOException e)
          {
             throw new DroidsException("Unable to read image stream.", e);
-         }
-         finally
-         {
-            input.close();
          }
       }
    }

@@ -68,9 +68,10 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
          {       
             if (logger.isLoggable(Level.FINEST)) {
                Transformer transformer = TransformerFactory.newInstance().newTransformer();
-               ByteArrayOutputStream stream = new ByteArrayOutputStream();
-               transformer.transform(source, new StreamResult(stream));
-               logger.log(Level.FINEST, "Transform input:\n{0}", stream.toString()); 
+               try (ByteArrayOutputStream stream = new ByteArrayOutputStream()) {
+                    transformer.transform(source, new StreamResult(stream));
+                    logger.log(Level.FINEST, "Transform input:\n{0}", stream.toString()); 
+               }
             }
              
             Document transformedDocument = documentBuilder.newDocument();
@@ -79,9 +80,10 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
             if (logger.isLoggable(Level.FINEST)) {             
                Transformer transformer = TransformerFactory.newInstance().newTransformer();
                transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-               ByteArrayOutputStream stream = new ByteArrayOutputStream();
-               transformer.transform(new DOMSource(transformedDocument), new StreamResult(stream));
-               logger.log(Level.FINEST, "Transform output:\n{0}", stream.toString()); 
+               try (ByteArrayOutputStream stream = new ByteArrayOutputStream()) {
+                    transformer.transform(new DOMSource(transformedDocument), new StreamResult(stream));
+                    logger.log(Level.FINEST, "Transform output:\n{0}", stream.toString()); 
+               }
             }
 
             if (transformedDocument.getDocumentElement() == null)

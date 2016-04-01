@@ -64,12 +64,9 @@ public class XmlParser implements Parser {
 
       // create HTML parser
       Document document = null;
-      InputStream stream = entity.obtainContent();
-      try {
+      try  (InputStream stream = entity.obtainContent()) {
          document = parse(stream);
-      } finally {
-         stream.close();
-      }
+      } 
       return new ParseImpl(task.getId(), document, null);
    }
 
@@ -85,10 +82,13 @@ public class XmlParser implements Parser {
               Transformer transformer;
               transformer = TransformerFactory.newInstance().newTransformer();              
               transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-              ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-              transformer.transform(new StreamSource(stream), new StreamResult(outputStream));
-              logger.log(Level.FINEST, "Input:\n{0}", outputStream.toString());              
-              throw new DroidsException(ex);
+              try (ByteArrayOutputStream outputStream = new ByteArrayOutputStream()) {
+                 transformer.transform(new StreamSource(stream), new StreamResult(outputStream));
+                 logger.log(Level.FINEST, "Input:\n{0}", outputStream.toString());              
+                 throw new DroidsException(ex);
+              } catch (IOException e) {
+                  throw new DroidsException("Error processing stream", e);
+              }
           } catch (TransformerException ex2) {
               Logger.getLogger(XmlParser.class.getName()).log(Level.SEVERE, "Unable to dump stream.", ex2);
           }

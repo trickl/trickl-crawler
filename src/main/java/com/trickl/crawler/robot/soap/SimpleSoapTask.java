@@ -18,6 +18,7 @@ import com.trickl.crawler.protocol.soap.SoapProtocol;
 import com.trickl.crawler.xml.bind.DefaultNamespace;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.io.Serializable;
 import java.net.URI;
 import java.util.Date;
@@ -134,18 +135,21 @@ public class SimpleSoapTask<RequestType>  implements SoapTask, Serializable {
         SoapProtocol soapProtocol = new SoapProtocol();
         soapProtocol.setAction(action);
 
-        // Marshall the request into XML
-        ByteArrayOutputStream xmlOut = new ByteArrayOutputStream();
-        try {
-            requestMarshaller.marshal(request, xmlOut);
-        } catch (JAXBException ex) {
-            return null;
-        }
+       // Marshall the request into XML
+       try (ByteArrayOutputStream xmlOut = new ByteArrayOutputStream()) {
+           requestMarshaller.marshal(request, xmlOut);
 
-        ByteArrayInputStream xmlIn = new ByteArrayInputStream(xmlOut.toByteArray());
-        Source source = new StreamSource(xmlIn);
+           try (ByteArrayInputStream xmlIn = new ByteArrayInputStream(xmlOut.toByteArray())) {
+               Source source = new StreamSource(xmlIn);
 
-        soapProtocol.setRequest(source);
+               soapProtocol.setRequest(source);
+           } catch (IOException ex) {
+               return null;
+           }
+       } catch (JAXBException | IOException ex) {
+           return null;
+       }
+
         soapProtocol.setWebServiceTemplate(webServiceTemplate);
         return soapProtocol;
     }

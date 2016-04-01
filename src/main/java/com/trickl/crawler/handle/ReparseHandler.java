@@ -39,30 +39,31 @@ public class ReparseHandler<T extends Task> implements TaskResultHandler<T, Stri
       }
 
       if (outputHandler != null) {
-         final InputStream inputStream = new ByteArrayInputStream(str.getBytes());
-         Parse parse = parser.parse(new ContentEntity() {
+         try (final InputStream inputStream = new ByteArrayInputStream(str.getBytes())) {
+            Parse parse = parser.parse(new ContentEntity() {
 
-            @Override
-            public InputStream obtainContent() throws IOException {
-               return inputStream;
-            }
+               @Override
+               public InputStream obtainContent() throws IOException {
+                  return inputStream;
+               }
 
-            @Override
-            public String getMimeType() {
-               return "binary/octet-stream";
-            }
+               @Override
+               public String getMimeType() {
+                  return "binary/octet-stream";
+               }
 
-            @Override
-            public String getCharset() {
-               return null;
-            }
+               @Override
+               public String getCharset() {
+                  return null;
+               }
 
-            @Override
-            public Parse getParse() {
-               throw new UnsupportedOperationException();
-            }
-         }, task);
-         outputHandler.handle(task, parse.getData());
+               @Override
+               public Parse getParse() {
+                  throw new UnsupportedOperationException();
+               }
+            }, task);
+            outputHandler.handle(task, parse.getData());
+         }
       }
    }
 

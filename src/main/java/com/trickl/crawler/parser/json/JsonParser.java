@@ -39,11 +39,9 @@ public class JsonParser implements Parser {
    public Parse parse(ContentEntity entity, Task task) throws DroidsException, IOException {
 
       // create HTML parser
-      InputStream stream = entity.obtainContent();
-      
-      JsonNode rootNode = objectMapper.readValue(stream, JsonNode.class);      
-      stream.close();
-      
-      return new ParseImpl(task.getId(), rootNode, null);
+      try (InputStream stream = entity.obtainContent()) {
+         JsonNode rootNode = objectMapper.readValue(stream, JsonNode.class);      
+         return new ParseImpl(task.getId(), rootNode, null);
+      }
    }
 }

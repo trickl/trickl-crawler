@@ -45,15 +45,16 @@ public class ImageContentEntity implements ManagedContentEntity {
    }
 
    public InputStream obtainContent() throws IOException {
-      ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+      try (ByteArrayOutputStream buffer = new ByteArrayOutputStream()) {
 
-      try {
-         ImageIO.write(image, formatName, buffer);
-      } catch (IOException e) {
-         logger.log(Level.WARNING, "Error serializing image", e);
+         try {
+            ImageIO.write(image, formatName, buffer);
+         } catch (IOException e) {
+            logger.log(Level.WARNING, "Error serializing image", e);
+         }
+
+         return new ByteArrayInputStream(buffer.toByteArray());
       }
-
-      return new ByteArrayInputStream(buffer.toByteArray());
    }
 
    public Parse getParse() {
