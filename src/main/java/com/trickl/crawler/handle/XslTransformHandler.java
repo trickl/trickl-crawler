@@ -28,6 +28,7 @@ import javax.xml.transform.dom.DOMResult;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
+import net.sf.saxon.TransformerFactoryImpl;
 import org.apache.droids.exception.DroidsException;
 import org.w3c.dom.Document;
 
@@ -42,6 +43,8 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
    private Object classLoaderObject = this;
 
    private DocumentBuilder documentBuilder;
+   
+   private TransformerFactory transformerFactory = new TransformerFactoryImpl();
 
    public XslTransformHandler() 
    {
@@ -66,8 +69,8 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
          // Transform XML
          try
          {       
-            if (logger.isLoggable(Level.FINEST)) {
-               Transformer transformer = TransformerFactory.newInstance().newTransformer();
+            if (logger.isLoggable(Level.FINEST)) {               
+               Transformer transformer = transformerFactory.newTransformer();
                try (ByteArrayOutputStream stream = new ByteArrayOutputStream()) {
                     transformer.transform(source, new StreamResult(stream));
                     logger.log(Level.FINEST, "Transform input:\n{0}", stream.toString()); 
@@ -110,6 +113,10 @@ public class XslTransformHandler<T extends Task> implements TaskResultHandler<T,
    public void setOutputHandler(TaskResultHandler<T, Source> outputHandler)
    {
      this.outputHandler = outputHandler;
+   }
+   
+   public void setTransformerFactory(TransformerFactory transformerFactory) {
+       this.transformerFactory = transformerFactory;
    }
 
    public void setClassLoaderObject(Object obj)
